@@ -3,7 +3,7 @@ title: "HDSU - home"
 layout: homelay
 excerpt: "Health Data Science Unit @ BioQuant"
 sitemap: false
-permalink: /
+permalink: /home_old
 ---
 
 The **Biomedical Genomics Group @ Health Data Science Unit** at the BioQuant Center and Medical Faculty Heidelberg is working on understanding gene (de)regulation in disease, in particular cancer, mental disorders and infection. 
