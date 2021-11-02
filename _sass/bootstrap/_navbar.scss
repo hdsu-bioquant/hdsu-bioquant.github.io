@@ -162,7 +162,8 @@
 
 .navbar-brand {
   float: left;
-  padding: $navbar-padding-vertical $navbar-padding-horizontal;
+  // padding: $navbar-padding-vertical $navbar-padding-horizontal;
+  padding: 0px; /* firefox bug fix */
   font-size: $font-size-large;
   line-height: $line-height-computed;
   height: $navbar-height;
@@ -173,6 +174,10 @@
   }
 
   > img {
+    height: 50%;
+    // padding: 15px; /* firefox bug fix */
+    width: auto;
+    // width: 50%;
     display: block;
   }
 
