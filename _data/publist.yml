@@ -20,11 +20,111 @@
 
 - title: "title"
   image: dummy.png
-  description: abstrac.
+  description: 
   authors: 
   link:
     url: 
     display: 
+  highlight: 0
+  news2: 
+
+- title: "Deciphering programs of transcriptional regulation by combined deconvolution of multiple omics layers"
+  image: dummy.png
+  description: Metazoans are crucially dependent on multiple layers of gene regulatory mechanisms which allow them to control gene expression across developmental stages, tissues and cell types. Multiple recent research consortia have aimed to generate comprehensive datasets to profile the activity of these cell type- and condition-specific regulatory landscapes across many different cell lines and primary cells. However, extraction of genes or regulatory elements specific to certain entities from these datasets remains challenging. We here propose a novel method based on non-negative matrix factorization for disentangling and associating huge multi-assay datasets including chromatin accessibility and gene expression data. Taking advantage of implementations of NMF algorithms in the GPU CUDA environment full datasets composed of tens of thousands of genes as well as hundreds of samples can be processed without the need for prior feature selection to reduce the input size. Applying this framework to multiple layers of genomic data derived from human blood cells we unravel mechanisms of regulation of cell type-specific expression in T-cells and monocytes.
+  authors: Daniel Hüebschmann, Nils Kurzawa, Sebastian Steinhauser, Philipp Rentzsch, Stephen Krämer, Carolin Andresen, Jeongbin Park, Roland Eils, Matthias Schlesner, Carl Herrmann
+  link:
+    url: https://www.biorxiv.org/content/10.1101/199547v1.abstract
+    display: bioRxiv (2017)
+  highlight: 0
+  news2: 
+
+- title: "A comprehensive comparison of tools for differential ChIP-seq analysis"
+  image: dummy.png
+  description: ChIP-seq has become a widely adopted genomic assay in recent years to determine binding sites for transcription factors or enrichments for specific histone modifications. Beside detection of enriched or bound regions, an important question is to determine differences between conditions. While this is a common analysis for gene expression, for which a large number of computational approaches have been validated, the same question for ChIP-seq is particularly challenging owing to the complexity of ChIP-seq data in terms of noisiness and variability. Many different tools have been developed and published in recent years. However, a comprehensive comparison and review of these tools is still missing. Here, we have reviewed 14 tools, which have been developed to determine differential enrichment between two conditions. They differ in their algorithmic setups, and also in the range of applicability. Hence …
+  authors: Sebastian Steinhauser, Nils Kurzawa, Roland Eils, Carl Herrmann
+  link:
+    url: https://academic.oup.com/bib/article-abstract/17/6/953/2453197
+    display: Briefings in bioinformatics (2016)
+  highlight: 0
+  news2: 
+
+- title: "Integrative genome-scale analysis identifies epigenetic mechanisms of transcriptional deregulation in unfavorable neuroblastomas"
+  image: dummy.png
+  description: The broad clinical spectrum of neuroblastoma ranges from spontaneous regression to rapid progression despite intensive multimodal therapy. This diversity is not fully explained by known genetic aberrations, suggesting the possibility of epigenetic involvement in pathogenesis. In pursuit of this hypothesis, we took an integrative approach to analyze the methylomes, transcriptomes, and copy number variations in 105 cases of neuroblastoma, complemented by primary tumor- and cell line–derived global histone modification analyses and epigenetic drug treatment in vitro. We found that DNA methylation patterns identify divergent patient subgroups with respect to survival and clinicobiologic variables, including amplified MYCN. Transcriptome integration and histone modification–based definition of enhancer elements revealed intragenic enhancer methylation as a mechanism for high-risk–associated transcriptional …
+  authors: Kai-Oliver Henrich, Sebastian Bender, Maral Saadati, Daniel Dreidax, Moritz Gartlgruber, Chunxuan Shao, Carl Herrmann, Manuel Wiesenfarth, Martha Parzonka, Lea Wehrmann, Matthias Fischer, David J Duffy, Emma Bell, Alica Torkov, Peter Schmezer, Christoph Plass, Thomas Höfer, Axel Benner, Stefan M Pfister, Frank Westermann
+  link:
+    url: https://cancerres.aacrjournals.org/content/76/18/5523.short
+    display: Cancer research (2016)
+  highlight: 0
+  news2: 
+
+- title: "Prenatal maternal stress and wheeze in children: novel insights into epigenetic regulation"
+  image: dummy.png
+  description: Psychological stress during pregnancy increases the risk of childhood wheeze and asthma. However, the transmitting mechanisms remain largely unknown. Since epigenetic alterations have emerged as a link between perturbations in the prenatal environment and an increased disease risk we used whole genome bisulfite sequencing (WGBS) to analyze changes in DNA methylation in mothers and their children related to prenatal psychosocial stress and assessed its role in the development of wheeze in the child. We evaluated genomic regions altered in their methylation level due to maternal stress based of WGBS data of 10 mother-child-pairs. These data were complemented by longitudinal targeted methylation and transcriptional analyses in children from our prospective mother-child cohort LINA for whom maternal stress and wheezing information was available (n = 443). High maternal stress was associated with an increased risk for persistent wheezing in the child until the age of 5. Both mothers and children showed genome-wide alterations in DNA-methylation specifically in enhancer elements. Deregulated neuroendocrine and neurotransmitter receptor interactions were observed in stressed mothers and their children. In children but not in mothers, calcium- and Wnt-signaling required for lung maturation in the prenatal period were epigenetically deregulated and could be linked with wheezing later in children’s life.
+  authors: Saskia Trump, Matthias Bieg, Zuguang Gu, Loreen Thürmann, Tobias Bauer, Mario Bauer, Naveed Ishaque, Stefan Röder, Lei Gu, Gunda Herberth, Christian Lawerenz, Michael Borte, Matthias Schlesner, Christoph Plass, Nicolle Diessl, Markus Eszlinger, Oliver Mücke, Horst-Dietrich Elvers, Dirk K Wissenbach, Martin Von Bergen, Carl Herrmann, Dieter Weichenhan, Rosalind J Wright, Irina Lehmann, Roland Eils
+  link:
+    url: https://www.nature.com/articles/srep28616
+    display: Scientific reports (2016)
+  highlight: 0
+  news2: 
+
+- title: "LedPred: an R/bioconductor package to predict regulatory sequences using support vector machines"
+  image: dummy.png
+  description: Supervised classification based on support vector machines (SVMs) has successfully been used for the prediction of cis-regulatory modules (CRMs). However, no integrated tool using such heterogeneous data as position-specific scoring matrices, ChIP-seq data or conservation scores is currently available. Here, we present LedPred, a flexible SVM workflow that predicts new regulatory sequences based on the annotation of known CRMs, which are associated to a large variety of feature types. LedPred is provided as an R/Bioconductor package connected to an online server to avoid installation of non-R software. Due to the heterogeneous CRM feature integration, LedPred excels at the prediction of regulatory sequences in Drosophila and mouse datasets compared with similar SVM-based software.
+  authors: Denis Seyres, Elodie Darbo, Laurent Perrin, Carl Herrmann, Aitor González
+  link:
+    url: https://academic.oup.com/bioinformatics/article-abstract/32/7/1091/1744134
+    display: Bioinformatics (2016)
+  highlight: 0
+  news2: 
+
+- title: "Atypical teratoid/rhabdoid tumors are comprised of three epigenetic subgroups with distinct enhancer landscapes"
+  image: dummy.png
+  description: Atypical teratoid/rhabdoid tumor (ATRT) is one of the most common brain tumors in infants. Although the prognosis of ATRT patients is poor, some patients respond favorably to current treatments, suggesting molecular inter-tumor heterogeneity. To investigate this further, we genetically and epigenetically analyzed 192 ATRTs. Three distinct molecular subgroups of ATRTs, associated with differences in demographics, tumor location, and type of SMARCB1 alterations, were identified. Whole-genome DNA and RNA sequencing found no recurrent mutations in addition to SMARCB1 that would explain the differences between subgroups. Whole-genome bisulfite sequencing and H3K27Ac chromatin-immunoprecipitation sequencing of primary tumors, however, revealed clear differences, leading to the identification of subgroup-specific regulatory networks and potential therapeutic targets.
+  authors: Pascal D Johann, Serap Erkek, Marc Zapatka, Kornelius Kerl, Ivo Buchhalter, Volker Hovestadt, David TW Jones, Dominik Sturm, Carl Hermann, Maia Segura Wang, Andrey Korshunov, Marina Rhyzova, Susanne Gröbner, Sebastian Brabetz, Lukas Chavez, Susanne Bens, Stefan Gröschel, Fabian Kratochwil, Andrea Wittmann, Laura Sieber, Christina Geörg, Stefan Wolf, Katja Beck, Florian Oyen, David Capper, Peter van Sluis, Richard Volckmann, Jan Koster, Rogier Versteeg, Andreas von Deimling, Till Milde, Olaf Witt, Andreas E Kulozik, Martin Ebinger, Tarek Shalaby, Michael Grotzer, David Sumerauer, Josef Zamecnik, Jaume Mora, Nada Jabado, Michael D Taylor, Annie Huang, Eleonora Aronica, Anna Bertoni, Bernhard Radlwimmer, Torsten Pietsch, Ulrich Schüller, Reinhard Schneppenheim, Paul A Northcott, Jan O Korbel, Reiner Siebert, Michael C Frühwald, Peter Lichter, Roland Eils, Amar Gajjar, Martin Hasselblatt, Stefan M Pfister, Marcel Kool
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S1535610816300356
+    display: Cancer cell (2016)
+  highlight: 0
+  news2: 
+
+- title: "Environment‐induced epigenetic reprogramming in genomic regulatory elements in smoking mothers and their children"
+  image: dummy.png
+  description: Epigenetic mechanisms have emerged as links between prenatal environmental exposure and disease risk later in life. Here, we studied epigenetic changes associated with maternal smoking at base pair resolution by mapping DNA methylation, histone modifications, and transcription in expectant mothers and their newborn children. We found extensive global differential methylation and carefully evaluated these changes to separate environment associated from genotype-related DNA methylation changes. Differential methylation is enriched in enhancer elements and targets in particular "commuting" enhancers having multiple, regulatory interactions with distal genes. Longitudinal whole-genome bisulfite sequencing revealed that DNA methylation changes associated with maternal smoking persist over years of life. Particularly in children prenatal environmental exposure leads to chromatin transitions into a hyperactive state. Combined DNA methylation, histone modification, and gene expression analyses indicate that differential methylation in enhancer regions is more often functionally translated than methylation changes in promoters or non-regulatory elements. Finally, we show that epigenetic deregulation of a commuting enhancer targeting c-Jun N-terminal kinase 2 (JNK2) is linked to impaired lung function in early childhood.
+  authors: Tobias Bauer, Saskia Trump, Naveed Ishaque, Loreen Thürmann, Lei Gu, Mario Bauer, Matthias Bieg, Zuguang Gu, Dieter Weichenhan, Jan‐Philipp Mallm, Stefan Röder, Gunda Herberth, Eiko Takada, Oliver Mücke, Marcus Winter, Kristin M Junge, Konrad Grützmann, Ulrike Rolle‐Kampczyk, Qi Wang, Christian Lawerenz, Michael Borte, Tobias Polte, Matthias Schlesner, Michaela Schanne, Stefan Wiemann, Christina Geörg, Hendrik G Stunnenberg, Christoph Plass, Karsten Rippe, Junichiro Mizuguchi, Carl Herrmann, Roland Eils, Irina Lehmann
+  link:
+    url: https://www.embopress.org/doi/abs/10.15252/msb.20156520
+    display: Molecular Systems Biology (2016)
+  highlight: 1
+  news2: 
+
+- title: "Increased vitamin D levels at birth and in early infancy increase offspring allergy risk--evidence for involvement of epigenetic mechanisms"
+  image: dummy.png
+  description: Both allergy-preventing and allergy-promoting effects have been reported.[...] a deeper mechanistic understanding of how vitamin D is related to the regulation of immune reactivity and allergic inflammation is required.[...] only 26% of the genes identified as regulated by vitamin D have a vitamin D response element in proximity to their transcription start site (TSS), 1 indicating that additional mechanisms are involved in the transcriptional control by vitamin D. As an additional mechanism, epigenetically mediated transcriptional deregulation through vitamin D-induced changes in DNA methylation was suggested. 2 Here, we studied DNA-methylation pattern on a genomewide scale at base-pair resolution in healthy newborn children with high and low vitamin D levels to elucidate the role of vitamin D in epigenetic programming of an allergy-protective or allergy-promoting immune reactivity.
+  authors: Kristin M Junge, Tobias Bauer, Stefanie Geissler, Frank Hirche, Loreen Thürmann, Mario Bauer, Saskia Trump, Matthias Bieg, Dieter Weichenhan, Lei Gu, Jan-Philipp Mallm, Naveed Ishaque, Oliver Mücke, Stefan Röder, Gunda Herberth, Ulrike Diez, Michael Borte, Karsten Rippe, Christoph Plass, Carl Hermann, Gabriele I Stangl, Roland Eils, Irina Lehmann
+  link:
+    url: https://www.proquest.com/openview/06550b9a4c025740336d06c16b7c6096/1?pq-origsite=gscholar&cbl=105664
+    display: Journal of Allergy and Clinical Immunology (2016)
+  highlight: 0
+  news2: 
+
+- title: "Evolutionary conserved gene co-expression drives generation of self-antigen diversity in medullary thymic epithelial cells"
+  image: dummy.png
+  description: Promiscuous expression of a plethora of tissue-restricted antigens (TRAs) in medullary thymic epithelial cells (mTECs) is essential for central tolerance. This promiscuous gene expression (pGE) is characterized by inclusion of a broad range of TRAs and by its mosaic expression patterns, i.e. each antigen is only expressed in 1–3% of mTECs. It is currently unclear to which extent random and/or deterministic mechanisms are involved in the regulation of pGE. In order to address this issue, we deconstructed the transcriptional heterogeneity in mTEC to minor subsets expressing a particular TRA. We identified six delineable co-expression groups in mouse mTECs. These co-expression groups displayed a variable degree of mutual overlap and mapped to different stages of mTEC development. Co-expressed genes showed chromosomal preference and clustered within delimited genomic regions. Moreover, co-expression groups in mice and humans selected by a pair of orthologous genes preferentially co-expressed sets of orthologous genes attesting to the species conservation of pGE between mouse and human. Furthermore, co-expressed genes were enriched for specific transcription factor binding motifs concomitant with up-regulation of the corresponding transcription factors, implicating additional factors in the regulation of pGE besides the Autoimmune Regulator (Aire). Thus promiscuous transcription of self-antigens in mTECs entails a highly coordinated process, which is evolutionary strictly conserved between species.
+  authors: Kristin Rattay, Hannah Verena Meyer, Carl Herrmann, Benedikt Brors, Bruno Kyewski
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0896841115300469
+    display: Journal of autoimmunity (2016)
+  highlight: 0
+  news2: 
+
+- title: "Telomerase activation by genomic rearrangements in high-risk neuroblastoma"
+  image: dummy.png
+  description: Neuroblastoma is a malignant paediatric tumour of the sympathetic nervous system1. Roughly half of these tumours regress spontaneously or are cured by limited therapy. By contrast, high-risk neuroblastomas have an unfavourable clinical course despite intensive multimodal treatment, and their molecular basis has remained largely elusive2,3,4. Here we have performed whole-genome sequencing of 56 neuroblastomas (high-risk, n = 39; low-risk, n = 17) and discovered recurrent genomic rearrangements affecting a chromosomal region at 5p15.33 proximal of the telomerase reverse transcriptase gene (TERT). These rearrangements occurred only in high-risk neuroblastomas (12/39, 31%) in a mutually exclusive fashion with MYCN amplifications and ATRX mutations, which are known genetic events in this tumour type1,2,5. In an extended case series (n = 217), TERT rearrangements defined a subgroup of high-risk tumours with particularly poor outcome. Despite a large structural diversity of these rearrangements, they all induced massive transcriptional upregulation of TERT. In the remaining high-risk tumours, TERT expression was also elevated in MYCN-amplified tumours, whereas alternative lengthening of telomeres was present in neuroblastomas without TERT or MYCN alterations, suggesting that telomere lengthening represents a central mechanism defining this subtype. The 5p15.33 rearrangements juxtapose the TERT coding sequence to strong enhancer elements, resulting in massive chromatin remodelling and DNA methylation of the affected region. Supporting a functional role of TERT, neuroblastoma cell lines bearing rearrangements or amplified MYCN exhibited both upregulated TERT expression and enzymatic telomerase activity. In summary, our findings show that remodelling of the genomic context abrogates transcriptional silencing of TERT in high-risk neuroblastoma and places telomerase activation in the centre of transformation in a large fraction of these tumours.
+  authors: Martin Peifer, Falk Hertwig, Frederik Roels, Daniel Dreidax, Moritz Gartlgruber, Roopika Menon, Andrea Krämer, Justin L Roncaioli, Frederik Sand, Johannes M Heuckmann, Fakhera Ikram, Rene Schmidt, Sandra Ackermann, Anne Engesser, Yvonne Kahlert, Wenzel Vogel, Janine Altmüller, Peter Nürnberg, Jean Thierry-Mieg, Danielle Thierry-Mieg, Aruljothi Mariappan, Stefanie Heynck, Erika Mariotti, Kai-Oliver Henrich, Christian Gloeckner, Graziella Bosco, Ivo Leuschner, Michal R Schweiger, Larissa Savelyeva, Simon C Watkins, Chunxuan Shao, Emma Bell, Thomas Höfer, Viktor Achter, Ulrich Lang, Jessica Theissen, Ruth Volland, Maral Saadati, Angelika Eggert, Bram De Wilde, Frank Berthold, Zhiyu Peng, Chen Zhao, Leming Shi, Monika Ortmann, Reinhard Büttner, Sven Perner, Barbara Hero, Alexander Schramm, Johannes H Schulte, Carl Herrmann, Roderick J O’Sullivan, Frank Westermann, Roman K Thomas, Matthias Fischer
+  link:
+    url: https://www.nature.com/articles/nature14980
+    display: Nature (2015)
   highlight: 0
   news2: 
 
@@ -74,7 +174,7 @@
   authors: Annelien Verfaillie, Hana Imrichova, Zeynep Kalender Atak, Michael Dewaele, Florian Rambow, Gert Hulselmans, Valerie Christiaens, Dmitry Svetlichnyy, Flavie Luciani, Laura Van den Mooter, Sofie Claerhout, Mark Fiers, Fabrice Journe, Ghanem-Elias Ghanem, Carl Herrmann, Georg Halder, Jean-Christophe Marine, Stein Aerts
   link:
     url: https://www.nature.com/articles/ncomms7683?origin=ppub
-    display: Nat Commun 6, 6683 (2015).
+    display: Nature Communications (2015).
   highlight: 0
   news2: 
 
