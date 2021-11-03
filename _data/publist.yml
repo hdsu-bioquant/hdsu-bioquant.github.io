@@ -28,14 +28,114 @@
   highlight: 0
   news2: 
 
-- title: "title"
+- title: "Super enhancers define regulatory subtypes and cell identity in neuroblastoma"
   image: dummy.png
-  description: 
-  authors: 
+  description: Half of the children diagnosed with neuroblastoma (NB) have high-risk disease, disproportionately contributing to overall childhood cancer-related deaths. In addition to recurrent gene mutations, there is increasing evidence supporting the role of epigenetic deregulation in disease pathogenesis. Yet, comprehensive cis-regulatory network descriptions from NB are lacking. Here, using genome-wide H3K27ac profiles across 60 NBs, covering the different clinical and molecular subtypes, we identified four major super-enhancer-driven epigenetic subtypes and their underlying master regulatory networks. Three of these subtypes recapitulated known clinical groups; namely, MYCN-amplified, MYCN non-amplified high-risk and MYCN non-amplified low-risk NBs. The fourth subtype, exhibiting mesenchymal characteristics, shared cellular identity with multipotent Schwann cell precursors, was induced by RAS activation and was enriched in relapsed disease. Notably, CCND1, an essential gene in NB, was regulated by both mesenchymal and adrenergic regulatory networks converging on distinct super-enhancer modules. Overall, this study reveals subtype-specific super-enhancer regulation in NBs.
+  authors: Moritz Gartlgruber, Ashwini Kumar Sharma, Andrés Quintero, Daniel Dreidax, Selina Jansky, Young-Gyu Park, Sina Kreth, Johanna Meder, Daria Doncevic, Paul Saary, Umut H Toprak, Naveed Ishaque, Elena Afanasyeva, Elisa Wecht, Jan Koster, Rogier Versteeg, Thomas GP Grünewald, David TW Jones, Stefan M Pfister, Kai-Oliver Henrich, Johan van Nes, Carl Herrmann, Frank Westermann
   link:
-    url: 
-    display: 
+    url: https://www.nature.com/articles/s43018-020-00145-w
+    display: Nature Cancer (2021)
+  highlight: 1
+  news2: 
+
+- title: "Glioblastoma epigenome profiling identifies SOX10 as a master regulator of molecular tumour subtype"
+  image: 2020_Wu.png
+  description: Glioblastoma frequently exhibits therapy-associated subtype transitions to mesenchymal phenotypes with adverse prognosis. Here, we perform multi-omic profiling of 60 glioblastoma primary tumours and use orthogonal analysis of chromatin and RNA-derived gene regulatory networks to identify 38 subtype master regulators, whose cell population-specific activities we further map in published single-cell RNA sequencing data. These analyses identify the oligodendrocyte precursor marker and chromatin modifier SOX10 as a master regulator in RTK I-subtype tumours. In vitro functional studies demonstrate that SOX10 loss causes a subtype switch analogous to the proneural–mesenchymal transition observed in patients at the transcriptomic, epigenetic and phenotypic levels. SOX10 repression in an in vivo syngeneic graft glioblastoma mouse model results in increased tumour invasion, immune cell infiltration and significantly reduced survival, reminiscent of progressive human glioblastoma. These results identify SOX10 as a bona fide master regulator of the RTK I subtype, with both tumour cell-intrinsic and microenvironmental effects.
+  authors: Yonghe Wu, Michael Fletcher, Zuguang Gu, Qi Wang, Barbara Costa, Anna Bertoni, Ka-Hou Man, Magdalena Schlotter, Jörg Felsberg, Jasmin Mangei, Martje Barbus, Ann-Christin Gaupel, Wei Wang, Tobias Weiss, Roland Eils, Michael Weller, Haikun Liu, Guido Reifenberger, Andrey Korshunov, Peter Angel, Peter Lichter, Carl Herrmann, Bernhard Radlwimmer
+  link:
+    url: https://www.nature.com/articles/s41467-020-20225-w
+    display: Nature communications (2020)
+  highlight: 1
+  news2: 
+
+- title: "Quantitative proteomics reveals specific metabolic features of Acute Myeloid Leukemia stem cells"
+  image: dummy.png
+  description: Acute myeloid leukemia is characterized by the accumulation of clonal myeloid blast cells unable to differentiate into mature leukocytes. Chemotherapy induces remission in the majority of patients, but relapse rates are high and lead to poor clinical outcomes. Because this is primarily caused by chemotherapy-resistant leukemic stem cells (LSCs), it is essential to eradicate LSCs to improve patient survival. LSCs have predominantly been studied at the transcript level, thus information about posttranscriptionally regulated genes and associated networks is lacking. Here, we extend our previous report on LSC proteomes to healthy age-matched hematopoietic stem and progenitor cells (HSPCs) and correlate the proteomes to the corresponding transcriptomes. By comparing LSCs to leukemic blasts and healthy HSPCs, we validate candidate LSC markers and highlight novel and potentially targetable proteins that are absent or only lowly expressed in HSPCs. In addition, our data provide strong evidence that LSCs harbor a characteristic energy metabolism, adhesion molecule composition, as well as RNA-processing properties. Furthermore, correlating proteome and transcript data of the same individual samples highlights the strength of proteome analyses, which are particularly potent in detecting alterations in metabolic pathways. In summary, our study provides a comprehensive proteomic and transcriptomic characterization of functionally validated LSCs, blasts, and healthy HSPCs, representing a valuable resource helping to design LSC-directed therapies.
+  authors: Simon Raffel, Daniel Klimmeck, Mattia Falcone, Aykut Demir, Alireza Pouya, Petra Zeisberger, Christoph Lutz, Marco Tinelli, Oliver Bischel, Lars Bullinger, Christian Thiede, Anne Flörcken, Jörg Westermann, Gerhard Ehninger, Anthony D Ho, Carsten Müller-Tidow, Zuguang Gu, Carl Herrmann, Jeroen Krijgsveld, Andreas Trumpp, Jenny Hansson
+  link:
+    url: https://ashpublications.org/blood/article-abstract/136/13/1507/461031
+    display: Blood (2020)
   highlight: 0
+  news2: 
+
+- title: "Retrospective evaluation of whole exome and genome mutation calls in 746 cancer samples"
+  image: dummy.png
+  description: The Cancer Genome Atlas (TCGA) and International Cancer Genome Consortium (ICGC) curated consensus somatic mutation calls using whole exome sequencing (WES) and whole genome sequencing (WGS), respectively. Here, as part of the ICGC/TCGA Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium, which aggregated whole genome sequencing data from 2,658 cancers across 38 tumour types, we compare WES and WGS side-by-side from 746 TCGA samples, finding that ~80% of mutations overlap in covered exonic regions. We estimate that low variant allele fraction (VAF < 15%) and clonal heterogeneity contribute up to 68% of private WGS mutations and 71% of private WES mutations. We observe that ~30% of private WGS mutations trace to mutations identified by a single variant caller in WES consensus efforts. WGS captures both ~50% more variation in exonic regions and un-observed mutations in loci with variable GC-content. Together, our analysis highlights technological divergences between two reproducible somatic variant detection efforts.
+  authors: Matthew H. Bailey, William U. Meyerson, Lewis Jonathan Dursi, Liang-Bo Wang, Guanlan Dong, Wen-Wei Liang, Amila Weerasinghe, Shantao Li, Yize Li, Sean Kelso, MC3 Working Group, PCAWG novel somatic mutation calling methods working group, Gordon Saksena, Kyle Ellrott, Michael C. Wendl, David A. Wheeler, Gad Getz, Jared T. Simpson, Mark B. Gerstein, Li Ding & PCAWG Consortium
+  link:
+    url: https://www.nature.com/articles/s41467-020-18151-y
+    display: Nature Communications (2020)
+  highlight: 0
+  news2: 
+
+- title: "Sex differences in oncogenic mutational processes"
+  image: dummy.png
+  description: Sex differences have been observed in multiple facets of cancer epidemiology, treatment and biology, and in most cancers outside the sex organs. Efforts to link these clinical differences to specific molecular features have focused on somatic mutations within the coding regions of the genome. Here we report a pan-cancer analysis of sex differences in whole genomes of 1983 tumours of 28 subtypes as part of the ICGC/TCGA Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium. We both confirm the results of exome studies, and also uncover previously undescribed sex differences. These include sex-biases in coding and non-coding cancer drivers, mutation prevalence and strikingly, in mutational signatures related to underlying mutational processes. These results underline the pervasiveness of molecular sex differences and strengthen the call for increased consideration of sex in molecular cancer research.
+  authors: Constance H. Li, Stephenie D. Prokopec, Ren X. Sun, Fouad Yousif, Nathaniel Schmitz, PCAWG Tumour Subtypes and Clinical Translation, Paul C. Boutros & PCAWG Consortium
+  link:
+    url: https://www.nature.com/articles/s41467-020-17359-2
+    display: Nature Communications (2020)
+  highlight: 0
+  news2: 
+
+- title: "Automated 3D light-sheet screening with high spatiotemporal resolution reveals mitotic phenotypes"
+  image: dummy.png
+  description: 3D cell cultures enable the in vitro study of dynamic biological processes such as the cell cycle, but their use in high-throughput screens remains impractical with conventional fluorescent microscopy. Here, we present a screening workflow for the automated evaluation of mitotic phenotypes in 3D cell cultures by light-sheet microscopy. After sample preparation by a liquid handling robot, cell spheroids are imaged for 24 h in toto with a dual-view inverted selective plane illumination microscope (diSPIM) with a much improved signal-to-noise ratio, higher imaging speed, isotropic resolution and reduced light exposure compared to a spinning disc confocal microscope. A dedicated high-content image processing pipeline implements convolutional neural network-based phenotype classification. We illustrate the potential of our approach using siRNA knockdown and epigenetic modification of 28 mitotic target genes …
+  authors: Björn Eismann, Teresa G Krieger, Jürgen Beneke, Ruben Bulkescher, Lukas Adam, Holger Erfle, Carl Herrmann, Roland Eils, Christian Conrad
+  link:
+    url: https://journals.biologists.com/jcs/article-abstract/133/11/jcs245043/224801
+    display: Journal of cell science (2020)
+  highlight: 0
+  news2: 
+
+- title: "Passenger mutations in more than 2,500 cancer genomes: overall molecular functional impact and consequences"
+  image: dummy.png
+  description: The dichotomous model of “drivers” and “passengers” in cancer posits that only a few mutations in a tumor strongly affect its progression, with the remaining ones being inconsequential. Here, we leveraged the comprehensive variant dataset from the ICGC/TCGA Pan-Cancer Analysis of Whole Genomes (PCAWG) project to demonstrate that—in addition to the dichotomy of high- and low-impact variants—there is a third group of medium-impact putative passengers. Moreover, we also found that molecular impact correlates with subclonal architecture (i.e., early versus late mutations), and different signatures encode for mutations with divergent impact. Furthermore, we adapted an additive-effects model from complex-trait studies to show that the aggregated effect of putative passengers, including undetected weak drivers, provides significant additional power (∼12% additive variance) for predicting cancerous …
+  authors: Sushant Kumar, Jonathan Warrell, Shantao Li, Patrick D McGillivray, William Meyerson, Leonidas Salichos, Arif Harmanci, Alexander Martinez-Fundichely, Calvin WY Chan, Morten Muhlig Nielsen, Lucas Lochovsky, Yan Zhang, Xiaotong Li, Shaoke Lou, Jakob Skou Pedersen, Carl Herrmann, Gad Getz, Ekta Khurana, Mark B Gerstein
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0092867420301136
+    display: Cell (2020)
+  highlight: 0
+  news2: 
+
+- title: "Combined burden and functional impact tests for cancer driver discovery using DriverPower"
+  image: dummy.png
+  description: The discovery of driver mutations is one of the key motivations for cancer genome sequencing. Here, as part of the ICGC/TCGA Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium, which aggregated whole genome sequencing data from 2658 cancers across 38 tumour types, we describe DriverPower, a software package that uses mutational burden and functional impact evidence to identify driver mutations in coding and non-coding sites within cancer whole genomes. Using a total of 1373 genomic features derived from public sources, DriverPower’s background mutation model explains up to 93% of the regional variance in the mutation rate across multiple tumour types. By incorporating functional impact scores, we are able to further increase the accuracy of driver discovery. Testing across a collection of 2583 cancer genomes from the PCAWG project, DriverPower identifies 217 coding and 95 non-coding driver candidates. Comparing to six published methods used by the PCAWG Drivers and Functional Interpretation Working Group, DriverPower has the highest F1 score for both coding and non-coding driver discovery. This demonstrates that DriverPower is an effective framework for computational driver discovery.
+  authors: Shimin Shuai, PCAWG Drivers and Functional Interpretation Working Group, Steven Gallinger, Lincoln Stein & PCAWG Consortium
+  link:
+    url: https://www.nature.com/articles/s41467-019-13929-1
+    display: Nature Communications (2021)
+  highlight: 0
+  news2: 
+
+- title: "Analyses of non-coding somatic drivers in 2,658 cancer whole genomes"
+  image: dummy.png
+  description: The discovery of drivers of cancer has traditionally focused on protein-coding genes 1, 2, 3, 4. Here we present analyses of driver point mutations and structural variants in non-coding regions across 2,658 genomes from the Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium 5 of the International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA). For point mutations, we developed a statistically rigorous strategy for combining significance levels from multiple methods of driver discovery that overcomes the limitations of individual methods. For structural variants, we present two methods of driver discovery, and identify regions that are significantly affected by recurrent breakpoints and recurrent somatic juxtapositions. Our analyses confirm previously reported drivers 6, 7, raise doubts about others and identify novel candidates, including point mutations in the 5′ region of TP53 …
+  authors: Esther Rheinbay, Morten Muhlig Nielsen,[…] PCAWG Consortium
+  link:
+    url: https://www.nature.com/articles/s41586-020-1965-x
+    display: Nature (2020)
+  highlight: 0
+  news2: 
+
+- title: "Pan-cancer analysis of whole genomes"
+  image: dummy.png
+  description: Cancer is driven by genetic change, and the advent of massively parallel sequencing has enabled systematic documentation of this variation at the whole-genome scale 1–3. Here we report the integrative analysis of 2,658 whole-cancer genomes and their matching normal tissues across 38 tumour types from the Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium of the International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA). We describe the generation of the PCAWG resource, facilitated by international data sharing using compute clouds. On average, cancer genomes contained 4–5 driver mutations when combining coding and non-coding genomic elements; however, in around 5% of cases no drivers were identified, suggesting that cancer driver discovery is not yet complete. Chromothripsis, in which many clustered structural variants arise in a single catastrophic …
+  authors: The ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium 
+  link:
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7025898/
+    display: Nature (2020)
+  highlight: 0
+  news2: 
+
+- title: "ShinyButchR: Interactive NMF-based decomposition workflow of genome-scale datasets"
+  image: 2020_Quintero.png
+  description: Non-negative matrix factorization (NMF) has been widely used for the analysis of genomic data to perform feature extraction and signature identification due to the interpretability of the decomposed signatures. However, running a basic NMF analysis requires the installation of multiple tools and dependencies, along with a steep learning curve and computing time. To mitigate such obstacles, we developed ShinyButchR, a novel R/Shiny application that provides a complete NMF-based analysis workflow, allowing the user to perform matrix decomposition using NMF, feature extraction, interactive visualization, relevant signature identification, and association to biological and clinical variables. ShinyButchR builds upon the also novel R package ButchR, which provides new TensorFlow solvers for algorithms of the NMF family, functions for downstream analysis, a rational method to determine the optimal factorization rank and a novel feature selection strategy.
+  authors: Andres Quintero, Daniel Hübschmann, Nils Kurzawa, Sebastian Steinhauser, Philipp Rentzsch, Stephen Krämer, Carolin Andresen, Jeongbin Park, Roland Eils, Matthias Schlesner, Carl Herrmann
+  link:
+    url: https://academic.oup.com/biomethods/article/5/1/bpaa022/5942966
+    display: Biology Methods and Protocols (2020)
+  highlight: 1
   news2: 
 
 - title: "Single-nucleus chromatin accessibility reveals intratumoral epigenetic heterogeneity in IDH1 mutant gliomas"
