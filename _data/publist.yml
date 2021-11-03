@@ -1,3 +1,44 @@
+
+# - title: "title"
+#   image: dummy.png
+#   description: 
+#   authors: 
+#   link:
+#     url: 
+#     display: 
+#   highlight: 0
+#   news2: 
+
+- title: "The DNA methylation landscape of multiple myeloma shows extensive inter-and intrapatient heterogeneity that fuels transcriptomic variability"
+  image: dummy.png
+  description: Cancer evolution depends on epigenetic and genetic diversity. Historically, in multiple myeloma (MM), subclonal diversity and tumor evolution have been investigated mostly from a genetic perspective. Here, we performed an analysis of 42 MM samples from 21 patients by using enhanced reduced representation bisulfite sequencing (eRRBS). We combined several metrics of epigenetic heterogeneity to analyze DNA methylation heterogeneity in MM patients. We show that MM is characterized by the continuous accumulation of stochastic methylation at the promoters of development-related genes. High combinatorial entropy change is associated with poor outcomes in our pilot study and depends predominantly on partially methylated domains (PMDs). These PMDs, which represent the major source of inter- and intrapatient DNA methylation heterogeneity in MM, are linked to other key epigenetic aberrations, such …
+  authors: Jennifer Derrien, Catherine Guérin-Charbonnel, Victor Gaborit, Loïc Campion, Magali Devic, Elise Douillard, Nathalie Roi, Hervé Avet-Loiseau, Olivier Decaux, Thierry Facon, Jan-Philipp Mallm, Roland Eils, Nikhil C Munshi, Philippe Moreau, Carl Herrmann, Florence Magrangeas, Stéphane Minvielle
+  link:
+    url: https://link.springer.com/article/10.1186/s13073-021-00938-3
+    display: Genome medicine (2021)
+  highlight: 0
+  news2: 
+
+- title: "Chromatin accessibility combined with enhancer clusters activation mediates heterogeneous response to dexamethasone in myeloma cells"
+  image: dummy.png
+  description: Glucocorticoids (GC) effects occur through binding to the GC receptor (GR) which, once translocated to the nucleus, binds to GC response elements (GREs) to activate or repress target genes. Among GCs, dexamethasone (Dex) is widely used in treatment of multiple myeloma (MM), mainly in combination regimens. However, despite a definite benefit, all patients relapse. Moreover, while GC efficacy can be largely attributed to lymphocyte-specific apoptosis, its molecular basis remains elusive. To determine the functional role of GR binding in myeloma cells, we generated bulk and single cell multi-omic data and high-resolution contact maps of active enhancers and target genes. We show that a minority (6%) of GR binding sites are associated with enhancer activity gains and increased interaction loops. We find that enhancers contribute to regulate gene activity through combinatorial assembly of large stretches of enhancers and/or enhancer cliques. Furthermore, one enhancer, proximal to GR-responsive genes, is predominantly associated with increased chromatin accessibility and higher H3K27ac occupancy. Finally, we show that Dex exposure leads to co-accessibility changes between predominant enhancer and other regulatory regions of the interaction network. Notably, these epigenomic changes are associated with cell-to-cell transcriptional heterogeneity. As consequences, BIM critical for GR-induced apoptosis and CXCR4 protective from chemotherapy-induced apoptosis are rather upregulated in different cells. In summary, our work provides new insights into the molecular mechanisms involved in Dex escape.
+  authors: Victor Gaborit, Jonathan Cruard, Catherine Guérin-Charbonnel, Jennifer Derrien, Jean-Baptiste Alberge, Elise Douillard, Nathalie Roi, Magali Devic, Loïc Campion, Frank Westermann, Philippe Moreau, Carl Herrmann, Jérémie Bourdon, Florence Magrangeas, Stephane Minvielle
+  link:
+    url: https://www.hal.inserm.fr/inserm-03364330/
+    display: inserm (2021)
+  highlight: 0
+  news2: 
+
+- title: "Derepression of retroelements in acute myeloid leukemia with 3q aberrations"
+  image: dummy.png
+  description: Acute myeloid leukemia (AML) with chromosomal rearrangements inv (3)/t (3; 3)(3q-AML) is a rare but highly fatal subtype of leukemia. It is characterized by an aberrant transcription of the proto-oncogene EVI1 (ecotropic viral integration site 1, MECOM) as a result of the chromosomal 3q21q26 rearrangements that lead to the relocation of a master GATA2 distal hematopoietic enhancer to the EVI1 locus and deregulation of both genes. 1, 2 To date, little is known about what triggers chromosomal rearrangements in 3q-AML that ultimately lead to the deregulation of EVI1 via the repositioning of G2DHE. However, recent studies have shown evidence for the involvement of endogenous transposable elements of RNA family (retroelements [RE]) in the formation of complex chromosomal aberrations, including translocations, large-scale duplications and amplifications through retrotransposition across different cancer …
+  authors: Jagoda Mika, Sophie Ottema, Sandra Kiehlmeier, Sabrina Kruse, Leonie Smeenk, Judith Müller, Sabrina Schweiggert, Carl Herrmann, Mathijs Sanders, Ruud Delwel, Stefan Gröschel
+  link:
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8327721/
+    display: Haematologica (2021)
+  highlight: 0
+  news2: 
+
 - title: "The endogenous cellular protease inhibitor SPINT2 controls SARS-CoV-2 viral infection and is associated to disease severity"
   image: 2021_Ramirez.png
   description: Since early 2020, the world is facing a unique pandemic situation triggered by the appearance of a new coronavirus, Sars-CoV-2. While it shares similarities with previous coronaviruses, it shows some unique features, which requires in-depth investigations to understand its mechanisms of action, in particular the type of cells which can be infected, and the mechanism of cellular entry. We describe a new important actor which plays a decisive role in the entry of the virus into the cell. The serine protease inhibitor SPINT2 inhibits the well described serine protease TMPRSS2, and we show that inhibiting or overexpressing this gene leads to an increase, respectively a strong decrease of the number of infected cells. Intriguingly, this gene has been described in the context of diseases which are known to be comorbid with COVD19, for example Type 2 diabetes and several malignancies. Using published datasets, we show that in these comorbid diseases, SPINT2 is downregulated, which might lead to an increase of the infectivity of cells in disease-tissues such as endocrine cells of diabetic patients or cells from tumor tissues.
@@ -14,22 +55,92 @@
   authors: Selina Jansky, Ashwini Kumar Sharma, Verena Körber, Andrés Quintero, Umut H Toprak, Elisa M Wecht, Moritz Gartlgruber, Alessandro Greco, Elad Chomsky, Thomas GP Grünewald, Kai-Oliver Henrich, Amos Tanay, Carl Herrmann, Thomas Höfer, Frank Westermann
   link:
     url: https://www.nature.com/articles/s41588-021-00806-1
-    display: Nat Genet 53, 683–693 (2021)
-  highlight: 1
+    display: Nature genetics (2021)
+  highlight: 0
   news2: See also [Behing the Paper](https://cancercommunity.nature.com/posts/on-a-quest-to-identify-the-origin-of-neuroblastoma)
 
-- title: "title"
+- title: "Kalirin-RAC controls nucleokinetic migration in ADRN-type neuroblastoma"
   image: dummy.png
-  description: 
-  authors: 
+  description: The migrational propensity of neuroblastoma is affected by cell identity, but the mechanisms behind the divergence remain unknown. Using RNAi and time-lapse imaging, we show that ADRN-type NB cells exhibit RAC1- and kalirin-dependent nucleokinetic (NUC) migration that relies on several integral components of neuronal migration. Inhibition of NUC migration by RAC1 and kalirin-GEF1 inhibitors occurs without hampering cell proliferation and ADRN identity. Using three clinically relevant expression dichotomies, we reveal that most of up-regulated mRNAs in RAC1- and kalirin–GEF1–suppressed ADRN-type NB cells are associated with low-risk characteristics. The computational analysis shows that, in a context of overall gene set poverty, the upregulomes in RAC1- and kalirin–GEF1–suppressed ADRN-type cells are a batch of AU-rich element–containing mRNAs, which suggests a link between NUC …
+  authors: Elena A Afanasyeva, Moritz Gartlgruber, Tatsiana Ryl, Bieke Decaesteker, Geertrui Denecker, Gregor Mönke, Umut H Toprak, Andres Florez, Alica Torkov, Daniel Dreidax, Carl Herrmann, Konstantin Okonechnikov, Sara Ek, Ashwini Kumar Sharma, Vitaliya Sagulenko, Frank Speleman, Kai-Oliver Henrich, Frank Westermann
   link:
-    url: 
-    display: 
+    url: https://www.life-science-alliance.org/content/4/5/e201900332.abstract
+    display:  Life science alliance (2021)
+  highlight: 0
+  news2: 
+
+- title: "Identification of therapeutic targets of the hijacked super-enhancer complex in EVI1-rearranged leukemia"
+  image: dummy.png
+  description: Deregulation of the EVI1 proto-oncogene by the GATA2 distal hematopoietic enhancer (G2DHE) is a key event in high-risk acute myeloid leukemia carrying 3q21q26 aberrations (3q-AML). Upon chromosomal rearrangement, G2DHE acquires characteristics of a super-enhancer and causes overexpression of EVI1 at 3q26. 2. However, the transcription factor (TF) complex of G2DHE remains poorly characterized. The aim of this study was to unravel key components of G2DHE-bound TFs involved in the deregulation of EVI1. We have identified several CEBPA and RUNX1 binding sites to be enriched and critical for G2DHE function in 3q-AML cells. Using ChIP-SICAP (ChIP followed by selective isolation of chromatin-associated proteins), a panel of chromatin interactors of RUNX1 and CEBPA were detected in 3q-AML, including PARP1 and IKZF1. PARP1 inhibition (PARPi) caused a reduction of EVI1 expression and …
+  authors: Sandra Kiehlmeier, Mahmoud-Reza Rafiee, Ali Bakr, Jagoda Mika, Sabrina Kruse, Judith Müller, Sabrina Schweiggert, Carl Herrmann, Gianluca Sigismondo, Peter Schmezer, Jeroen Krijgsveld, Stefan Gröschel
+  link:
+    url: https://www.nature.com/articles/s41375-021-01235-z
+    display: Leukemia (2021)
+  highlight: 0
+  news2: 
+
+- title: "Single‐cell analyses reveal SARS‐CoV‐2 interference with intrinsic immune response in the human gut"
+  image: dummy.png
+  description: Exacerbated pro-inflammatory immune response contributes to COVID-19 pathology. However, despite the mounting evidence about SARS-CoV-2 infecting the human gut, little is known about the antiviral programs triggered in this organ. To address this gap, we performed single-cell transcriptomics of SARS-CoV-2-infected intestinal organoids. We identified a subpopulation of enterocytes as the prime target of SARS-CoV-2 and, interestingly, found the lack of positive correlation between susceptibility to infection and the expression of ACE2. Infected cells activated strong pro-inflammatory programs and produced interferon, while expression of interferon-stimulated genes was limited to bystander cells due to SARS-CoV-2 suppressing the autocrine action of interferon. These findings reveal that SARS-CoV-2 curtails the immune response and highlights the gut as a pro-inflammatory reservoir that should be considered to fully understand SARS-CoV-2 pathogenesis.
+  authors: Sergio Triana, Camila Metz‐Zumaran, Carlos Ramirez, Carmon Kee, Patricio Doldan, Mohammed Shahraz, Daniel Schraivogel, Andreas R Gschwind, Ashwini K Sharma, Lars M Steinmetz, Carl Herrmann, Theodore Alexandrov, Steeve Boulant, Megan L Stanifer
+  link:
+    url: https://www.embopress.org/doi/full/10.15252/msb.202110232
+    display: Molecular systems biology (2021)
+  highlight: 0
+  news2: 
+
+- title: "Identifying multimodal signatures underlying the somatic comorbidity of psychosis: the COMMITMENT roadmap"
+  image: dummy.png
+  description: Schizophrenia carries an excess mortality of over 10 years that is largely due to somatic comorbidity with disorders including type 2 diabetes and cardiovascular diseases (CVD). With metabolic abnormalities found in medication-naïve and first-episode patients, and an increased type 2 diabetes risk in relatives of individuals with schizophrenia, there is substantial evidence that the elevated prevalence of type 2 diabetes in schizophrenia is a partially treatment-independent comorbidity. Individuals with schizophrenia also show a 50% increased risk of dying from CVD compared to the general population, which accounts for even more premature deaths. Besides an unhealthy lifestyle, the CVD incidence is attributed to risk factors believed to be comorbid with schizophrenia, and genetics studies suggest an underlying pleiotropy that supports shared mechanistic effects between both conditions. As patients are treated largely by a “one-fits-all” approach, there is a strong need to identify biological means to stratify patients and characterize the biological basis of somatic comorbidity. This will allow improved clinical delineation of psychoses and facilitate novel intervention strategies targeted at the minimization of comorbidity risk, reducing mortality and morbidity.
+  authors: Emanuel Schwarz, Dag Alnæs, Ole A Andreassen, Han Cao, Junfang Chen, Franziska Degenhardt, Daria Doncevic, Dominic Dwyer, Roland Eils, Jeanette Erdmann, Carl Herrmann, Martin Hofmann-Apitius, Tobias Kaufmann, Nikolaos Koutsouleris, Alpha T Kodamullil, Adyasha Khuntia, Sören Mucha, Markus M Nöthen, Riya Paul, Mads L Pedersen, Andres Quintero, Heribert Schunkert, Ashwini Sharma, Heike Tost, Lars T Westlye, Youcheng Zhang, Andreas Meyer-Lindenberg
+  link:
+    url: https://www.nature.com/articles/s41380-020-00915-z
+    display: Molecular Psychiatry (2021)
+  highlight: 0
+  news2: 
+
+- title: "Alternative lengthening of telomeres in childhood neuroblastoma from genome to proteome"
+  image: dummy.png
+  description: Telomere maintenance by telomerase activation or alternative lengthening of telomeres (ALT) is a major determinant of poor outcome in neuroblastoma. Here, we screen for ALT in primary and relapsed neuroblastomas (n = 760) and characterize its features using multi-omics profiling. ALT-positive tumors are molecularly distinct from other neuroblastoma subtypes and enriched in a population-based clinical sequencing study cohort for relapsed cases. They display reduced ATRX/DAXX complex abundance, due to either ATRX mutations (55%) or low protein expression. The heterochromatic histone mark H3K9me3 recognized by ATRX is enriched at the telomeres of ALT-positive tumors. Notably, we find a high frequency of telomeric repeat loci with a neuroblastoma ALT-specific hotspot on chr1q42.2 and loss of the adjacent chromosomal segment forming a neo-telomere. ALT-positive neuroblastomas proliferate slowly, which is reflected by a protracted clinical course of disease. Nevertheless, children with an ALT-positive neuroblastoma have dismal outcome.
+  authors: Sabine A Hartlieb, Lina Sieverling, Michal Nadler-Holly, Matthias Ziehm, Umut H Toprak, Carl Herrmann, Naveed Ishaque, Konstantin Okonechnikov, Moritz Gartlgruber, Young-Gyu Park, Elisa Maria Wecht, Larissa Savelyeva, Kai-Oliver Henrich, Carolina Rosswog, Matthias Fischer, Barbara Hero, David TW Jones, Elke Pfaff, Olaf Witt, Stefan M Pfister, Richard Volckmann, Jan Koster, Katharina Kiesel, Karsten Rippe, Sabine Taschner-Mandl, Peter Ambros, Benedikt Brors, Matthias Selbach, Lars Feuerbach, Frank Westermann
+  link:
+    url: https://www.nature.com/articles/s41467-021-21247-8
+    display: Nature communications (20201)
+  highlight: 0
+  news2: 
+
+- title: "dsMTL-a computational framework for privacy-preserving, distributed multi-task machine learning"
+  image: 2021_Cao.png
+  description: Multitask learning allows the simultaneous learning of multiple 9communicating9 algorithms. It is increasingly adopted for biomedical applications, such as the modeling of disease progression. As data protection regulations limit data sharing for such analyses, an implementation of multitask learning on geographically distributed data sources would be highly desirable. Here, we describe the development of dsMTL, a computational framework for privacy-preserving, distributed multi-task machine learning that includes three supervised and one unsupervised algorithms. dsMTL is implemented as a library for the R programming language and builds on the DataSHIELD platform that supports the federated analysis of sensitive individual-level data. We provide a comparative evaluation of dsMTL for the identification of biological signatures in distributed datasets using two case studies, and evaluate the computational performance of the supervised and unsupervised algorithms. dsMTL provides an easy-to-use framework for privacy-preserving, federated analysis of geographically distributed datasets, and has several application areas, including comorbidity modeling and translational research focused on the simultaneous prediction of different outcomes across datasets. dsMTL is available at https://github.com/transbioZI/dsMTLBase (server-side package) and https://github.com/transbioZI/dsMTLClient (client-side package).
+  authors: Han Cao, Youcheng Zhang, Jan Baumbach, Paul R Burton, Dominic Dwyer, Nikolaos Koutsouleris, Julian Matschinske, Yannick Marcon, Sivanesan Rajan, Thilo Rieg, Patricia Ryser-Welch, Julian Späth, Carl Herrmann, Emanuel Schwarz
+  link:
+    url: https://www.biorxiv.org/content/10.1101/2021.08.26.457778.abstract
+    display: bioRxiv (2021)
+  highlight: 1
+  news2: 
+
+- title: "MYCN mediates cysteine addiction and sensitizes to ferroptosis"
+  image: dummy.png
+  description: Aberrant expression of MYC family members predicts poor clinical outcome in many human cancers. Oncogenic MYC profoundly alters metabolism and mediates an antioxidant response to maintain redox balance. Here we show that MYC induces massive lipid peroxidation upon depletion of cysteine, the rate-limiting amino acid for glutathione biosynthesis and sensitizes cells to ferroptosis, an oxidative, non-apoptotic and iron-dependent type of cell death. In MYCN-amplified childhood neuroblastoma, MYCN mediates resistance to ferroptosis by activating transsulfuration of methionine to cysteine. MYCN may contribute to spontaneous tumor regression in low-risk neuroblastomas by promoting ferroptosis in cells with epigenetically silenced cystathionine-beta-synthase, the rate-limiting enzyme for transsulfuration. We identified enzymes and antiporter proteins crucial to ferroptotic escape, providing multiple previously unknown sites that may be acted on therapeutically.
+  authors: Hamed Alborzinia, Andres F Florez, Sina Gogolin, Lena M Brueckner, Chunxuan Shao, Moritz Gartlgruber, Michal Nadler Holly, Matthias Ziehm, Franziska Paul, Sebastian Steinhauser, Emma Bell, Marjan Shaikhkarami, Sabine Hartlieb, Daniel Dreidax, Elisa M Hess, Jochen Kreth, Gernot Poschet, Michael Buettner, Barbara Nicke, Carlo Stresemann, Jan H Reiling, Matthias Fischer, Ido Amit, Matthias Selbach, Carl Herrmann, Stefan Woelfl, Kai Oliver Henrich, Thomas Hoefer, Frank Westermann
+  link:
+    url: https://www.biorxiv.org/content/10.1101/2021.08.10.455675.abstract
+    display: bioRxiv (2021)
+  highlight: 0
+  news2: 
+
+- title: "Integrative ranking of enhancer networks facilitates the discovery of epigenetic markers in cancer"
+  image: dummy.png
+  description: Regulation of gene expression through multiple epigenetic components is a highly combinatorial process. Alterations in any of these layers, as is commonly found in cancer diseases, can lead to a cascade of downstream effects on tumor suppressor or oncogenes. Hence, deciphering the effects of epigenetic alterations on regulatory elements requires innovative computational approaches that can benefit from the huge amounts of epigenomic datasets that are available from multiple consortia, such as Roadmap or BluePrint. We developed a software tool named IRENE (Integrative Ranking of Epigenetic Network of Enhancers), which performs quantitative analyses on differential epigenetic modifications through an integrated, network-based approach. The method takes into account the additive effect of alterations on multiple regulatory elements of a gene. Applying this tool to well-characterized test cases, it successfully found many known cancer genes from publicly available cancer epigenome datasets.
+  authors: Qi Wang, Yonghe Wu, Tim Vorberg, Roland Eils, Carl Herrmann
+  link:
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8201988/
+    display: Frontiers in genetics (2021)
   highlight: 0
   news2: 
 
 - title: "Super enhancers define regulatory subtypes and cell identity in neuroblastoma"
-  image: dummy.png
+  image: 2021_Gartlgruber.png
   description: Half of the children diagnosed with neuroblastoma (NB) have high-risk disease, disproportionately contributing to overall childhood cancer-related deaths. In addition to recurrent gene mutations, there is increasing evidence supporting the role of epigenetic deregulation in disease pathogenesis. Yet, comprehensive cis-regulatory network descriptions from NB are lacking. Here, using genome-wide H3K27ac profiles across 60 NBs, covering the different clinical and molecular subtypes, we identified four major super-enhancer-driven epigenetic subtypes and their underlying master regulatory networks. Three of these subtypes recapitulated known clinical groups; namely, MYCN-amplified, MYCN non-amplified high-risk and MYCN non-amplified low-risk NBs. The fourth subtype, exhibiting mesenchymal characteristics, shared cellular identity with multipotent Schwann cell precursors, was induced by RAS activation and was enriched in relapsed disease. Notably, CCND1, an essential gene in NB, was regulated by both mesenchymal and adrenergic regulatory networks converging on distinct super-enhancer modules. Overall, this study reveals subtype-specific super-enhancer regulation in NBs.
   authors: Moritz Gartlgruber, Ashwini Kumar Sharma, Andrés Quintero, Daniel Dreidax, Selina Jansky, Young-Gyu Park, Sina Kreth, Johanna Meder, Daria Doncevic, Paul Saary, Umut H Toprak, Naveed Ishaque, Elena Afanasyeva, Elisa Wecht, Jan Koster, Rogier Versteeg, Thomas GP Grünewald, David TW Jones, Stefan M Pfister, Kai-Oliver Henrich, Johan van Nes, Carl Herrmann, Frank Westermann
   link:
