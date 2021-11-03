@@ -28,6 +28,26 @@
   highlight: 0
   news2: 
 
+- title: "MYCN-driven regulatory mechanisms controlling LIN28B in neuroblastoma"
+  image: dummy.png
+  description: We show that MYCN regulates LIN28B expression in neuroblastoma tumors via two distinct parallel mechanisms. First, through an unbiased LIN28B-3′UTR reporter screen, we found that miR-26a-5p and miR-26b-5p regulate LIN28B expression. Next, we demonstrated that MYCN indirectly affects the expression of miR-26a-5p, and hence regulates LIN28B, therefore establishing an MYCN-miR-26a-5p-LIN28B regulatory axis. Second, we provide evidence that MYCN regulates LIN28B expression via interaction with the LIN28B promoter, establishing a direct MYCN-LIN28B regulatory axis. We believe that these findings mark LIN28B as an important effector of the MYCN oncogenic phenotype and underline the importance of MYCN-regulated miRNAs in establishing the MYCN-driven oncogenic process..
+  authors: Anneleen Beckers, Gert Van Peer, Daniel R Carter, Moritz Gartlgruber, Carl Herrmann, Saurabh Agarwal, Hetty H Helsmoortel, Kristina Althoff, Jan J Molenaar, Belamy B Cheung, Johannes H Schulte, Yves Benoit, Jason M Shohet, Frank Westermann, Glenn M Marshall, Jo Vandesompele, Katleen De Preter, Frank Speleman
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0304383515004085
+    display: Cancer letters (2015)
+  highlight: 0
+  news2: 
+
+- title: "MapMyFlu: visualizing spatio-temporal relationships between related influenza sequences"
+  image: dummy.png
+  description: Understanding the molecular dynamics of viral spreading is crucial for anticipating the epidemiological implications of disease outbreaks. In the case of influenza, reassortments or point mutations affect the adaption to new hosts or resistance to anti-viral drugs and can determine whether a new strain will result in a pandemic infection or a less severe progression. To this end, tools integrating molecular information with epidemiological parameters are important to understand how molecular characteristics reflect in the infection dynamics. We present a new web tool, MapMyFlu, which allows to spatially and temporally display influenza viruses related to a query sequence on a Google Map based on BLAST results against the NCBI Influenza Database. Temporal and geographical trends appear clearly and may help in reconstructing the evolutionary history of a particular sequence. The tool is accessible through a web server, hence without the need for local installation. The website has an intuitive design and provides an easy-to-use service, and is available at http://mapmyflu.ipmb.uni-heidelberg.de.
+  authors: Nicholas Nolte, Nils Kurzawa, Roland Eils, Carl Herrmann
+  link:
+    url: https://academic.oup.com/nar/article/43/W1/W547/2467906
+    display: Nucleic acids research (2015)
+  highlight: 0
+  news2: 
+
 - title: "RSAT 2015: regulatory sequence analysis tools"
   image: dummy.png
   description: RSAT (Regulatory Sequence Analysis Tools) is a modular software suite for the analysis of cis-regulatory elements in genome sequences. Its main applications are (i) motif discovery, appropriate to genome-wide data sets like ChIP-seq, (ii) transcription factor binding motif analysis (quality assessment, comparisons and clustering), (iii) comparative genomics and (iv) analysis of regulatory variations. Nine new programs have been added to the 43 described in the 2011 NAR Web Software Issue, including a tool to extract sequences from a list of coordinates (fetch-sequences from UCSC), novel programs dedicated to the analysis of regulatory variants from GWAS or population genomics (retrieve-variation-seq and variation-scan), a program to cluster motifs and visualize the similarities as trees (matrix-clustering). To deal with the drastic increase of sequenced genomes, RSAT public sites have been reorganized into taxon-specific servers. The suite is well-documented with tutorials and published protocols. The software suite is available through Web sites, SOAP/WSDL Web services, virtual machines and stand-alone programs at http://www.rsat.eu/.
