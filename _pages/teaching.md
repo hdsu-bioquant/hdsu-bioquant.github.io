@@ -1,12 +1,12 @@
 ---
-title: "HDSU - Research"
+title: "HDSU - Teaching"
 layout: textlay
-excerpt: "HDSU -- Research"
+excerpt: "HDSU -- Teaching"
 sitemap: false
-permalink: /research/
+permalink: /teaching/
 ---
 
-# Research
+# Teaching
 
 Our overarching goal is to explore and understand new quantum states of electronic matter on the atomic scale. To do so, we use and develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom.
 
