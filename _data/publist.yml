@@ -28,6 +28,116 @@
   highlight: 0
   news2: 
 
+- title: "title"
+  image: dummy.png
+  description: 
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 0
+  news2: 
+
+- title: "Single-nucleus chromatin accessibility reveals intratumoral epigenetic heterogeneity in IDH1 mutant gliomas"
+  image: dummy.png
+  description: The presence of genome-wide DNA hypermethylation is a hallmark of lower grade gliomas (LGG) with isocitrate dehydrogenase (IDH) mutations. Further molecular classification of IDH mutant gliomas is defined by the presence (IDHmut-codel) or absence (IDHmut-noncodel) of hemizygous codeletion of chromosome arms 1p and 19q. Despite the DNA hypermethylation seen in bulk tumors, intra-tumoral heterogeneity at the epigenetic level has not been thoroughly analyzed. To address this question, we performed the first epigenetic profiling of single cells in a cohort of 5 gliomas with IDH1 mutation using single nucleus Assay for Transposase-Accessible Chromatin with high-throughput sequencing (snATAC-seq). Using the Fluidigm HT IFC microfluidics platform, we generated chromatin accessibility maps from 336 individual nuclei, and identified variable promoter accessibility of non-coding RNAs in LGGs. Interestingly, local chromatin structures of several non-coding RNAs are significant factors that contribute to heterogeneity, and show increased promoter accessibility in IDHmut-noncodel samples. As an example for clinical significance of this result, we identify CYTOR as a poor prognosis factor in gliomas with IDH mutation. Open chromatin assay points to differential accessibility of non-coding RNAs as an important source of epigenetic heterogeneity within individual tumors and between molecular subgroups. Rare populations of nuclei that resemble either IDH mutant molecular group co-exist within IDHmut-noncodel and IDHmut-codel groups, and along with non-coding RNAs may be an important issue to consider for future studies, as they …
+  authors: Ruslan Al-Ali, Katharina Bauer, Jong-Whi Park, Ruba Al Abdulla, Valentina Fermi, Andreas von Deimling, Christel Herold-Mende, Jan-Philipp Mallm, Carl Herrmann, Wolfgang Wick, Şevin Turcan
+  link:
+    url: https://actaneurocomms.biomedcentral.com/articles/10.1186/s40478-019-0851-y
+    display: Acta neuropathologica communications (2019)
+  highlight: 0
+  news2: 
+
+- title: "Impact of cancer mutational signatures on transcription factor motifs in the human genome"
+  image: dummy.png
+  description: Somatic mutations in cancer genomes occur through a variety of molecular mechanisms, which contribute to different mutational patterns. To summarize these, mutational signatures have been defined using a large number of cancer genomes, and related to distinct mutagenic processes. Each cancer genome can be compared to this reference dataset and its exposure to one or the other signature be determined. Given the very different mutational patterns of these signatures, we anticipate that they will have distinct impact on genomic elements, in particular motifs for transcription factor binding sites (TFBS). We used the 30 mutational signatures from the COSMIC database, and derived a theoretical framework to infer the impact of these signatures on the alteration of transcription factor (TF) binding motifs from the JASPAR database. Hence, we translated the trinucleotide mutation frequencies of the signatures into …
+  authors: Calvin Wing Yiu Chan, Zuguang Gu, Matthias Bieg, Roland Eils, Carl Herrmann
+  link:
+    url: https://link.springer.com/article/10.1186/s12920-019-0525-4
+    display: BMC medical genomics (2019)
+  highlight: 0
+  news2: 
+
+- title: "Deconvolution of single-cell multi-omics layers reveals regulatory heterogeneity"
+  image: 2019_Liu.png
+  description: Integrative analysis of multi-omics layers at single cell level is critical for accurate dissection of cell-to-cell variation within certain cell populations. Here we report scCAT-seq, a technique for simultaneously assaying chromatin accessibility and the transcriptome within the same single cell. We show that the combined single cell signatures enable accurate construction of regulatory relationships between cis-regulatory elements and the target genes at single-cell resolution, providing a new dimension of features that helps direct discovery of regulatory patterns specific to distinct cell identities. Moreover, we generate the first single cell integrated map of chromatin accessibility and transcriptome in early embryos and demonstrate the robustness of scCAT-seq in the precise dissection of master transcription factors in cells of distinct states. The ability to obtain these two layers of omics data will help provide more accurate definitions of “single cell state” and enable the deconvolution of regulatory heterogeneity from complex cell populations.
+  authors: Longqi Liu, Chuanyu Liu, Andrés Quintero, Liang Wu, Yue Yuan, Mingyue Wang, Mengnan Cheng, Lizhi Leng, Liqin Xu, Guoyi Dong, Rui Li, Yang Liu, Xiaoyu Wei, Jiangshan Xu, Xiaowei Chen, Haorong Lu, Dongsheng Chen, Quanlei Wang, Qing Zhou, Xinxin Lin, Guibo Li, Shiping Liu, Qi Wang, Hongru Wang, J Lynn Fink, Zhengliang Gao, Xin Liu, Yong Hou, Shida Zhu, Huanming Yang, Yunming Ye, Ge Lin, Fang Chen, Carl Herrmann, Roland Eils, Zhouchun Shang, Xun Xu
+  link:
+    url: https://www.nature.com/articles/s41467-018-08205-7
+    display: Nature communications (2019)
+  highlight: 1
+  news2: 
+
+- title: "Identification of embryonic neural plate border stem cells and their generation by direct reprogramming from adult human blood cells"
+  image: dummy.png
+  description: We report the direct reprogramming of both adult human fibroblasts and blood cells into induced neural plate border stem cells (iNBSCs) by ectopic expression of four neural transcription factors. Self-renewing, clonal iNBSCs can be robustly expanded in defined media while retaining multilineage differentiation potential. They generate functional cell types of neural crest and CNS lineages and could be used to model a human pain syndrome via gene editing of SCN9A in iNBSCs. NBSCs can also be derived from human pluripotent stem cells and share functional and molecular features with NBSCs isolated from embryonic day 8.5 (E8.5) mouse neural folds. Single-cell RNA sequencing identified the anterior hindbrain as the origin of mouse NBSCs, with human iNBSCs sharing a similar regional identity. In summary, we identify embryonic NBSCs and report their generation by direct reprogramming in human, which …
+  authors: Marc Christian Thier, Oliver Hommerding, Jasper Panten, Roberta Pinna, Diego García-González, Thomas Berger, Philipp Wörsdörfer, Yassen Assenov, Roberta Scognamiglio, Adriana Przybylla, Paul Kaschutnig, Lisa Becker, Michael D Milsom, Anna Jauch, Jochen Utikal, Carl Herrmann, Hannah Monyer, Frank Edenhofer, Andreas Trumpp
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S1934590918305514
+    display: Cell stem cell (2019)
+  highlight: 0
+  news2: 
+
+- title: "Induced aneuploidy disrupts MCF10A acini formation and CCND1 expression"
+  image: dummy.png
+  description: Abnormal karyotypes, namely aneuploidy, can be detected in nearly all cancer entities at different grades. The impact of these altering mutations on epigenetic regulation, especially on promoter-enhancer interactions are not well understood. Here, we applied a 3D model of MCF10A cells in a high-content screen to measure induced aneuploidy by RNA interference of 82 mitotic genes associated with aneuploidy and breast cancer. Perturbation of ESPL1 and TOP2A expression led to increased mitotic instability and subsequent aneuploidy and polylobed nuclei. During acinus formation these polylobed cells disrupted proper acinus rotation inhibiting the development of a hollow lumen and a polarized outer cell layer. Further, gene expression profiling identified upregulated CCND1 among other breast cancer related genes. We show that acquisition of aneuploidy affects the morphogenesis of MCF10A acini and expression of cancer relevant genes. By conducting 4C chromosome capturing experiments we linked the alteration of interactions of the promoter region to CCND1 upregulation.
+  authors: Marcel Waschow, Qi Wang, Paul Saary, Corinna Klein, Sabine Aschenbrenner, Katharina Jechow, Lorenz Maier, Stephan Tirier, Brigitte Schoell, Ilse Chudoba, Christian Dietz, Daniel Dreidax, Anna Jauch, Martin Sprick, Carl Herrmann, Roland Eils, Christian Conrad
+  link:
+    url: https://www.biorxiv.org/content/10.1101/2019.12.15.876763v1.abstract
+    display: bioRxiv (2019)
+  highlight: 0
+  news2: 
+
+- title: "TBX2 is a neuroblastoma core regulatory circuitry component enhancing MYCN/FOXM1 reactivation of DREAM targets"
+  image: dummy.png
+  description: Chromosome 17q gains are almost invariably present in high-risk neuroblastoma cases. Here, we perform an integrative epigenomics search for dosage-sensitive transcription factors on 17q marked by H3K27ac defined super-enhancers and identify TBX2 as top candidate gene. We show that TBX2 is a constituent of the recently established core regulatory circuitry in neuroblastoma with features of a cell identity transcription factor, driving proliferation through activation of p21-DREAM repressed FOXM1 target genes. Combined MYCN/TBX2 knockdown enforces cell growth arrest suggesting that TBX2 enhances MYCN sustained activation of FOXM1 targets. Targeting transcriptional addiction by combined CDK7 and BET bromodomain inhibition shows synergistic effects on cell viability with strong repressive effects on CRC gene expression and p53 pathway response as well as several genes implicated in …
+  authors: Bieke Decaesteker, Geertrui Denecker, Christophe Van Neste, Emmy M Dolman, Wouter Van Loocke, Moritz Gartlgruber, Carolina Nunes, Fanny De Vloed, Pauline Depuydt, Karen Verboom, Dries Rombaut, Siebe Loontiens, Jolien De Wyn, Waleed M Kholosy, Bianca Koopmans, Anke HW Essing, Carl Herrmann, Daniel Dreidax, Kaat Durinck, Dieter Deforce, Filip Van Nieuwerburgh, Anton Henssen, Rogier Versteeg, Valentina Boeva, Gudrun Schleiermacher, Johan van Nes, Pieter Mestdagh, Suzanne Vanhauwaert, Johannes H Schulte, Frank Westermann, Jan J Molenaar, Katleen De Preter, Frank Speleman
+  link:
+    url: https://www.nature.com/articles/s41467-018-06699-9
+    display: Nature communications (2018)
+  highlight: 0
+  news2: 
+
+- title: "Development of early childhood asthma goes along with massive enhancer activation in blood cells"
+  image: dummy.png
+  description: 
+  authors: S Trump, M Kloes, M Schmidt, T Bauer, N Ishaque, L Thurmann, M Bieg, C Herrmann, S Roeder, M Bauer, D Weichenhan, O Muecke, C Plass, M Borte, E Von Mutius, M Kabesch, G Stangl, R Lauener, J Pekkanen, J Dalphin, J Riedler, R Eils, I Lehmann
+  link:
+    url: https://pred.uni-regensburg.de/id/eprint/14136/
+    display: ALLERGY (2018)
+  highlight: 0
+  news2: 
+
+- title: "BCAT1 restricts αKG levels in AML stem cells leading to IDHmut-like DNA hypermethylation"
+  image: dummy.png
+  description: The branched-chain amino acid (BCAA) pathway and high levels of BCAA transaminase 1 (BCAT1) have recently been associated with aggressiveness in several cancer entities 1, 2, 3, 4, 5, 6. However, the mechanistic role of BCAT1 in this process remains largely uncertain. Here, by performing high-resolution proteomic analysis of human acute myeloid leukaemia (AML) stem-cell and non-stem-cell populations, we find the BCAA pathway enriched and BCAT1 protein and transcripts overexpressed in leukaemia stem cells. We show that BCAT1, which transfers α-amino groups from BCAAs to α-ketoglutarate (αKG), is a critical regulator of intracellular αKG homeostasis. Further to its role in the tricarboxylic acid cycle, αKG is an essential cofactor for αKG-dependent dioxygenases such as Egl-9 family hypoxia inducible factor 1 (EGLN1) and the ten-eleven translocation (TET) family of DNA demethylases 7, 8, 9, 10 …
+  authors: Simon Raffel, Mattia Falcone, Niclas Kneisel, Jenny Hansson, Wei Wang, Christoph Lutz, Lars Bullinger, Gernot Poschet, Yannic Nonnenmacher, Andrea Barnert, Carsten Bahr, Petra Zeisberger, Adriana Przybylla, Markus Sohn, Martje Tönjes, Ayelet Erez, Lital Adler, Patrizia Jensen, Claudia Scholl, Stefan Fröhling, Sibylle Cocciardi, Patrick Wuchter, Christian Thiede, Anne Flörcken, Jörg Westermann, Gerhard Ehninger, Peter Lichter, Karsten Hiller, Rüdiger Hell, Carl Herrmann, Anthony D Ho, Jeroen Krijgsveld, Bernhard Radlwimmer, Andreas Trumpp
+  link:
+    url: https://www.nature.com/articles/nature24294
+    display: Nature (2017)
+  highlight: 0
+  news2: 
+
+- title: "Genome-wide DNA-methylation landscape defines specialization of regulatory T cells in tissues"
+  image: dummy.png
+  description: Regulatory T cells (T reg cells) perform two distinct functions, they maintain self-tolerance, and they support organ homeostasis by differentiating into specialized tissue T reg cells. We found that epigenetic modifications defined the molecular characteristics of tissue T reg cells. Tagmentation-based whole-genome bisulfite sequencing revealed more than 11,000 regions that were methylated differentially in pairwise comparisons of tissue T reg cell populations and lymphoid T cells. Similarities in the epigenetic landscape led to the identification of a common tissue T reg cell population that was present in many organs and was characterized by gain and loss of DNA methylation that included many gene sites associated with the T H 2 subset of helper T cells, such as the gene encoding cytokine IL-33 receptor ST2, as well as the production of tissue-regenerative factors. Furthermore, the ST2-expressing population was …
+  authors: Michael Delacher, Charles D Imbusch, Dieter Weichenhan, Achim Breiling, Agnes Hotz-Wagenblatt, Ulrike Traeger, Ann-Cathrin Hofer, Danny Kägebein, Qi Wang, Felix Frauhammer, Jan-Philipp Mallm, Katharina Bauer, Carl Herrmann, Philipp A Lang, Benedikt Brors, Christoph Plass, Markus Feuerer
+  link:
+    url: https://www.nature.com/articles/ni.3799
+    display: Nature immunology (2017)
+  highlight: 0
+  news2: 
+
+- title: "Identifying personal DNA methylation profiles by genotype inference"
+  image: dummy.png
+  description: Since the first whole-genome sequencing, the biomedical research community has made significant steps towards a more precise, predictive and personalized medicine. Genomic data is nowadays widely considered privacy-sensitive and consequently protected by strict regulations and released only after careful consideration. Various additional types of biomedical data, however, are not shielded by any dedicated legal means and consequently disseminated much less thoughtfully. This in particular holds true for DNA methylation data as one of the most important and well-understood epigenetic element influencing human health. In this paper, we show that, in contrast to the aforementioned belief, releasing one's DNA methylation data causes privacy issues akin to releasing one's actual genome. We show that already a small subset of methylation regions influenced by genomic variants are sufficient to infer parts …
+  authors: Michael Backes, Pascal Berrang, Matthias Bieg, Roland Eils, Carl Herrmann, Mathias Humbert, Irina Lehmann
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7958619/
+    display: 2017 IEEE Symposium on Security and Privacy (SP) (2017)
+  highlight: 0
+  news2: 
+
 - title: "Deciphering programs of transcriptional regulation by combined deconvolution of multiple omics layers"
   image: dummy.png
   description: Metazoans are crucially dependent on multiple layers of gene regulatory mechanisms which allow them to control gene expression across developmental stages, tissues and cell types. Multiple recent research consortia have aimed to generate comprehensive datasets to profile the activity of these cell type- and condition-specific regulatory landscapes across many different cell lines and primary cells. However, extraction of genes or regulatory elements specific to certain entities from these datasets remains challenging. We here propose a novel method based on non-negative matrix factorization for disentangling and associating huge multi-assay datasets including chromatin accessibility and gene expression data. Taking advantage of implementations of NMF algorithms in the GPU CUDA environment full datasets composed of tens of thousands of genes as well as hundreds of samples can be processed without the need for prior feature selection to reduce the input size. Applying this framework to multiple layers of genomic data derived from human blood cells we unravel mechanisms of regulation of cell type-specific expression in T-cells and monocytes.
@@ -95,7 +205,7 @@
   link:
     url: https://www.embopress.org/doi/abs/10.15252/msb.20156520
     display: Molecular Systems Biology (2016)
-  highlight: 1
+  highlight: 0
   news2: 
 
 - title: "Increased vitamin D levels at birth and in early infancy increase offspring allergy risk--evidence for involvement of epigenetic mechanisms"
