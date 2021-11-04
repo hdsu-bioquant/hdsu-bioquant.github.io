@@ -1,5 +1,5 @@
 - name: Carl Herrmann
-  photo: Carl_Herrmann.jpg
+  photo: Carl_Herrmann.png
   info: Associate professor
   email: carl.herrmann@bioquant.uni-heidelberg.de
   number_educ: 4
@@ -9,26 +9,26 @@
   education4: Assistant-professor in Bioinformatics at University Marseille (2003 - 2012)
   
 - name: Carlos Ramirez
-  photo: Carlos_Ramirez.jpg
+  photo: Carlos_Ramirez.png
   info: Postdoc
   email: carlos.ramirez@bioquant.uni-heidelberg.de
 
 - name: Andres Quintero
-  photo: Andres_Quintero.jpg
+  photo: Andres_Quintero.png
   info: Postdoc
   email: andres.quintero@bioquant.uni-heidelberg.de
 
 - name: Ana Luisa Costa
-  photo: Ana_Costa.jpg
+  photo: Ana_Costa.png
   info: PhD student
   email: ana.costa@bioquant.uni-heidelberg.de
 
 - name: Daria Doncevic
-  photo: Daria_Doncevic.jpg
+  photo: Daria_Doncevic.png
   info: PhD student
   email: daria.doncevic@bioquant.uni-heidelberg.de
 
 - name: Youcheng Zhang
-  photo: anonym.png
+  photo: Youcheng_Zhang.png
   info: PhD student
   email: youcheng.zhang@bioquant.uni-heidelberg.de
