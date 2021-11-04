@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Biomedical Genomics Group @ Health Data Science Unit"
 sitemap: false
 permalink: /allnews.html
 ---
