@@ -1,6 +1,6 @@
 - name: Carl Herrmann
   photo: Carl_Herrmann.png
-  info: Assistant-professor (<a href="{{ site.url }}{{ site.baseurl }}/downloads/CV_2021_onePage_en.pdf">CV</a>)
+  info: Assistant-professor 
   email: carl.herrmann@bioquant.uni-heidelberg.de
   number_educ: 4
   education1: Engineering degree Ecole Nationale des Ponts et Chaussées, Paris (1994)
