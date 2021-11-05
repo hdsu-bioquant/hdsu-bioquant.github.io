@@ -15,7 +15,7 @@
   authors: Jennifer Derrien, Catherine Guérin-Charbonnel, Victor Gaborit, Loïc Campion, Magali Devic, Elise Douillard, Nathalie Roi, Hervé Avet-Loiseau, Olivier Decaux, Thierry Facon, Jan-Philipp Mallm, Roland Eils, Nikhil C Munshi, Philippe Moreau, Carl Herrmann, Florence Magrangeas, Stéphane Minvielle
   link:
     url: https://link.springer.com/article/10.1186/s13073-021-00938-3
-    display: Genome medicine (2021)
+    display: Genome Medicine (2021)
   highlight: 0
   news2: 
 
@@ -41,11 +41,11 @@
 
 - title: "The endogenous cellular protease inhibitor SPINT2 controls SARS-CoV-2 viral infection and is associated to disease severity"
   image: 2021_Ramirez.png
-  description: Since early 2020, the world is facing a unique pandemic situation triggered by the appearance of a new coronavirus, Sars-CoV-2. While it shares similarities with previous coronaviruses, it shows some unique features, which requires in-depth investigations to understand its mechanisms of action, in particular the type of cells which can be infected, and the mechanism of cellular entry. We describe a new important actor which plays a decisive role in the entry of the virus into the cell. The serine protease inhibitor SPINT2 inhibits the well described serine protease TMPRSS2, and we show that inhibiting or overexpressing this gene leads to an increase, respectively a strong decrease of the number of infected cells. Intriguingly, this gene has been described in the context of diseases which are known to be comorbid with COVD19, for example Type 2 diabetes and several malignancies. Using published datasets, we show that in these comorbid diseases, SPINT2 is downregulated, which might lead to an increase of the infectivity of cells in disease-tissues such as endocrine cells of diabetic patients or cells from tumor tissues.
-  authors: Carlos Ramirez Alvarez, Carmon Kee, Ashwini Kumar Sharma, Leonie Thomas, Florian I Schmidt, Megan L Stanifer, Steeve Boulant, Carl Herrmann
+  description: We describe a new important actor which plays a decisive role in the entry of the virus into the cell. The serine protease inhibitor SPINT2 inhibits the well described serine protease TMPRSS2, and we show that inhibiting or overexpressing this gene leads to an increase, respectively a strong decrease of the number of infected cells. Intriguingly, this gene has been described in the context of diseases which are known to be comorbid with COVID19, for example Type 2 diabetes and several malignancies. 
+  authors: Carlos Ramirez Alvarez, Carmon Kee, Ashwini Kumar Sharma, Leonie Thomas, Florian I Schmidt, Megan L Stanifer, Steeve Boulant*, Carl Herrmann*
   link:
     url: https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1009687
-    display:  "PLoS Pathog 17(6): e1009687 (2021)" 
+    display:  "PLOS Pathog 17(6): e1009687 (2021)" 
   highlight: 1
   news2: 
 
@@ -111,8 +111,8 @@
 
 - title: "dsMTL-a computational framework for privacy-preserving, distributed multi-task machine learning"
   image: 2021_Cao.png
-  description: Multitask learning allows the simultaneous learning of multiple 9communicating9 algorithms. It is increasingly adopted for biomedical applications, such as the modeling of disease progression. As data protection regulations limit data sharing for such analyses, an implementation of multitask learning on geographically distributed data sources would be highly desirable. Here, we describe the development of dsMTL, a computational framework for privacy-preserving, distributed multi-task machine learning that includes three supervised and one unsupervised algorithms. dsMTL is implemented as a library for the R programming language and builds on the DataSHIELD platform that supports the federated analysis of sensitive individual-level data. We provide a comparative evaluation of dsMTL for the identification of biological signatures in distributed datasets using two case studies, and evaluate the computational performance of the supervised and unsupervised algorithms. dsMTL provides an easy-to-use framework for privacy-preserving, federated analysis of geographically distributed datasets, and has several application areas, including comorbidity modeling and translational research focused on the simultaneous prediction of different outcomes across datasets. dsMTL is available at https://github.com/transbioZI/dsMTLBase (server-side package) and https://github.com/transbioZI/dsMTLClient (client-side package).
-  authors: Han Cao, Youcheng Zhang, Jan Baumbach, Paul R Burton, Dominic Dwyer, Nikolaos Koutsouleris, Julian Matschinske, Yannick Marcon, Sivanesan Rajan, Thilo Rieg, Patricia Ryser-Welch, Julian Späth, Carl Herrmann, Emanuel Schwarz
+  description: Multitask learning allows the simultaneous learning of multiple algorithms. As data protection regulations limit data sharing for such analyses, an implementation of multitask learning on geographically distributed data sources would be highly desirable. Here, we describe the development of dsMTL, a computational framework for privacy-preserving, distributed multi-task machine learning that includes three supervised and one unsupervised algorithms. dsMTL is available at https://github.com/transbioZI/dsMTLBase (server-side package) and https://github.com/transbioZI/dsMTLClient (client-side package).
+  authors: Han Cao, Youcheng Zhang, Jan Baumbach, Paul R Burton, Dominic Dwyer, Nikolaos Koutsouleris, Julian Matschinske, Yannick Marcon, Sivanesan Rajan, Thilo Rieg, Patricia Ryser-Welch, Julian Späth, Carl Herrmann*, Emanuel Schwarz*
   link:
     url: https://www.biorxiv.org/content/10.1101/2021.08.26.457778.abstract
     display: bioRxiv (2021)
@@ -141,8 +141,8 @@
 
 - title: "Super enhancers define regulatory subtypes and cell identity in neuroblastoma"
   image: 2021_Gartlgruber.png
-  description: Half of the children diagnosed with neuroblastoma (NB) have high-risk disease, disproportionately contributing to overall childhood cancer-related deaths. In addition to recurrent gene mutations, there is increasing evidence supporting the role of epigenetic deregulation in disease pathogenesis. Yet, comprehensive cis-regulatory network descriptions from NB are lacking. Here, using genome-wide H3K27ac profiles across 60 NBs, covering the different clinical and molecular subtypes, we identified four major super-enhancer-driven epigenetic subtypes and their underlying master regulatory networks. Three of these subtypes recapitulated known clinical groups; namely, MYCN-amplified, MYCN non-amplified high-risk and MYCN non-amplified low-risk NBs. The fourth subtype, exhibiting mesenchymal characteristics, shared cellular identity with multipotent Schwann cell precursors, was induced by RAS activation and was enriched in relapsed disease. Notably, CCND1, an essential gene in NB, was regulated by both mesenchymal and adrenergic regulatory networks converging on distinct super-enhancer modules. Overall, this study reveals subtype-specific super-enhancer regulation in NBs.
-  authors: Moritz Gartlgruber, Ashwini Kumar Sharma, Andrés Quintero, Daniel Dreidax, Selina Jansky, Young-Gyu Park, Sina Kreth, Johanna Meder, Daria Doncevic, Paul Saary, Umut H Toprak, Naveed Ishaque, Elena Afanasyeva, Elisa Wecht, Jan Koster, Rogier Versteeg, Thomas GP Grünewald, David TW Jones, Stefan M Pfister, Kai-Oliver Henrich, Johan van Nes, Carl Herrmann, Frank Westermann
+  description: Using genome-wide H3K27ac profiles across 60 NBs, we identified four major super-enhancer-driven epigenetic subtypes and their underlying master regulatory networks. Three of these subtypes recapitulated known clinical groups, while the fourth subtype, exhibiting mesenchymal characteristics, shared cellular identity with multipotent Schwann cell precursors, was induced by RAS activation and was enriched in relapsed disease. This study reveals subtype-specific super-enhancer regulation in NBs.
+  authors: Moritz Gartlgruber, Ashwini Kumar Sharma, Andrés Quintero, Daniel Dreidax, Selina Jansky, Young-Gyu Park, Sina Kreth, Johanna Meder, Daria Doncevic, Paul Saary, Umut H Toprak, Naveed Ishaque, Elena Afanasyeva, Elisa Wecht, Jan Koster, Rogier Versteeg, Thomas GP Grünewald, David TW Jones, Stefan M Pfister, Kai-Oliver Henrich, Johan van Nes, Carl Herrmann*, Frank Westermann*
   link:
     url: https://www.nature.com/articles/s43018-020-00145-w
     display: Nature Cancer (2021)
@@ -151,8 +151,8 @@
 
 - title: "Glioblastoma epigenome profiling identifies SOX10 as a master regulator of molecular tumour subtype"
   image: 2020_Wu.png
-  description: Glioblastoma frequently exhibits therapy-associated subtype transitions to mesenchymal phenotypes with adverse prognosis. Here, we perform multi-omic profiling of 60 glioblastoma primary tumours and use orthogonal analysis of chromatin and RNA-derived gene regulatory networks to identify 38 subtype master regulators, whose cell population-specific activities we further map in published single-cell RNA sequencing data. These analyses identify the oligodendrocyte precursor marker and chromatin modifier SOX10 as a master regulator in RTK I-subtype tumours. In vitro functional studies demonstrate that SOX10 loss causes a subtype switch analogous to the proneural–mesenchymal transition observed in patients at the transcriptomic, epigenetic and phenotypic levels. SOX10 repression in an in vivo syngeneic graft glioblastoma mouse model results in increased tumour invasion, immune cell infiltration and significantly reduced survival, reminiscent of progressive human glioblastoma. These results identify SOX10 as a bona fide master regulator of the RTK I subtype, with both tumour cell-intrinsic and microenvironmental effects.
-  authors: Yonghe Wu, Michael Fletcher, Zuguang Gu, Qi Wang, Barbara Costa, Anna Bertoni, Ka-Hou Man, Magdalena Schlotter, Jörg Felsberg, Jasmin Mangei, Martje Barbus, Ann-Christin Gaupel, Wei Wang, Tobias Weiss, Roland Eils, Michael Weller, Haikun Liu, Guido Reifenberger, Andrey Korshunov, Peter Angel, Peter Lichter, Carl Herrmann, Bernhard Radlwimmer
+  description: Glioblastoma frequently exhibits therapy-associated subtype transitions to mesenchymal phenotypes with adverse prognosis. Here, we perform multi-omic profiling of 60 glioblastoma primary tumours and identify 38 subtype master regulators. SOX10 repression in an in vivo glioblastoma mouse model results in increased tumour invasion, immune cell infiltration and significantly reduced survival, reminiscent of progressive human glioblastoma. These results identify SOX10 as a bona fide master regulator of the RTK I subtype, with both tumour cell-intrinsic and microenvironmental effects.
+  authors: Yonghe Wu, Michael Fletcher, Zuguang Gu, Qi Wang, Barbara Costa, Anna Bertoni, Ka-Hou Man, Magdalena Schlotter, Jörg Felsberg, Jasmin Mangei, Martje Barbus, Ann-Christin Gaupel, Wei Wang, Tobias Weiss, Roland Eils, Michael Weller, Haikun Liu, Guido Reifenberger, Andrey Korshunov, Peter Angel, Peter Lichter, Carl Herrmann*, Bernhard Radlwimmer*
   link:
     url: https://www.nature.com/articles/s41467-020-20225-w
     display: Nature communications (2020)
