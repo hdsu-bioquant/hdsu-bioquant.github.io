@@ -26,7 +26,10 @@ ___
 - MoBi Bachelor 2. FS : Mathematik B
 - MoBi Bachelor 4. FS : [Data Analysis Project Module](https://datascience-mobi.github.io/)
 
-
+### Tutorials / Advanced courses
+- Tutorial on non-negative matrix factorization (given at BC2 conference Basel) : [website](https://hdsu-bioquant.github.io/bc2_tutorial/)
+- Single-cell analysis in R (given as part of the TRR179 IRTG) : [website](https://hdsu-bioquant.github.io/irtg2021/)
+- ChIP-seq and ATAC-seq analysis (given at RISE graduate school Frankfurt) : [website](https://hdsu-bioquant.github.io/chipatac2020/)
 ___
 
 ## Bachelor thesis projects 2022
