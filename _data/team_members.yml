@@ -2,11 +2,10 @@
   photo: CarlHerrmann.png
   info: Assistant-professor 
   email: carl.herrmann@bioquant.uni-heidelberg.de
-  number_educ: 4
+  number_educ: 3
   education1: Engineering degree Ecole Nationale des Ponts et Chaussées, Paris (1994)
-  education2: PhD CNRS - Marseille in theoretical physics (1999)
-  education3: Postdoc at University Halle (D) and Turin (I) (1999 - 2003)
-  education4: Assistant-professor in Bioinformatics at University Marseille (2003 - 2012)
+  education2: PhD & Postdoc in theoretical physics (Marseille, Halle, Turin 1999-2003)
+  education3: Assistant-professor in Bioinformatics at University Marseille (2003 - 2012)
   
 - name: Carlos Ramirez
   photo: Carlos_Ramirez.png
