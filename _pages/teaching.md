@@ -9,7 +9,10 @@ permalink: /teaching/
 # Teaching
 
 
-Members of the lab are involved in teaching in the [Molecular Biotechnology Bachelor and Master Program](https://www.uni-heidelberg.de/courses/prospective/academicprograms/Molecular_Biotechnology_en_ba.html) at the university Heidelberg
+Members of the lab are involved in teaching in following programs:
+- [Molecular Biotechnology Bachelor and Master Program (MoBi)](https://www.uni-heidelberg.de/courses/prospective/academicprograms/Molecular_Biotechnology_en_ba.html)
+- [heiCuMed medical curriculum (digital health)](http://www.medizinische-fakultaet-hd.uni-heidelberg.de/Digitale-Medizin.111801.0.html)
+- [Bachelor Medical Informatics (Hochschule Heilbronn)](https://www.hs-heilbronn.de/mib)
 
 ___
 
@@ -42,6 +45,8 @@ Bachelor thesis topics could cover any of the following topics
 - biological networks
 
 The focus can be more on genomic data analysis (R or Python), machine-learning developments (Python), construction of biological networks, e.g. regulatory networks, or a mix of those depending on your interests!
+
+*Submit your application by email to carl.herrmann@bioquant.uni-heidelberg.de (english or german) including a short statement of interest, and a brief CV!*
 
 ### some examples of BA thesis from past years
 - Comparison of Type 1 and Type 2 diabetes regarding COVID19 comorbidities.
