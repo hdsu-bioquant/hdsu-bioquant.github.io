@@ -24,8 +24,8 @@
   description: Glucocorticoids (GC) effects occur through binding to the GC receptor (GR) which, once translocated to the nucleus, binds to GC response elements (GREs) to activate or repress target genes. Among GCs, dexamethasone (Dex) is widely used in treatment of multiple myeloma (MM), mainly in combination regimens. However, despite a definite benefit, all patients relapse. Moreover, while GC efficacy can be largely attributed to lymphocyte-specific apoptosis, its molecular basis remains elusive. To determine the functional role of GR binding in myeloma cells, we generated bulk and single cell multi-omic data and high-resolution contact maps of active enhancers and target genes. We show that a minority (6%) of GR binding sites are associated with enhancer activity gains and increased interaction loops. We find that enhancers contribute to regulate gene activity through combinatorial assembly of large stretches of enhancers and/or enhancer cliques. Furthermore, one enhancer, proximal to GR-responsive genes, is predominantly associated with increased chromatin accessibility and higher H3K27ac occupancy. Finally, we show that Dex exposure leads to co-accessibility changes between predominant enhancer and other regulatory regions of the interaction network. Notably, these epigenomic changes are associated with cell-to-cell transcriptional heterogeneity. As consequences, BIM critical for GR-induced apoptosis and CXCR4 protective from chemotherapy-induced apoptosis are rather upregulated in different cells. In summary, our work provides new insights into the molecular mechanisms involved in Dex escape.
   authors: Victor Gaborit, Jonathan Cruard, Catherine Guérin-Charbonnel, Jennifer Derrien, Jean-Baptiste Alberge, Elise Douillard, Nathalie Roi, Magali Devic, Loïc Campion, Frank Westermann, Philippe Moreau, Carl Herrmann, Jérémie Bourdon, Florence Magrangeas, Stephane Minvielle
   link:
-    url: https://www.hal.inserm.fr/inserm-03364330/
-    display: inserm (2021)
+    url: https://www.biorxiv.org/content/10.1101/2021.09.06.459068v1
+    display: BioRxiv (2021)
   highlight: 0
   news2: 
 
@@ -42,7 +42,7 @@
 - title: "The endogenous cellular protease inhibitor SPINT2 controls SARS-CoV-2 viral infection and is associated to disease severity"
   image: 2021_Ramirez.png
   description: We describe a new important actor which plays a decisive role in the entry of the virus into the cell. The serine protease inhibitor SPINT2 inhibits the well described serine protease TMPRSS2, and we show that inhibiting or overexpressing this gene leads to an increase, respectively a strong decrease of the number of infected cells. Intriguingly, this gene has been described in the context of diseases which are known to be comorbid with COVID19, for example Type 2 diabetes and several malignancies. 
-  authors: Carlos Ramirez Alvarez, Carmon Kee, Ashwini Kumar Sharma, Leonie Thomas, Florian I Schmidt, Megan L Stanifer, Steeve Boulant*, Carl Herrmann*
+  authors: Carlos Ramirez Alvarez, Carmon Kee, Ashwini Kumar Sharma, Leonie Thomas, Florian I Schmidt, Megan L Stanifer, Steeve Boulant\*, Carl Herrmann\*
   link:
     url: https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1009687
     display:  "PLOS Pathog 17(6): e1009687 (2021)" 
@@ -111,8 +111,8 @@
 
 - title: "dsMTL-a computational framework for privacy-preserving, distributed multi-task machine learning"
   image: 2021_Cao.png
-  description: Multitask learning allows the simultaneous learning of multiple algorithms. As data protection regulations limit data sharing for such analyses, an implementation of multitask learning on geographically distributed data sources would be highly desirable. Here, we describe the development of dsMTL, a computational framework for privacy-preserving, distributed multi-task machine learning that includes three supervised and one unsupervised algorithms. dsMTL is available at https://github.com/transbioZI/dsMTLBase (server-side package) and https://github.com/transbioZI/dsMTLClient (client-side package).
-  authors: Han Cao, Youcheng Zhang, Jan Baumbach, Paul R Burton, Dominic Dwyer, Nikolaos Koutsouleris, Julian Matschinske, Yannick Marcon, Sivanesan Rajan, Thilo Rieg, Patricia Ryser-Welch, Julian Späth, Carl Herrmann*, Emanuel Schwarz*
+  description: Multitask learning allows the simultaneous learning of multiple algorithms. Here, we describe the development of dsMTL, a computational framework for privacy-preserving, distributed multi-task machine learning that includes three supervised and one unsupervised algorithms.
+  authors: Han Cao\*, Youcheng Zhang\*, Jan Baumbach, Paul R Burton, Dominic Dwyer, Nikolaos Koutsouleris, Julian Matschinske, Yannick Marcon, Sivanesan Rajan, Thilo Rieg, Patricia Ryser-Welch, Julian Späth, Carl Herrmann\*, Emanuel Schwarz\*
   link:
     url: https://www.biorxiv.org/content/10.1101/2021.08.26.457778.abstract
     display: bioRxiv (2021)
@@ -141,8 +141,8 @@
 
 - title: "Super enhancers define regulatory subtypes and cell identity in neuroblastoma"
   image: 2021_Gartlgruber.png
-  description: Using genome-wide H3K27ac profiles across 60 NBs, we identified four major super-enhancer-driven epigenetic subtypes and their underlying master regulatory networks. Three of these subtypes recapitulated known clinical groups, while the fourth subtype, exhibiting mesenchymal characteristics, shared cellular identity with multipotent Schwann cell precursors, was induced by RAS activation and was enriched in relapsed disease. This study reveals subtype-specific super-enhancer regulation in NBs.
-  authors: Moritz Gartlgruber, Ashwini Kumar Sharma, Andrés Quintero, Daniel Dreidax, Selina Jansky, Young-Gyu Park, Sina Kreth, Johanna Meder, Daria Doncevic, Paul Saary, Umut H Toprak, Naveed Ishaque, Elena Afanasyeva, Elisa Wecht, Jan Koster, Rogier Versteeg, Thomas GP Grünewald, David TW Jones, Stefan M Pfister, Kai-Oliver Henrich, Johan van Nes, Carl Herrmann*, Frank Westermann*
+  description: Using genome-wide H3K27ac profiles across 60 NBs, we identified four major super-enhancer-driven epigenetic subtypes and their underlying master regulatory networks. Three of these subtypes recapitulated known clinical groups, while the fourth subtype, exhibiting mesenchymal characteristics, ressemblance to Schwann cell precursors, was induced by RAS activation and was enriched in relapsed disease. This study reveals subtype-specific super-enhancer regulation in NBs.
+  authors: Moritz Gartlgruber\*, Ashwini Kumar Sharma\*, Andrés Quintero\*, Daniel Dreidax\*, Selina Jansky, Young-Gyu Park, Sina Kreth, Johanna Meder, Daria Doncevic, Paul Saary, Umut H Toprak, Naveed Ishaque, Elena Afanasyeva, Elisa Wecht, Jan Koster, Rogier Versteeg, Thomas GP Grünewald, David TW Jones, Stefan M Pfister, Kai-Oliver Henrich, Johan van Nes, Carl Herrmann\*, Frank Westermann\*
   link:
     url: https://www.nature.com/articles/s43018-020-00145-w
     display: Nature Cancer (2021)
@@ -152,7 +152,7 @@
 - title: "Glioblastoma epigenome profiling identifies SOX10 as a master regulator of molecular tumour subtype"
   image: 2020_Wu.png
   description: Glioblastoma frequently exhibits therapy-associated subtype transitions to mesenchymal phenotypes with adverse prognosis. Here, we perform multi-omic profiling of 60 glioblastoma primary tumours and identify 38 subtype master regulators. SOX10 repression in an in vivo glioblastoma mouse model results in increased tumour invasion, immune cell infiltration and significantly reduced survival, reminiscent of progressive human glioblastoma. These results identify SOX10 as a bona fide master regulator of the RTK I subtype, with both tumour cell-intrinsic and microenvironmental effects.
-  authors: Yonghe Wu, Michael Fletcher, Zuguang Gu, Qi Wang, Barbara Costa, Anna Bertoni, Ka-Hou Man, Magdalena Schlotter, Jörg Felsberg, Jasmin Mangei, Martje Barbus, Ann-Christin Gaupel, Wei Wang, Tobias Weiss, Roland Eils, Michael Weller, Haikun Liu, Guido Reifenberger, Andrey Korshunov, Peter Angel, Peter Lichter, Carl Herrmann*, Bernhard Radlwimmer*
+  authors: Yonghe Wu\*, Michael Fletcher\*, Zuguang Gu\*, Qi Wang, Barbara Costa, Anna Bertoni, Ka-Hou Man, Magdalena Schlotter, Jörg Felsberg, Jasmin Mangei, Martje Barbus, Ann-Christin Gaupel, Wei Wang, Tobias Weiss, Roland Eils, Michael Weller, Haikun Liu, Guido Reifenberger, Andrey Korshunov, Peter Angel, Peter Lichter, Carl Herrmann\*, Bernhard Radlwimmer\*
   link:
     url: https://www.nature.com/articles/s41467-020-20225-w
     display: Nature communications (2020)
