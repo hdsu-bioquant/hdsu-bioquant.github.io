@@ -40,3 +40,13 @@ Bachelor thesis topics could cover any of the following topics
 - machine-learning approaches to multi-omics integration
 - applications to regulatory genomics in cancer and disease
 - biological networks
+
+The focus can be more on genomic data analysis (R or Python), machine-learning developments (Python), construction of biological networks, e.g. regulatory networks, or a mix of those depending on your interests!
+
+### some examples of BA thesis from past years
+- Comparison of Type 1 and Type 2 diabetes regarding COVID19 comorbidities.
+- Weighted random forest regression for the prediction ofgene regulatory networks.
+- Genomic Tinder: Using a generative adversarial network (GAN) to find best matching pairs of scRNAseq and scATACseq data.
+- Autoencoder-based integration of multiomics single-cell data.
+- Causal networks of epigenetic regulation.
+- Defining Schizophrenia-specific DNA Methylation Signatures and Investigating their Correlation with Comorbid Diseases.
