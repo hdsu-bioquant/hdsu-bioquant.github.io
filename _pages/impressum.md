@@ -1,3 +1,12 @@
+---
+title: "Impressum and Privacy"
+layout: textlay
+excerpt: "Impressum and Privacy"
+sitemap: false
+permalink: /impressum.html
+---
+
+
 # Impressum
 
 Angaben Gemäß § 5 TMG
