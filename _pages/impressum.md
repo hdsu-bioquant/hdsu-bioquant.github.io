@@ -11,43 +11,33 @@ permalink: /impressum.html
 
 Angaben Gemäß § 5 TMG
 
-Carl Herrmann
-BioQuant
-Im Neuenheimer Feld, 267
+Carl Herrmann\
+BioQuant\
+Im Neuenheimer Feld, 267\
 69120 Heidelberg
 
 ​
 
-Kontakt
+**Kontakt**
 
-Tel:+49 (0)6221 - 54 51249
+Tel:+49 (0)6221 - 54 51249\
 E-Mail: carl.herrmann[at]bioquant.uni-heidelberg.de
-
-​
 
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
-​
-
-Haftung für Inhalte
+*Haftung für Inhalte*
 
 Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
 
 Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
 
-​
-
-Haftung für Links
+*Haftung für Links*
 
 Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.
 
-​
-
 Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
 
-​
-
-Urheberrecht
+*Urheberrecht*
 
 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
 
@@ -58,18 +48,17 @@ Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden 
 ### 1. Datenschutz auf einen Blick
 
 **Allgemeine Hinweise**
+
 Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten
 passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie
 persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen
 Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.
-
 
 *Datenerfassung auf dieser Website*
 
 Wer ist verantwortlich für die Datenerfassung auf dieser Website?
 Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten
 können Sie dem Impressum dieser Website entnehmen.
-
 
 *Wie erfassen wir Ihre Daten?*
 
@@ -79,12 +68,10 @@ Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Web
 erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit
 des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
 
-
 *Wofür nutzen wir Ihre Daten?*
 
 Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere
 Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.
-
 
 *Welche Rechte haben Sie bezüglich Ihrer Daten?*
 
@@ -97,7 +84,6 @@ Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehö
 Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum
 angegebenen Adresse an uns wenden.
 
-
 *Analyse-Tools und Tools von Drittanbietern*
 
 Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor
@@ -105,9 +91,7 @@ allem mit Cookies und mit sogenannten Analyseprogrammen.
 Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden
 Datenschutzerklärung.
 
-
 ### 2. Hosting und Content Delivery Networks (CDN)
-
 
 #### Externes Hosting
 
@@ -121,15 +105,12 @@ Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art
 Unser Hoster wird Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten
 erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
 
-
 #### Abschluss eines Vertrages über Auftragsverarbeitung
 
 Um die datenschutzkonforme Verarbeitung zu gewährleisten, haben wir einen Vertrag über
 Auftragsverarbeitung mit unserem Hoster geschlossen.
 
-
 ### 3. Allgemeine Hinweise und Pflichtinformationen
-
 
 #### Datenschutz
 
@@ -144,26 +125,21 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kom
 Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht
 möglich.
 
-
 Hinweis zur verantwortlichen Stelle
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-Carl Herrmann
-Health Data Science Unit
-
-Im Neuenheimer Feld 267
-69120 Heidelberg
+Carl Herrmann\
+Health Data Science Unit - BioQuant\
+Im Neuenheimer Feld 267\
+69120 Heidelberg\
 Deutschland
 
-Tel:+49 (0)6221 - 54 51249
-
+Tel:+49 (0)6221 - 54 51249\
 carl.herrmann@bioquant.uni-heidelberg.de
-
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über
 die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.)
 entscheidet.
-
 
 *Widerruf Ihrer Einwilligung zur Datenverarbeitung*
 
@@ -193,7 +169,6 @@ VERBINDUNG STEHT. WENN SIE WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN
 ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH
 NACH ART. 21 ABS. 2 DSGVO).
 
-
 *Beschwerderecht bei der zuständigen Aufsichtsbehörde*
 
 Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer
@@ -201,14 +176,12 @@ Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenth
 oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger
 verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
 
-
 *Recht auf Datenübertragbarkeit*
 
 Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags
 automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format
 aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen
 verlangen, erfolgt dies nur, soweit es technisch machbar ist.
-
 
 *SSL- bzw. TLS-Verschlüsselung*
 
@@ -218,7 +191,6 @@ Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Bro
 „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.
 Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht
 von Dritten mitgelesen werden.
-
 
 *Auskunft, Löschung und Berichtigung*
 
@@ -247,7 +219,6 @@ Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, d�
 
 juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder
 eines Mitgliedstaats verarbeitet werden.
-
 
 ### 4. Datenerfassung auf dieser Website
 
@@ -279,7 +250,6 @@ Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt
 Soweit Cookies von Drittunternehmen oder zu Analysezwecken eingesetzt werden, werden wir Sie hierüber
 im Rahmen dieser Datenschutzerklärung gesondert informieren und ggf. eine Einwilligung abfragen.
 
-
 *Anfrage per E-Mail, Telefon oder Telefax*
 
 Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive aller daraus
@@ -293,7 +263,6 @@ Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde.
 Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung
 auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt
 (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt.
-
 
 ### 5. Plugins und Tools
 
@@ -310,7 +279,6 @@ Angebote und an einer leichten Auffindbarkeit der von uns auf der Website angege
 ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine entsprechende
 Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a
 DSGVO; die Einwilligung ist jederzeit widerrufbar.
-
 
 Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google:
 https://policies.google.com/privacy?hl=de.
