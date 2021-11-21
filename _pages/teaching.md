@@ -38,6 +38,8 @@ ___
 
 ## Bachelor thesis projects 2022
 
+**+++ see a more detailed description <a href="{{ site.url }}{{ site.baseurl }}/ba2022.html">here</a> +++**
+
 Bachelor thesis topics could cover any of the following topics
 - single-cell omics data analysis and integration
 - machine-learning approaches to multi-omics integration
