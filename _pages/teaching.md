@@ -38,6 +38,8 @@ ___
 
 ## Bachelor thesis projects 2022
 
+**+++ see a more detailed description of the projects <a href="{{ site.url }}{{ site.baseurl }}/ba2022.html">here</a> +++**
+
 Bachelor thesis topics could cover any of the following topics
 - single-cell omics data analysis and integration
 - machine-learning approaches to multi-omics integration
@@ -45,8 +47,6 @@ Bachelor thesis topics could cover any of the following topics
 - biological networks
 
 The focus can be more on genomic data analysis (R or Python), machine-learning developments (Python), construction of biological networks, e.g. regulatory networks, or a mix of those depending on your interests!
-
-*Submit your application by email to carl.herrmann@bioquant.uni-heidelberg.de (english or german) including a short statement of interest, and a brief CV!*
 
 ### some examples of BA thesis from past years
 - Comparison of Type 1 and Type 2 diabetes regarding COVID19 comorbidities.
