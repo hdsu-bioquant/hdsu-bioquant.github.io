@@ -32,3 +32,16 @@
       relpath: first-steps
     - title  : Working on the GPU station
       relpath: working-on-the-gpu-station
+- title  : Other daily tools
+  relpath: wiki/daily_tools
+  subfolderitems:
+    - title  : Using GitHub
+      relpath: using-github
+    - title  : Using Snakemake
+      relpath: using-snakemake
+    - title  : Using R
+      relpath: using-r
+    - title  : Using Slack
+      relpath: using-slack
+    - title  : Additional information
+      relpath: additional-information
