@@ -2,11 +2,15 @@
 layout: default
 ---
   
-<div id="newsid" class="col-sm-4" style="position:fixed" >
-  {% include wikicontent.html %}
+<div id="newsid" class="col-lg-4" >
+  <div class="affix">
+    {% include wikicontent.html %}
   </div>
+</div>
 
-  <div id="homeid" class="col-sm-8 col-sm-offset-4" >
+<div id="homeid" class="col-lg-8 " >
+  {{ content }} 
+</div>
 
-	{{ content }}
-  </div>
+
+  

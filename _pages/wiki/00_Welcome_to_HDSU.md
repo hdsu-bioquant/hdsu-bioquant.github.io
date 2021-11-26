@@ -18,5 +18,8 @@ To get an idea on what the group has been working on, check out papers recently 
 Welcome once again, and let's get started !! You can navigate through the different pages using the menu on the left.
 
 
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/01_group.jpg" width="95%">
+</figure>
 
 
