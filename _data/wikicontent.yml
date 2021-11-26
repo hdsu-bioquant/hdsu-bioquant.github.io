@@ -9,5 +9,16 @@
       relpath: obtaining-a-BioQuant-account
     - title  : Getting connected
       relpath: getting-connected
+- title  : Cluster access and config
+  relpath: wiki/cluster_access
+  subfolderitems:
+    - title  : BioQuant cluster
+      relpath: bioQuant-cluster
+    - title  : Curry cluster
+      relpath: curry-cluster
+    - title  : Creating your project folder
+      relpath: creating-your-project-folder
+    - title  : Using Miniconda
+      relpath: using-miniconda
     
 
