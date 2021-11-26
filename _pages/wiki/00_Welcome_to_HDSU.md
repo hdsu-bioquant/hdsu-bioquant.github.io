@@ -1,6 +1,6 @@
 ---
 title: "HDSU - Wiki"
-layout: textlay
+layout: wiki
 excerpt: "HDSU -- Wiki"
 sitemap: false
 permalink: /wiki/
@@ -15,7 +15,7 @@ We are glad that you have decided to join our team and hope that you have a frui
 
 To get an idea on what the group has been working on, check out papers recently published from our lab [here](https://goo.gl/7ZsVxm). 
 
-Welcome once again, and let's get started !! You can navigate through the different pages using the links bellow.
+Welcome once again, and let's get started !! You can navigate through the different pages using the menu on the left.
 
 
 

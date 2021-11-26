@@ -1,0 +1,8 @@
+- title  : Wiki home
+  relpath: wiki
+# - title  : First steps
+#   relpath: first_steps
+#   subfolderitems:
+#     - title  : Research
+#       relpath: research
+
