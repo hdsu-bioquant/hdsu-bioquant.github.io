@@ -20,5 +20,11 @@
       relpath: creating-your-project-folder
     - title  : Using Miniconda
       relpath: using-miniconda
+- title  : Working with the Cluster
+  relpath: wiki/cluster_howto
+  subfolderitems:
+    - title  : Repetitive tasks
+      relpath: repetitive-tasks
+      
     
 
