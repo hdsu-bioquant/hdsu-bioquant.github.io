@@ -12,8 +12,10 @@ permalink: /wiki/first_steps/
 
 As a new member of the lab, you need to **be registered as a new BioQuant member**. Please fill in the following forms:
 
-* [Registration form as a new member](https://github.com/hdsu-bioquant/00_HOWTO_HDSU/blob/main/01-Anmeldung_BioQuant_2020_vfin.pdf)
-* if needed: [Request to obtain a key and an electronic keycard](https://github.com/hdsu-bioquant/00_HOWTO_HDSU/blob/main/04-Antrag_BioQuant_Schluessel_2020_vfin.pdf)
+
+
+* [Registration form as a new member]({{ site.url }}{{ site.baseurl }}/downloads/wiki/01-Anmeldung_BioQuant_2020_vfin.pdf) 
+* if needed: [Request to obtain a key and an electronic keycard]({{ site.url }}{{ site.baseurl }}/downloads/wiki/04-Antrag_BioQuant_Schluessel_2020_vfin.pdf) 
 
 Carl needs to sign these forms! They have to be handed in to the office of *Ms. Horsch* (ground floor).
 
@@ -21,8 +23,9 @@ Carl needs to sign these forms! They have to be handed in to the office of *Ms. 
 
 ## Obtaining a BioQuant account
 
-One of the very first things you should do is get a BioQuant account. For this purpose, fill in the [Application for BioQuant account](https://github.com/hdsu-bioquant/00_HOWTO_HDSU/blob/main/02_BQ_Nutzerkonto_EMail_2021.pdf) and bring it to 
-**room 062** on the ground floor of the building (*Mr. David Browne* or *Mr. Peter Weyrich*). 
+One of the very first things you should do is get a BioQuant account. For this purpose, fill in the 
+[Application for BioQuant account]({{ site.url }}{{ site.baseurl }}/downloads/wiki/02_BQ_Nutzerkonto_EMail_2021.pdf) 
+and bring it to **room 062** on the ground floor of the building (*Mr. David Browne* or *Mr. Peter Weyrich*). 
 
 Using this you will be able to:
 
