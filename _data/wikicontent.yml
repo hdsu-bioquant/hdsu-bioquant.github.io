@@ -25,6 +25,10 @@
   subfolderitems:
     - title  : Repetitive tasks
       relpath: repetitive-tasks
-      
-    
-
+- title  : DGX workstations
+  relpath: wiki/dgx_workstations
+  subfolderitems:
+    - title  : First steps
+      relpath: first-steps
+    - title  : Working on the GPU station
+      relpath: working-on-the-gpu-station
