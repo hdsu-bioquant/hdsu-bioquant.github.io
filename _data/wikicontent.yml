@@ -1,8 +1,13 @@
 - title  : Wiki home
   relpath: wiki
-# - title  : First steps
-#   relpath: first_steps
-#   subfolderitems:
-#     - title  : Research
-#       relpath: research
+- title  : First steps
+  relpath: wiki/first_steps
+  subfolderitems:
+    - title  : Getting registered
+      relpath: getting-registered
+    - title  : Obtaining a BioQuant account
+      relpath: obtaining-a-BioQuant-account
+    - title  : Getting connected
+      relpath: getting-connected
+    
 
