@@ -8,6 +8,8 @@ permalink: /wiki/cluster_howto/
 
 # Working with the Cluster
 
+**Please contact us to get a full documentation about the Cluster** (documentation is internal, hence cannot be published on the wiki...)
+
 ## Jobs with huge memory requirements
 
 During the course of your work, you will have to process computationally expensive tasks. These tasks will be simply unfeasible to run locally on your laptops, notebooks or desktop machines due to limitations in memory size (RAM). Some examples of such tasks might be -
