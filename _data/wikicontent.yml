@@ -1,0 +1,47 @@
+- title  : Wiki home
+  relpath: wiki
+- title  : First steps
+  relpath: wiki/first_steps
+  subfolderitems:
+    - title  : Getting registered
+      relpath: getting-registered
+    - title  : Obtaining a BioQuant account
+      relpath: obtaining-a-BioQuant-account
+    - title  : Getting connected
+      relpath: getting-connected
+- title  : Cluster access and config
+  relpath: wiki/cluster_access
+  subfolderitems:
+    - title  : BioQuant cluster
+      relpath: bioQuant-cluster
+    - title  : Curry cluster
+      relpath: curry-cluster
+    - title  : Creating your project folder
+      relpath: creating-your-project-folder
+    - title  : Using Miniconda
+      relpath: using-miniconda
+- title  : Working with the Cluster
+  relpath: wiki/cluster_howto
+  subfolderitems:
+    - title  : Repetitive tasks
+      relpath: repetitive-tasks
+- title  : DGX workstations
+  relpath: wiki/dgx_workstations
+  subfolderitems:
+    - title  : First steps
+      relpath: first-steps
+    - title  : Working on the GPU station
+      relpath: working-on-the-gpu-station
+- title  : Other daily tools
+  relpath: wiki/daily_tools
+  subfolderitems:
+    - title  : Using GitHub
+      relpath: using-github
+    - title  : Using Snakemake
+      relpath: using-snakemake
+    - title  : Using R
+      relpath: using-r
+    - title  : Using Slack
+      relpath: using-slack
+    - title  : Additional information
+      relpath: additional-information

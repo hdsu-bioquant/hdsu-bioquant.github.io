@@ -1,0 +1,20 @@
+
+<div class="well well-wiki">
+<h3>Content</h3>
+
+{% for item in site.data.wikicontent %}
+    <!-- <h4>{{item.title}}</h4> -->
+    <h4> <a href="{{ site.url }}{{ site.baseurl }}/{{ item.relpath }}">{{ item.title }}</a> </h4>
+    <ul>
+        <!-- {{ item.title }} -->
+        {% for entry in item.subfolderitems %}
+        <!-- <li> <a href="{{ site.url }}{{ site.baseurl }}/{{ entry.relpath }}">{{ entry.title }}</a> </li> -->
+        <li> <a href="{{ site.url }}{{ site.baseurl }}/{{ item.relpath }}#{{ entry.relpath }}">{{ entry.title }}</a> </li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+
+
+
+</div>
+
