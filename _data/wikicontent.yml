@@ -32,6 +32,15 @@
       relpath: first-steps
     - title  : Working on the GPU station
       relpath: working-on-the-gpu-station
+- title  : RStudio Server & Jupyter
+  relpath: wiki/rstudio_server
+  subfolderitems:
+    - title  : RStudio Server on Curry
+      relpath: rstudio-server-on-curry
+    - title  : Configure renv
+      relpath: configure-renv-in-the-rstudio-server
+    - title  : Using renv
+      relpath: using-renv
 - title  : Other daily tools
   relpath: wiki/daily_tools
   subfolderitems:
