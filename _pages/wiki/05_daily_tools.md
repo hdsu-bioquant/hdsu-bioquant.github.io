@@ -25,7 +25,7 @@ Only people with DKFZ account can access GitLab with their DKFZ username and pas
 
 ## Using R
 
-We extensively and (exclusively) use R in the lab. Open Rstudio and type `help.start()` to get started. This is the same as [here](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)
+We extensively use R in the lab. Open Rstudio and type `help.start()` to get started. This is the same as [here](https://cran.r-project.org/doc/manuals/r-release/R-intro.html)
 These links might help you get started.
 
 * [QuickR - DataCamp](https://www.statmethods.net/r-tutorial/index.html)
