@@ -30,6 +30,7 @@ ___
 - MoBi Bachelor 4. FS : [Data Analysis Project Module](https://datascience-mobi.github.io/)
 
 ### Tutorials / Advanced courses
+- Course on Multiome Single-cell integration given at SinCellTE 2022 Winter school in Roscoff : [website](http://www.hdsu.org/sincellTE_2022/)
 - Tutorial on non-negative matrix factorization (given at BC2 conference Basel) : [website](https://hdsu-bioquant.github.io/bc2_tutorial/)
 - Single-cell analysis in R (given as part of the TRR179 IRTG) : [website](https://hdsu-bioquant.github.io/irtg2021/)
 - ChIP-seq and ATAC-seq analysis (given at RISE graduate school Frankfurt) : [website](https://hdsu-bioquant.github.io/chipatac2020/)
