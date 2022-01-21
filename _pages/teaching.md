@@ -24,6 +24,7 @@ ___
 - MoBi Bachelor 3. FS : [Data Analysis Course](http://bioinfo.ipmb.uni-heidelberg.de/crg/datascience3fs/)
 - MoBi Bachelor 5. FS : [Bioinformatics 1](http://bioinfo.ipmb.uni-heidelberg.de/crg/bioinfo1/)
 - MoBi Master : [Meet-EU project module](http://bioinfo.ipmb.uni-heidelberg.de/crg/master-meetu/)
+- MoBi Master : [Seminar Biological Networks (with J. Saez Rodriguez)](http://bioinfo.ipmb.uni-heidelberg.de/crg/seminar-network/index.html)
 
 ### Summer semester 2021
 - MoBi Bachelor 2. FS : Mathematik B
