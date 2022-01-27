@@ -20,7 +20,7 @@ ___
 ## Courses
 
 ### Winter semester 2021 / 2022
-- HeiCuMed Wahlfachtrack "Digitale Medizin": [Einführung in maschinellem Lernen](../downloads/WFT_IntroML.pdf)
+- HeiCuMed Wahlfachtrack "Digitale Medizin": Einführung in maschinellem Lernen [[pdf]](../downloads/WFT_IntroML.pdf)
 - MoBi Bachelor 1. FS : [Mathematik A](http://bioinfo.ipmb.uni-heidelberg.de/crg/mathea/)
 - MoBi Bachelor 3. FS : [Data Analysis Course](http://bioinfo.ipmb.uni-heidelberg.de/crg/datascience3fs/)
 - MoBi Bachelor 5. FS : [Bioinformatics 1](http://bioinfo.ipmb.uni-heidelberg.de/crg/bioinfo1/)
