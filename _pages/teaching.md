@@ -19,6 +19,9 @@ ___
 
 ## Courses
 
+### Summer Semester 2022
+- MoBi Bachelor 4. FS : <a href="{{ site.url }}{{ site.baseurl }}/data2022.html">[Data Analysis Project Module 2022</a>
+
 ### Winter semester 2021 / 2022
 - HeiCuMed Wahlfachtrack "Digitale Medizin": Einführung in maschinellem Lernen [[pdf]](../downloads/WFT_IntroML.pdf)
 - MoBi Bachelor 1. FS : [Mathematik A](http://bioinfo.ipmb.uni-heidelberg.de/crg/mathea/)
