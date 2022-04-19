@@ -43,6 +43,7 @@ All courses given by Dr. Carl Herrmann
 
 ___
 
+<!--
 ## Bachelor thesis projects 2022
 
 **+++ see a more detailed description of the projects <a href="{{ site.url }}{{ site.baseurl }}/ba2022.html">here</a> +++**
@@ -62,3 +63,4 @@ The focus can be more on genomic data analysis (R or Python), machine-learning d
 - Autoencoder-based integration of multiomics single-cell data.
 - Causal networks of epigenetic regulation.
 - Defining Schizophrenia-specific DNA Methylation Signatures and Investigating their Correlation with Comorbid Diseases.
+-->
