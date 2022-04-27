@@ -1,3 +1,12 @@
+---
+title: "HDSU - Wiki"
+layout: wiki
+excerpt: "HDSU -- Wiki"
+sitemap: false
+permalink: /wiki/workflowr/
+---
+
+
 # Workflowr
 
 Workflowr is a great tool for making your analysis and report reproducible,
@@ -6,7 +15,7 @@ to start your workflowr project: https://github.com/workflowr/workflowr#quick-st
 
 (Vignette: https://workflowr.github.io/workflowr/articles/wflow-01-getting-started.html)
 
-### 1. Import the library
+## 1. Import the library
 
 ```
 library("workflowr")
@@ -18,7 +27,7 @@ In case you have never created a Git repository on your computer:
 wflow_git_config(user.name = "Your Name", user.email = "email@domain")
 ```
 
-### 2. Start your project
+## 2. Start your project
 
 The following command will create a directory called "myproject" that contains all the files and folders you need. 
 
@@ -35,7 +44,7 @@ wflow_start("myproject")
 * `docs/` contains the HTML files for your website which are built from the R Markdown files in `analysis/` (this directory is empty until you first build your website)
 * the additional directories are optional suggestions for for organizing your  project
 
-### 3. Build and publish your website
+## 3. Build and publish your website
 
 To build your webiste run the command below. This will build all the HTML files from the Rmarkdown files. These files are not published yet. An unpublished file can only be viewed on the local computer, but is not yet included in the website. To publish your files run the following command.
 
@@ -63,7 +72,7 @@ can cause problems).
 wflow_publish(republish = TRUE, all = TRUE, delete_cache = TRUE)
 ```
 
-### 4. Push
+## 4. Push
 
 Your files are automatically commited when you run `wflow_publish()`. Now all
 that is left to do is to push everything to GitHub.
@@ -72,7 +81,7 @@ that is left to do is to push everything to GitHub.
 wflow_git_push( )
 ```
 
-### More tips:
+## More tips:
 
 If you want to play around with the aesthetics of your website check out
 this link: https://rstudio4edu.github.io/rstudio4edu-book/rmd-dress.html

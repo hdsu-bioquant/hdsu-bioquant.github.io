@@ -54,3 +54,5 @@
       relpath: using-slack
     - title  : Additional information
       relpath: additional-information
+- title  : WorkflowR
+  relpath: wiki/workflowr
