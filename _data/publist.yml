@@ -114,8 +114,8 @@
   description: Multitask learning allows the simultaneous learning of multiple algorithms. Here, we describe the development of dsMTL, a computational framework for privacy-preserving, distributed multi-task machine learning that includes three supervised and one unsupervised algorithms.
   authors: Han Cao\*, Youcheng Zhang\*, Jan Baumbach, Paul R Burton, Dominic Dwyer, Nikolaos Koutsouleris, Julian Matschinske, Yannick Marcon, Sivanesan Rajan, Thilo Rieg, Patricia Ryser-Welch, Julian Späth, Carl Herrmann\*, Emanuel Schwarz\*
   link:
-    url: https://www.biorxiv.org/content/10.1101/2021.08.26.457778.abstract
-    display: bioRxiv (2021)
+    url: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac616/6694043
+    display: Bioinformatics (2022)
   highlight: 1
   news2: 
 
