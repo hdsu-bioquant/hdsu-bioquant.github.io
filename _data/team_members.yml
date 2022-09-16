@@ -39,6 +39,11 @@
   email: younglin113@163.com
   
 - name: Julia Jelitzki
+<<<<<<< HEAD
   photo: Jjelitzki.jpg
   info: Master student
  
+=======
+  info: master student
+
+>>>>>>> 7f82f07073322dbbc5ee5a08f30a9ac896523bbd

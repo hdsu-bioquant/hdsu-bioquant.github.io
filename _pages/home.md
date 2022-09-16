@@ -65,5 +65,10 @@ We develop novel methods to integrate large scale genomics datasets, using stati
   </a>
 </div>
 
+**We are always interested in hosting bachelor/master/rotation students!** Do not hesitate to contact use if you are interested in topics such as
 
+* computational gene regulation
+* epigenetics
+* single-cell data
+* machine-learning
 
