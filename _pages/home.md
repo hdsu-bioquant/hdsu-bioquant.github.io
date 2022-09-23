@@ -12,6 +12,7 @@ We are part of the [BioQuant Center](https://www.bioquant.uni-heidelberg.de/) an
 
 We develop novel methods to integrate large scale genomics datasets, using statistical and machine-learning approaches. We focus in particular on epigenomics data and single-cell approaches.
 
+** We are hiring a postdoc in computational single-cell multiomics for a 3-year DFG project; check the description [here](../downloads/postdoc2022.pdf)**
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
