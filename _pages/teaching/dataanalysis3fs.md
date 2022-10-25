@@ -35,6 +35,11 @@ Each lecture (Thursday) will be followed by a practical session (Friday) under R
 
 #### Websites
 
+This class is supported by [DataCamp](https://www.datacamp.com), an intuitive learning platform for data science and analytics. 
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/regular.png" style="width: 100px">
+</figure>
+
 * [DataCamp free online R introductory course](https://www.datacamp.com/courses/free-introduction-to-r)
 * [R for the data science](http://r4ds.had.co.nz)
 * [Data Analysis for the Life Science](http://leanpub.com/dataanalysisforthelifesciences)
