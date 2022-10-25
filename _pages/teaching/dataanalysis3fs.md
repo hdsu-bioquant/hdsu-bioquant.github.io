@@ -5,14 +5,14 @@ excerpt: "dataanalysis3fs"
 sitemap: false
 permalink: /teaching/dataanalysis3fs
 ---
-# Data Analysis -- MoBi Bachelor -- WS 2022/2023
+## MoBi Bachelor  -- Data Analysis -- WS 2022/2023
 
-Teachers
+### Teachers
 
-* Carl Herrmann (carl.herrmann (at) bioquant.uni-heidelberg.de)
-* Maiwen Caudron-Herger (m.caudron (at) dkfz-heidelberg.de )
+* **Carl Herrmann** (carl.herrmann (at) bioquant.uni-heidelberg.de)
+* **Maiwen Caudron-Herger** (m.caudron (at) dkfz-heidelberg.de )
 
-## Content
+### Content
 
 The purpose of this course is an introduction to **basic techniques of scientific data analysis**, which every scientist will be confronted with. It combines concepts of good practice in data analysis, statistical concepts, and practical implementation in R.
 
@@ -26,23 +26,23 @@ We will cover:
 
 Each lecture (Thursday) will be followed by a practical session (Friday) under R/RStudio
 
-## Reference
+### Reference
 
-### Books
+#### Books
 
-* `Intuitive Biostatistics <http://www.intuitivebiostatistics.com/>`_ von Harvey Motulsky (Oxford University Press)
-* `Discovering statistics using R <https://us.sagepub.com/en-us/nam/discovering-statistics-using-r/book236067%20>`_ von A. Field, J. Miles, Z. Field (SAGE publications)
+* [Intuitive Biostatistics](http://www.intuitivebiostatistics.com/) by Harvey Motulsky (Oxford University Press)
+* [Discovering statistics using R](https://us.sagepub.com/en-us/nam/discovering-statistics-using-r/book236067%20) by A. Field, J. Miles, Z. Field (SAGE publications)
 
-### Websites
+#### Websites
 
-* `DataCamp free online R introductory course <https://www.datacamp.com/courses/free-introduction-to-r>`_
-* `R for the data science <http://r4ds.had.co.nz>`_
-* `Data Analysis for the Life Science <http://leanpub.com/dataanalysisforthelifesciences>`_
+* [DataCamp free online R introductory course](https://www.datacamp.com/courses/free-introduction-to-r)
+* [R for the data science](http://r4ds.had.co.nz)
+* [Data Analysis for the Life Science](http://leanpub.com/dataanalysisforthelifesciences)
 
 ## Practical information
 
-* Online discussion on Thursday (11h15 - 13h) discussing the content of the online recorded lecture
-* Hands-on exercises on Friday (10h - 11h30 and 12h-13h30) (IPMB, 5th floor, CIP Room)
+* Online discussion on **Thursday (11h15 - 13h)** discussing the content of the online recorded lecture
+* Hands-on exercises on **Friday (10h - 11h30 and 12h-13h30)** (IPMB, 5th floor, CIP Room)
 
 Learning R will also be supported using online courses by Data Camp.
 
@@ -60,7 +60,7 @@ Will be put online every week
 
 ## Link to practical parts
 
-We be put online every week
+Will be put online every week
 
 
 
