@@ -1,3 +1,10 @@
+---
+title: "Introduction in Data Analysis 2022/2023"
+layout: textlay
+excerpt: "dataanalysis3fs"
+sitemap: false
+permalink: /teaching/dataanalysis3fs
+---
 # Data Analysis -- MoBi Bachelor -- WS 2022/2023
 
 Teachers
