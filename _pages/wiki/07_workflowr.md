@@ -10,10 +10,12 @@ permalink: /wiki/workflowr/
 # Workflowr
 
 Workflowr is a great tool for making your analysis and report reproducible,
-shareable and organized. Check out this page for more information on how 
-to start your workflowr project: https://github.com/workflowr/workflowr#quick-start
+shareable and organized. Check out [this page](https://github.com/workflowr/workflowr#quick-start) for more information on how 
+to start your workflowr project: 
 
-(Vignette: https://workflowr.github.io/workflowr/articles/wflow-01-getting-started.html)
+(see [Vignette](https://workflowr.github.io/workflowr/articles/wflow-01-getting-started.html))
+
+See an example [here (report from Katharina Mikulik)](https://katharina782.github.io/HDSU_Herrmann_report)
 
 ## 1. Import the library
 
