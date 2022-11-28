@@ -37,9 +37,9 @@ The app is publicly available [here](https://hdsu-bioquant.shinyapps.io/shinyBut
 ---
 
 ## OntoVAE - interpretable Variational Autoencoder
-![]({{ site.url }}{{ site.baseurl }}/images/respic/OntoVAE_logo.png){: style="width: 50%; float: right; margin: 0px  10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/OntoVAE_logo.png){: style="width: 30%; float: right; margin: 0px  10px"}
 
-OntoVAE (Ontology guided VAE) is a VAE that can incorporate any biological ontology in its latent space and decoder, making the neurons interpretable. It can be used to compute pathway activities and to simulate perturbations.
+OntoVAE (Ontology guided VAE) is a VAE that can incorporate any biological ontology in its latent space and decoder, making the neurons interpretable. It can be used to compute pathway activities and to simulate perturbations. Our preprint on OntoVAE can be found here [here](https://www.biorxiv.org/content/10.1101/2022.09.20.508703v2).
 
 The tool is available [here](https://github.com/hdsu-bioquant/onto-vae). We also provide a vignette which explains step-by-step how to set up a custom OntoVAE workflow, with integrating an ontology, training a model on custom data, and carrying out perturbation experiments.
 
