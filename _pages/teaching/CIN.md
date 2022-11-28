@@ -7,16 +7,18 @@ permalink: /teaching/CIN
 ---
 ## Medizininformatik - Components Interactions and Networks
 
-### Teachers
+### Introduction into Regulatory Genomics
+
+#### Teachers
 
 * **Carl Herrmann** (carl.herrmann (at) bioquant.uni-heidelberg.de)
 
-### Dates
+#### Dates
 
 - 17.11.2022 : [lecture 1](./downloads/CIN2223_lecture1.pdf)
 - 1.12.2022 : lecture 2 and [practical](./downloads/CIN-WiSe2223_RegGen.json)
 
-### Content
+#### Content
 
 The purpose of this lecture is to provide an introduction to the concepts of regulatory genomics in the age of high throughput sequencing. We will introduce 
 
@@ -27,7 +29,7 @@ The purpose of this lecture is to provide an introduction to the concepts of reg
 * some insights into bayesian networks modelling
 
 
-### Practical application (1.12.2022)
+#### Practical application (1.12.2022)
 
 * Download the json file [here](./downloads/CIN-WiSe2223_RegGen.json)
 * Load it into the [IGV App](https://igv.org/app/)
