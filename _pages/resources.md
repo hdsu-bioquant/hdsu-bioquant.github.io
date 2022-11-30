@@ -36,12 +36,19 @@ The app is publicly available [here](https://hdsu-bioquant.shinyapps.io/shinyBut
 </div>{: style="clear: both"}
 ---
 
+## OntoVAE - interpretable Variational Autoencoder
+![]({{ site.url }}{{ site.baseurl }}/images/respic/OntoVAE_logo.png){: style="width: 30%; float: right; margin: 0px  10px"}
 
+OntoVAE (Ontology guided VAE) is a VAE that can incorporate any biological ontology in its latent space and decoder, making the neurons interpretable. It can be used to compute pathway activities and to simulate perturbations. Our preprint on OntoVAE can be found here [here](https://www.biorxiv.org/content/10.1101/2022.09.20.508703v2).
+
+The tool is available [here](https://github.com/hdsu-bioquant/onto-vae). We also provide a vignette which explains step-by-step how to set up a custom OntoVAE workflow, with integrating an ontology, training a model on custom data, and carrying out perturbation experiments.
+
+---
 
 ## MapMyCorona
 
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/map_my_corona_logo.png){: style="width: 50%; float: right; margin: 0px 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/map_my_corona_logo.png){: style="width: 50%; float: left; margin: 0px 10px"}
 The current SARS-CoV-2 pandemic has shown an impressive speed of spreading throughout the world. One of the main challenges is to understand how the viral sequence is evolving day by day. There are now multiple strains that are active at the same time, and keeping track of the population dynamics is not an easy task.
 In order to address these challenges, we joined in the world effort to fight COVID-19 by developing [MapMyCorona](https://hdsu-bioquant.shinyapps.io/mapmycorona/) to display in an easy way, the sequence similarity and alterations between a query sequence and a central database of viral SARS-CoV-2 sequences on a world map.
 
