@@ -25,6 +25,7 @@ All courses given by Dr. Carl Herrmann
 - MoBi Bachelor 3. FS : <a href="{{ site.url }}{{ site.baseurl }}/teaching/dataanalysis3fs.html">Data Analysis Course</a>
 - MoBi Master : [Meet-EU project module](http://bioinfo.ipmb.uni-heidelberg.de/crg/master-meetu/)
 - Medizininformatik (HHN Hochschule Heilbronn) : <a href="{{ site.url }}{{ site.baseurl }}/teaching/CIN.html">Components Interactions Networks</a>
+- MoBi Master : <a href="{{ site.url }}{{ site.baseurl }}/teaching/networks.html">Seminar Biological Networks (with J. Saez Rodriguez)</a>
 
 ### Summer Semester 2022
 - MoBi Bachelor 4. FS : <a href="{{ site.url }}{{ site.baseurl }}/data2022.html">Data Analysis Project Module 2022</a>
