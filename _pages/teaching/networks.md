@@ -35,7 +35,7 @@ Each day will cover a specific topic including lectures and practical sessions.
 
 * Day 1 to 3: Network Modeling
 * Day 4: Bayesian Networks
-    * [[slides]](./downloads/2023-02-03_MasterSeminar_noSolution.pdf)
+    * [[slides]](./downloads/2023-02-03_MasterSeminar.pdf)
     * [[tutorial]](./downloads/bnTutorial2023_noOutput.html)
     * [[R Markdown file]](./downloads/bnTutorial2023_noOutput.Rmd)
 

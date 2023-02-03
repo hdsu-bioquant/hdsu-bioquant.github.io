@@ -257,10 +257,13 @@ graphviz.plot(bn.mbde)
 ```
 
 > Compare the networks obtained with the ones obtained without intervention
+
 > Compare the networks with the real pathway structure!
 
 
-# Part 3: building an epigenetic networks from CLL data (if time allows...)
+# Part 3: building an epigenetic networks from CLL data 
+
+If you have time, you can go to the next example!
 
 **Topics:**
 
@@ -298,8 +301,10 @@ corrplot.mixed(corVals, tl.col = "black", tl.cex=0.8)
 ## 3. Visualize how these correlated features cluster together
 
 ```{r}
-corrplot(corVals, order = "hclust", hclust.method = "ward.D2", addrect = 2, tl.col = "black");rm(corVals)
+corrplot(corVals, order = "hclust", hclust.method = "ward.D2", addrect = 2, tl.col = "black")
 ```
+
+> Do these correlation structures make sense?
 
 ## 4. Look at the distribution of the data
 
@@ -318,12 +323,19 @@ rm(tmp)
 p
 ```
 
+
+> Any comment about these distributions?
+
+
 ## 5. Perform discretization using Ckmeans.1d.dp
 
-For details regarding Ckmeans.1d.dp, see <https://cran.r-project.org/web/packages/Ckmeans.1d.dp/vignettes/Ckmeans.1d.dp.html> Lets check the discrete states for H3K4me3 as an example
+For details regarding Ckmeans.1d.dp, see <https://cran.r-project.org/web/packages/Ckmeans.1d.dp/vignettes/Ckmeans.1d.dp.html>. The method estimates an optimal number of clusters if no information is given. 
+
+Lets check the discrete states for H3K4me3 as an example
 
 ```{r}
 res = Ckmeans.1d.dp(log2dat$H3K4me3)
+
 # Number of clusters predicted
 max(res$cluster)
 ```
@@ -340,25 +352,28 @@ rm(res)
 states = apply(log2dat, 2, function(y){max(Ckmeans.1d.dp(x=y, k=c(1,9))$cluster)})
 ```
 
+For methylation lots of states are predicted, from the distribution plots
+it is clear that these are mostly intermediate states that have little biological interpretation:
+
+
 ```{r}
-# For methylation lots of states are predicted, from the distribution plots
-# its clear that these are mostly intermediate states
 res = Ckmeans.1d.dp(log2dat$CPGfrac, k=states[1])
+
 plot(log2dat$CPGfrac, col= res$cluster, cex=0.5, pch=20, xlab="Genes", ylab= "CPGfrac")
 ```
 
+So let's approximate by taking 3 states
+
 ```{r}
-
-# so lets approximate by taking 3 states
-
 res = Ckmeans.1d.dp(log2dat$CPGfrac, k=3)
+
 plot(log2dat$CPGfrac, col= res$cluster, cex=0.5, pch=20, xlab="Genes", ylab= "CPGfrac")
-#abline(h=res$centers, lwd=2,lty=2,col="blue")
 ```
 
+We accept all the predicted states from Ckmeans.1d.dp except for methylation).
+
 ```{r}
-# We accept all the predicted states from Ckmeans.1d.dp except for methylation
-# Final max discrete states are
+
 states[1] = 3
 states
 
@@ -374,11 +389,14 @@ for( i in 1: length(states))
   disDat[,i] = factor(tmp$cluster)
   rm(tmp)
 }
-rm(i, states)
 
 # Final view of the discretized data
 summary(disDat)
+```
 
+Plot the discretized data:
+
+```{r}
 # Plot the discretized data
 tmp=melt(disDat,id.vars=c())
 p = ggplot(tmp,aes(x=value, fill=variable, color=variable)) + 
@@ -395,20 +413,33 @@ p
 
 ## 6. Learn bayesian network from the discretized data using bnlearn
 
-We use a set of blacklist edges: no edge should go out of the expression node
+We use a set of blacklist edges: no edge should **go out of the expression node**
 
 ```{r, cache = TRUE}
 
 # Black list .. no interaction should originate from gene expression
 bl=data.frame(from="RPKM",to=colnames(disDat))
 bl=bl[-which(bl$to == "RPKM"),]
+```
 
+Now learn the network using a bootstrapping strategy:
+
+```{r}
 # Learn bayesian network via bootstrapping
-strength = boot.strength(disDat, algorithm="tabu", 
+strength = boot.strength(disDat, 
+                         algorithm="tabu", 
                          algorithm.args=list(score="aic", tabu=10, blacklist=bl), 
                          R=1000) # takes about 2mins
-rm(bl)
+```
 
+See the first edges:
+
+```{r}
+head(strength)
+```
+
+
+```{r}
 # Select only those interactions meeting our filteration criteria
 selarcs = strength[strength$direction > 0.5 ,]
 selarcs = selarcs[order(selarcs$strength,decreasing=TRUE),]
@@ -476,26 +507,31 @@ V(net)$label.degree[mid.grp]= -pi/2
 
 ```{r}
 plot(net, edge.color=col, vertex.shape="circle", vertex.size = 40,layout=l, edge.width=E(net)$weight*3.5+3)
-box();rm(col,l,pos.grp,neg.grp,left.grp,right.grp,mid.grp)
+box()
 ```
 
 ## 8. Inference : making predictions using the network
+
+Now that the network is defined, we can learn the parameters of the edges:
+
 
 ```{r}
 # Fitting the learnt network to the data to obtain
 # conditional probability tables
 fitted = bn.fit(dag.average.filt, disDat)
+```
+
+With the structure of the network and the parameters learned, we can start doing simulations of interventions, using the `cpdist` function. For example, we will predict the gene expression (variable `RPKM`) if we set DNA methylation to high or low (variable `CPGfrac`).
 
 
+```{r}
 # Predict Expression level by setting DNAme to high/low
 x.high = as.numeric(table(cpdist(fitted,nodes=c('RPKM'),CPGfrac=='3')))
-
-
-
 x.low = as.numeric(table(cpdist(fitted,nodes=c('RPKM'),CPGfrac=='1')))
 
 pred = data.frame(prop=c(x.high/sum(x.high),x.low/sum(x.low)),
-                  condition=c(rep('DNAme high',length(x.high)),rep('DNAme low',length(x.high))),
+                  condition=c(rep('DNAme high',length(x.high)),
+                              rep('DNAme low',length(x.high))),
                   Expression=c(1:length(x.high),1:length(x.low))
 )
 
@@ -503,6 +539,10 @@ ggplot(pred,aes(x=Expression,fill=condition,y=prop)) + geom_bar(stat='identity',
 
 
 ```
+
+> Can you interpret the two distributions?
+
+Same experience, setting H3K4me1 to low/high, looking at the effect on expression:
 
 ```{r}
 # Predict Expression level by setting H3K4me1 to high/low
