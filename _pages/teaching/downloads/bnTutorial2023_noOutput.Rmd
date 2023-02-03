@@ -50,6 +50,8 @@ Using the function `ci.test` with the `test="mi"` method, test:
 -   the independence of each pair of variables
 -   the independence of each pair of variables, given the third
 
+In each case, the null hypothesis is: **"The two variables are (conditionally) independent"**
+
 ```{r}
 ci.test('A','C',data=data,test='mi')
 ci.test('A','C','B',data=data,test='mi')
@@ -65,11 +67,11 @@ ci.test('B','A',data=data,test='mi')
 ci.test('B','A','C',data=data,test='mi')
 ```
 
-Can you determine the possible architectures of the BN?
+> Can you determine the possible architecture(s) of the BN?
 
 ## 3. Score based approaches
 
-Using constraint-based approaches, we cannot fully resolve the structure of the network
+Using constraint-based approaches, we cannot fully resolve the structure of the network. IAMB (incremental association algorithm) is one of the constrained-based algorithms implemented in BNlearn (see `?iamb`).
 
 ```{r}
 net = iamb(data)
@@ -79,8 +81,8 @@ graphviz.plot(net)
 We can now try to orient the edges manually, and compute the score (e.g. AIC score) of the oriented network
 
 ```{r}
-net1 = set.arc(net,'B' ,'A')
-net1 = set.arc(net1,'B' ,'C')
+net1 = set.arc(net,'A' ,'B')
+net1 = set.arc(net1,'C' ,'B')
 graphviz.plot(net1)
 ```
 
@@ -103,22 +105,28 @@ Test the other possible structures of the network; can you find the most likely 
 
 # Part 2 : T-cell Pathway reconstruction (Sachs et al., 2005)
 
-Topics:
+**Topics:**
 
 -   discretization strategies
 -   bootstrapping and consensus networks
 -   using intervention data
 
-This dataset consists of single-cell cytometry data on 11 proteins in a primary T-cell signaling network, using normal condition ("observational") or perturbed conditions ("interventional"). <http://www.sciencemag.org/cgi/doi/10.1126/science.1105809>
+This dataset consists of **single-cell cytometry data** on 11 proteins in a primary T-cell signaling network, using normal condition ("observational") or perturbed conditions ("interventional"). <http://www.sciencemag.org/cgi/doi/10.1126/science.1105809>
 
 ![Literature validated network](/Users/carlherrmann/Dropbox/00_MBP_Carl/Teaching/WS2021/Master_Network_Analysis/Material_Carl/BNtutorial/validated_net.jpg)
 
 ## 1. Exploring the observational data
 
+We can plot the distribution of the data for each component of the pathway that was investigated.
+
+Let's load the data:
 ```{r}
 sachs = read.table('https://www.dropbox.com/s/fcq3cqxheklr2it/sachs.data.txt?dl=1',header=TRUE)
 head(sachs)
+```
 
+
+```{r}
 tmp = melt(sachs)
 p = ggplot(tmp,aes(x=value, fill=variable, color=variable)) + 
     geom_density(alpha=0.30,size=0.7) + theme_bw() +
@@ -133,12 +141,19 @@ p
 
 ## 2. Discretizing the data
 
-We discretize the data, since it does not follow the assumption of normal distribution.
+We discretize the data, since it abviously does not follow the assumption of normal distribution from the previous plots!
+
+Again, several strategies are possible: the Hartemink method tries to maximize the mutual information between the original non-discretized data and the discretized data. The user must provide the number of breaks (i.e classes) to be determined, the `ibreaks` parameters specifies the number of initial classes, which are then merged to obtain the final number of classes.
 
 ```{r sachs-discretize}
 ## discretize the data
 dsachs = discretize(sachs,method='hartemink',breaks = 3, ibreaks = 60, idisc = 'quantile')
+head(dsachs)
+```
 
+Let's look at the data distribution:
+
+```{r}
 tmp=melt(dsachs,id.vars=c())
 p = ggplot(tmp,aes(x=value, fill=variable, color=variable)) + 
     geom_bar() + theme_bw() +
@@ -149,10 +164,11 @@ p = ggplot(tmp,aes(x=value, fill=variable, color=variable)) +
           )
 
 p
-head(dsachs)
 ```
 
 ## 3. Learning the BN from discretized data
+
+Here, we apply a bootstrapping strategy, use **score-based** structural learning (hill-climbing method `hc`). We use 500 bootstraps.
 
 ```{r, cache = TRUE}
 boot = boot.strength(data=dsachs, R=500,
@@ -161,13 +177,16 @@ boot = boot.strength(data=dsachs, R=500,
 )
 
 head(boot)
-dim(boot)
+```
 
+For every edge, we had the strength (i.e. the frequency this edge was observed) and the direction (i.e. the frequency it was observed in one or the other direction).
+
+We can now apply a filtering on the edges according to the strength and direction of the edge:
+
+```{r}
 ## now threshold the edge strength and the direction evidence
 
 boot.filt = boot[(boot$strength > 0.6 & boot$direction >= 0.5),]
-
-dim(boot.filt)
 boot.filt
 ```
 
@@ -205,16 +224,23 @@ INT = sapply(1:11, function(x) { which(isachs$INT == x) })
 isachs2 = isachs[, 1:11]
 nodes = names(isachs2)
 names(INT) = nodes
+```
 
+```{r}
 ## we start from a set of 200 random graphs
 start = random.graph(nodes = nodes,  
-                     method = "melancon", 
-                     num = 200, 
+                     method = "melancon", # algorithm to generate random graphs
+                     num = 200,   # number of initial random graphs
                      burn.in = 10^5, 
                      every = 100)
 
 netlist = lapply(start, function(net) {
-  tabu(isachs2, score = "mbde", exp = INT, iss = 1, start = net, tabu = 50) }
+  tabu(isachs2, 
+       score = "mbde", # method to score the network
+       exp = INT,      # information of the interventions
+       iss = 1, 
+       start = net,    # starting point (i.e. random graph)
+       tabu = 50) }
   )
 
 
@@ -230,15 +256,19 @@ graphviz.plot(bn.mbde)
 
 ```
 
-# Part 3: building an epigenetic networks from CLL data
+> Compare the networks obtained with the ones obtained without intervention
+> Compare the networks with the real pathway structure!
 
-Topics:
+
+# Part 3: building an epigenetic networks from CLL data (if time allows...)
+
+**Topics:**
 
 -   discretization strategies
 -   blacklisting edges
 -   inference
 
-Here, we want to build a chromatin network where nodes are epigenetic components, and the observations are the state of these epigenetic modifications at the promoters of genes.
+Here, we want to build a **chromatin network** where nodes are epigenetic components, and the observations are the state of these epigenetic modifications at the promoters of genes.
 
 ## 1. Load pre-compiled epigenetic data matrix for CLL
 
@@ -426,7 +456,7 @@ V(net)$label.color[pos.grp]="#1f78b4"
 V(net)$label.color[neg.grp]="#fdae61"
 V(net)$label.font=2
 
-#Vertex positioning
+# Vertex positioning
 left.grp  <- which(V(net)$name %in% c("H3K4me1", "H3K4me3",  "H3K9me3")) 
 right.grp <- which(V(net)$name %in% c("H3K27me3", "H3K27ac","H3K36me3"))
 mid.grp   <- which(V(net)$name %in% c("RPKM", "CPGfrac"))
