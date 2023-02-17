@@ -18,6 +18,16 @@
   highlight: 0
   news2: 
 
+- title: "dsMTL: a computational framework for privacy-preserving, distributed multi-task machine learning"
+  image: dummy.png
+  authors: Cao, H., Zhang, Y., Baumbach, J., Burton, P.R., Dwyer, D., Koutsouleris, N., Matschinske, J., Marcon, Y., Rajan, S., Rieg, T., Ryser-Welch, P., Späth, J., The COMMITMENT Consortium, Herrmann, C., Schwarz, E.
+  link:
+    url: https://doi.org/10.1093/bioinformatics/btac616
+    display: Bioinformatics (2022)
+  highlight: 0
+  news2: 
+
+
 - title: "The DNA methylation landscape of multiple myeloma shows extensive inter-and intrapatient heterogeneity that fuels transcriptomic variability"
   image: dummy.png
   description: Cancer evolution depends on epigenetic and genetic diversity. Historically, in multiple myeloma (MM), subclonal diversity and tumor evolution have been investigated mostly from a genetic perspective. Here, we performed an analysis of 42 MM samples from 21 patients by using enhanced reduced representation bisulfite sequencing (eRRBS). We combined several metrics of epigenetic heterogeneity to analyze DNA methylation heterogeneity in MM patients. We show that MM is characterized by the continuous accumulation of stochastic methylation at the promoters of development-related genes. High combinatorial entropy change is associated with poor outcomes in our pilot study and depends predominantly on partially methylated domains (PMDs). These PMDs, which represent the major source of inter- and intrapatient DNA methylation heterogeneity in MM, are linked to other key epigenetic aberrations, such …
