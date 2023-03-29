@@ -21,6 +21,10 @@ ___
 
 All courses given by Dr. Carl Herrmann
 
+### Summer semester 2023
+- MoBi Master: Seminar <a href="{{ site.url }}{{ site.baseurl }}/teaching/deeplearning.html">Deep-learning approaches in single-cell genomics</a>
+- MoBi Bachelor 4. FS : <a href="{{ site.url }}{{ site.baseurl }}/teaching/data2023.html">Data Analysis Project Module 2023</a>
+
 ### Winter semester 2022 / 2023
 - MoBi Bachelor 3. FS : <a href="{{ site.url }}{{ site.baseurl }}/teaching/dataanalysis3fs.html">Data Analysis Course</a>
 - MoBi Master : [Meet-EU project module](http://bioinfo.ipmb.uni-heidelberg.de/crg/master-meetu/)
