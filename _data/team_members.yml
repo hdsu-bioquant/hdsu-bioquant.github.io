@@ -1,6 +1,6 @@
 - name: Carl Herrmann
   photo: CarlHerrmann.png
-  info: Assistant-professor 
+  info: Professor @ IPMB
   email: carl.herrmann@bioquant.uni-heidelberg.de
   number_educ: 4
   education1: Engineering degree Ecole Nationale des Ponts et Chaussées, Paris (1994)
@@ -13,10 +13,10 @@
   info: Postdoc
   email: carlos.ramirez@bioquant.uni-heidelberg.de
 
-- name: Andres Quintero
-  photo: Andres_Quintero.png
+- name: Robin Droit
+  photo: anonym.png
   info: Postdoc
-  email: andres.quintero@bioquant.uni-heidelberg.de
+  email: robin.droit@bioquant.uni-heidelberg.de
 
 - name: Ana Luisa Costa
   photo: Ana_Costa.png
@@ -33,12 +33,12 @@
   info: PhD student
   email: youcheng.zhang@bioquant.uni-heidelberg.de
   
-- name: Lin Yang
-  photo: Lin_Yang.jpg
-  info: visiting PhD student
-  email: younglin113@163.com
-  
-- name: Julia Jelitzki
-  photo: Jjelitzki.jpg
+- name: Fatemeh Habibollahi
+  photo: anonym.png
   info: Master student
-  email: jjelitzki@stud.hs-heilbronn.de
+  email: fatemeh.habiballahi@gmail.com
+
+- name: Nils Mechtel
+  photo: anonym.png
+  info: Master student
+  email: mechtel@stud.uni-heidelberg.de
