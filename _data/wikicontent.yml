@@ -56,3 +56,9 @@
       relpath: additional-information
 - title  : WorkflowR
   relpath: wiki/workflowr
+- title  : Others
+  relpath: wiki/others
+  subfolderitems:
+    - title  : Thesis writing and submission
+      relpath: thesis-supp
+

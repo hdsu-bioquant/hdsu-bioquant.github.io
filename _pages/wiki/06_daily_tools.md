@@ -51,6 +51,8 @@ We recommend using [Affinity](https://affinity.serif.com/en-gb/), [Inkscape](htt
 
 We strongly recommend using [LaTeX](https://www.latex-project.org/) for making your final reports and thesis. If you are using MacOS then use [MacTeX](http://www.tug.org/mactex/), for Linux/Windows install [TeXLive](https://tug.org/texlive/) followed by a LaTeX editor [TeXStudio](https://www.texstudio.org/). You will find the prescribed format for reports, thesis etc **[here]**. Kindly use the official **[lab template]** for making your presentations.
 
+Whether you are writing your thesis or preparing your manuscript, you will require citation managers to help you. For citation management in LaTeX, BibDesk (for macOS) can be quite useful. In alternative, you can use Mendeley, EndNote (really nice but paid), or Paperpile for other editors. When writing collaboratively, we would recommend Paperpile as it be used with Google Docs. It also has the option to export references and bibliography into other formats (e.g BibTeX). 
+
 ### (D) Keeping up to date with literature
 
 ### - Feedly
