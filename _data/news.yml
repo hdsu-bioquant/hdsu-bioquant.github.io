@@ -1,10 +1,11 @@
+- date: 17. June 2023
+  headline: Our paper on <b>Biologically informed Variational Autoencoders<\b> was published in <a href="https://doi.org/10.1093/bioinformatics/btad387">Bioinformatics<\a>! Congratulations to Daria for her great work!
+
 - date: 17. February 2023
   headline: Our paper on the chromatin landscape of HIV-1 integration is out <a href="https://www.sciencedirect.com/science/article/pii/S2211124723001213">in Cell Reports</a>. Congratulations Ana for the fantastic work and to the Lusic Lab for this great collaboration!
 
-
 - date: 30. November 2022
   headline: Youcheng Zhang and Daria Doncevic presented our work within the COMMITMENT project at the <a href="https://www.sys-med.de/de/meeting/emed-meeting-2022/">e:Med conference on Systems Medecine</a>.
-
 
 - date: 23. September 2022
   headline: Our latest preprint on OntoVAE, an interpretable, ontology inspired autoencoder is <a href="https://www.biorxiv.org/content/10.1101/2022.09.20.508703v1">available here!</a>
@@ -28,5 +29,4 @@
   headline: Check some possible topics for bachelor thesis in the Teaching section!
   
 - date: 28. October 2021
-  headline: welcome to the new website of the Biomedical Genomics group @ Health Data Science Unit!
-
+  headline: Welcome to the new website of the Biomedical Genomics group @ Health Data Science Unit!
