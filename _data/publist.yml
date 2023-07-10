@@ -15,7 +15,7 @@
   link:
     url: https://doi.org/10.1093/bioinformatics/btad387
     display: Bioinformatics (2023)
-  highlight: 0
+  highlight: 1
   news2: 
 
 - title: "Genomic profiling of HIV-1 integration in microglia cells links viral integration to the topologically associated domains"
@@ -303,7 +303,7 @@
   link:
     url: https://www.nature.com/articles/s41467-018-08205-7
     display: Nature communications (2019)
-  highlight: 1
+  highlight: 0
   news2: 
 
 - title: "Identification of embryonic neural plate border stem cells and their generation by direct reprogramming from adult human blood cells"
