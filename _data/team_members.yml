@@ -14,9 +14,11 @@
   email: carlos.ramirez@bioquant.uni-heidelberg.de
 
 - name: Robin Droit
-  photo: anonym.png
+  photo: Robin_Droit.jpg
   info: Postdoc
   email: robin.droit@bioquant.uni-heidelberg.de
+  number_educ: 1
+  education1: <a href='https://www.linkedin.com/in/robin-droit-136b41166/'>LinkedIn Profile</a>
 
 - name: Ana Luisa Costa
   photo: Ana_Costa.png
@@ -42,5 +44,6 @@
   photo: Juri_Jegelka.jpeg
   info: Master student
   email: jegelka@stud.uni-heidelberg.de
-  number_educ: 1
+  number_educ: 2
   education1: <a href='https://juri-jegelka.notion.site'>Personal Website</a>
+  education2: <a href='https://www.linkedin.com/in/juri-jegelka/'>LinkedIn Profile</a>
