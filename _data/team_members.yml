@@ -24,6 +24,8 @@
   photo: Ana_Costa.png
   info: PhD student
   email: ana.costa@bioquant.uni-heidelberg.de
+  number_educ: 1
+  education1: <a href="https://www.linkedin.com/in/anluisasimoescosta1995/">LinkedIn Profile</a>
 
 - name: Daria Doncevic
   photo: Daria_Doncevic.png
@@ -39,6 +41,8 @@
   photo: anonym.png
   info: Master student
   email: mechtel@stud.uni-heidelberg.de
+  number_educ: 1
+  education1: <a href="https://www.linkedin.com/in/nils-mechtel/">LinkedIn Profile</a>
 
 - name: Juri Jegelka
   photo: Juri_Jegelka.jpeg
