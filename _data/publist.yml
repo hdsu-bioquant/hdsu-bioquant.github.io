@@ -9,6 +9,15 @@
 #   highlight: 0
 #   news2: 
 
+- title: "Biologically informed variational autoencoders allow predictive modeling of genetic and drug-induced perturbations"
+  image: dummy.png
+  authors: Doncevic, D., Herrmann, C.
+  link:
+    url: https://doi.org/10.1093/bioinformatics/btad387
+    display: Bioinformatics (2023)
+  highlight: 0
+  news2: 
+
 - title: "Genomic profiling of HIV-1 integration in microglia cells links viral integration to the topologically associated domains"
   image: dummy.png
   authors: Rheinberger, M., Costa, A.L., Kampmann, M., Glavas, D., Shytaj, I.L., Sreeram, S., Penzo, C., Tibroni, N., Garcia-Mesa, Y., Leskov, K., Fackler, O.T., Vlahovicek, K., Karn, J., Lucic, B., Herrmann, C., Lusic, M.
@@ -26,7 +35,6 @@
     display: Bioinformatics (2022)
   highlight: 0
   news2: 
-
 
 - title: "The DNA methylation landscape of multiple myeloma shows extensive inter-and intrapatient heterogeneity that fuels transcriptomic variability"
   image: dummy.png
