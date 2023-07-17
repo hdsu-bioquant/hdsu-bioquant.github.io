@@ -1,7 +1,7 @@
 - name: Carl Herrmann
   photo: CarlHerrmann.png
   info: Professor @ IPMB
-  email: carl.herrmann@bioquant.uni-heidelberg.de
+  email: carl.herrmann(@)bioquant.uni-heidelberg.de
   number_educ: 4
   education1: Engineering degree Ecole Nationale des Ponts et Chaussées, Paris (1994)
   education2: PhD & Postdoc in theoretical physics (Marseille, Halle, Turin 1999-2003)
@@ -11,43 +11,43 @@
 - name: Carlos Ramirez
   photo: Carlos_Ramirez.png
   info: Postdoc
-  email: carlos.ramirez@bioquant.uni-heidelberg.de
+  email: carlos.ramirez(@)bioquant.uni-heidelberg.de
 
 - name: Robin Droit
   photo: Robin_Droit.jpg
   info: Postdoc
-  email: robin.droit@bioquant.uni-heidelberg.de
+  email: robin.droit(@)bioquant.uni-heidelberg.de
   number_educ: 1
   education1: <a href='https://www.linkedin.com/in/robin-droit-136b41166/'>LinkedIn Profile</a>
 
 - name: Ana Luisa Costa
   photo: Ana_Costa.png
   info: PhD student
-  email: ana.costa@bioquant.uni-heidelberg.de
+  email: luisa.costa(@)bioquant.uni-heidelberg.de
   number_educ: 1
   education1: <a href="https://www.linkedin.com/in/anluisasimoescosta1995/">LinkedIn Profile</a>
 
 - name: Daria Doncevic
   photo: Daria_Doncevic.png
   info: PhD student
-  email: daria.doncevic@bioquant.uni-heidelberg.de
+  email: daria.doncevic(@)bioquant.uni-heidelberg.de
 
 - name: Youcheng Zhang
   photo: Youcheng_Zhang.png
   info: PhD student
-  email: youcheng.zhang@bioquant.uni-heidelberg.de
+  email: youcheng.zhang(@)bioquant.uni-heidelberg.de
 
 - name: Nils Mechtel
   photo: Nils_Mechtel.jpg
   info: Master student
-  email: mechtel@stud.uni-heidelberg.de
+  email: mechtel(@)stud.uni-heidelberg.de
   number_educ: 1
   education1: <a href="https://www.linkedin.com/in/nils-mechtel/">LinkedIn Profile</a>
 
 - name: Juri Jegelka
   photo: Juri_Jegelka.jpeg
   info: Master student
-  email: jegelka@stud.uni-heidelberg.de
+  email: jegelka(@)stud.uni-heidelberg.de
   number_educ: 2
   education1: <a href='https://juri-jegelka.notion.site'>Personal Website</a>
   education2: <a href='https://www.linkedin.com/in/juri-jegelka/'>LinkedIn Profile</a>
