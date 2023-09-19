@@ -22,10 +22,17 @@
 
 - name: Ana Luisa Costa
   photo: Ana_Costa.png
-  info: PhD student
+  info: Postdoc
   email: luisa.costa@bioquant.uni-heidelberg.de
   number_educ: 1
   education1: <a href="https://www.linkedin.com/in/anluisasimoescosta1995/">LinkedIn Profile</a>
+
+- name: Saifullah Tumrani
+  photo: Saifullah_Tumrani.png
+  info: Postdoc
+  email: saifullah.tumrani@bioquant.uni-heidelberg.de
+  number_educ: 1
+  education1: <a href="https://www.linkedin.com/in/saifullah-tumrani-ph-d-b65b9631/">LinkedIn Profile</a>
 
 - name: Daria Doncevic
   photo: Daria_Doncevic.png
