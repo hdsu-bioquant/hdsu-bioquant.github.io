@@ -6,9 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-Welcome to the **Biomedical Genomics Group @ Health Data Science Unit** !
+Welcome to the **Biomedical Genomics Group @ IPMB** !
 
-We are part of the [BioQuant Center](https://www.bioquant.uni-heidelberg.de/) and [Medical Faculty Heidelberg](http://www.medizinische-fakultaet-hd.uni-heidelberg.de). We are working on understanding **gene (de)regulation in disease**, in particular cancer, mental disorders and infection. 
+We are part of the [Institute for Pharmacy and Molecular Biotechnology](https://www.ipmb.uni-heidelberg.de/) and [BioQuant Center](https://www.bioquant.uni-heidelberg.de/) . We are working on understanding **gene (de)regulation in disease**, in particular cancer, mental disorders and infection. 
 
 We develop novel methods to integrate large scale genomics datasets, using statistical and machine-learning approaches. We focus in particular on epigenomics data and single-cell approaches.
 
