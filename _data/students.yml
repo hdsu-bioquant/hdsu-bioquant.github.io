@@ -8,21 +8,8 @@
 #  education3:
 #  education4:
 
-- name: Hannah Winter
-  info: Bachelor student
-
-- name: Paul Brunner
-  info: Bachelor student
-
 - name: Anna von Bachmann
-  info: Bachelor student
-
-- name: Laura Wächter
   info: Master student
 
-- name: Eugenia Guerrero
+- name: Thien Duc Bui
   info: Master student
-
-
-
-
