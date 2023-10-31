@@ -44,6 +44,14 @@
   info: PhD student
   email: youcheng.zhang@bioquant.uni-heidelberg.de
 
+- name: Albert Li
+  photo: Albert_Li.png
+  info: PhD student
+  email: albert.li@bioquant.uni-heidelberg.de
+  number_educ: 2
+  education1: <a href='https://albert0325.github.io/'>Personal Website</a>
+  education2: <a href="https://www.linkedin.com/in/albert-li-52502713b/">LinkedIn Profile</a>
+
 - name: Nils Mechtel
   photo: Nils_Mechtel.jpg
   info: Master student
@@ -58,3 +66,10 @@
   number_educ: 2
   education1: <a href='https://juri-jegelka.notion.site'>Personal Website</a>
   education2: <a href='https://www.linkedin.com/in/juri-jegelka/'>LinkedIn Profile</a>
+
+- name: Kasimir Noack
+  photo: Kasimir_Noack.png
+  info: Master student
+  email: k.noack@stud.uni-heidelberg.de
+  number_educ: 1
+  education1: <a href='https://www.linkedin.com/in/kasimir-noack-049a96186/'>LinkedIn Profile</a>
