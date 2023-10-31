@@ -1,10 +1,13 @@
+- name: Hannah Winter
+  info: Bachelor student
+
+- name: Paul Brunner
+  info: Bachelor student
+
 - name: Elizaveta Chernova
   info: Bachelor student
 
 - name: Ilya Schneider
-  info: Bachelor student
-
-- name: Thien Duc Bui
   info: Bachelor student
 
 - name: Laura Raeder
