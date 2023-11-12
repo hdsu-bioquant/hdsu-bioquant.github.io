@@ -19,10 +19,11 @@ ___
 
 ## Courses
 
-All courses given by Dr. Carl Herrmann
+- MoBi Master: Seminar <a href="{{ site.url }}{{ site.baseurl }}/teaching/deeplife.html">Deep-learning in Life Sciences</a>
+
+
 
 ### Summer semester 2023
-- MoBi Master: Seminar <a href="{{ site.url }}{{ site.baseurl }}/teaching/deeplearning.html">Deep-learning approaches in single-cell genomics</a>
 - MoBi Bachelor 4. FS : <a href="{{ site.url }}{{ site.baseurl }}/teaching/data2023.html">Data Analysis Project Module 2023</a>
 
 ### Winter semester 2022 / 2023
