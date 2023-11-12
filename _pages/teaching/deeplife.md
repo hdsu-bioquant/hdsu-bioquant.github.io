@@ -8,7 +8,7 @@ permalink: /teaching/deeplife
 
 ## MoBi Master Seminar -- Deep Learning in Life Sciences (DeepLife)
 
-![DLlogo](../../images/DL_logo.jpg)
+<img src="../../images/DL_logo.jpg" alt="DL_logo" style="width:200px;"/>
 
 As part of the **Seed4EU+ action within the 4EU+ alliance of European university**, Heidelberg University will coordinate a joint course on Applications of Deep Learning in Life Sciences (DeepLife) involving the universities of Paris-Sorbonne, Warsaw, Prag, Milano and Heidelberg. The purpose of this course is to give an insight in the very active field of DL in the field of biomedicine and highlight recent examples of applications in three distinct areas: 
 
