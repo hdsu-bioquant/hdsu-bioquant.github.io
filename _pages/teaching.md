@@ -56,9 +56,9 @@ ___
 ___
 
 
-## Bachelor thesis projects 2023
+## Bachelor thesis projects 2024
 
-**+++ see a more detailed description of the projects <a href="{{ site.url }}{{ site.baseurl }}/ba2023.html">here</a> +++**
+**+++ see a more detailed description of the projects <a href="{{ site.url }}{{ site.baseurl }}/ba2024.html">here</a> +++**
 
 Bachelor thesis topics could cover any of the following topics
 - single-cell omics data analysis and integration
