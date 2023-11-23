@@ -12,7 +12,7 @@ We are part of the [Institute for Pharmacy and Molecular Biotechnology](https://
 
 We develop novel methods to integrate large scale genomics datasets, using statistical and machine-learning approaches. We focus in particular on epigenomics data and single-cell approaches.
 
-<span style="color:red;font-weight:700;font-size:20px">Check some possible topics for bachelor thesis 2024<a href="{{ site.url }}{{ site.baseurl }}/ba2024.html">here!</a></span>  
+<span style="color:red;font-weight:700;font-size:20px">Check some possible topics for bachelor thesis 2024 <a href="{{ site.url }}{{ site.baseurl }}/ba2024.html">here!</a></span>  
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
