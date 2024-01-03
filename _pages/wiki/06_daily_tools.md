@@ -20,8 +20,6 @@ Only people with DKFZ account can access GitLab with their DKFZ username and pas
 
 [Snakemake](https://snakemake.readthedocs.io/en/stable/index.html) is a very popular workflow management system. Most of our in-house pipelines are based on Snakemake. We are constantly using this so it will be very useful if you make yourself familiar with this system.
 
-> Andres has made a nice tutorial on Snakemake, ask him for this. Eventually this tutorial will be integrated here.
-
 
 ## Using R
 
@@ -33,6 +31,16 @@ These links might help you get started.
 * [Introduction to R - DataCamp](https://www.datacamp.com/courses/free-introduction-to-r)  *Highly recommended*
 * [Swirl](https://swirlstats.com/)
 * [R for Data Science](https://r4ds.had.co.nz/)
+
+## Using Python 
+
+Other projects are often dependent on Python instead.
+
+Some resources which can be useful:
+* Learning Python, 5th Edition by Mark Lutz
+* Python for Data Analysis: Data Wrangling with pandas, NumPy, and Jupyter by Wes McKinney 
+
+
 
 ## Using Slack
 We use [Slack](https://slack.com/intl/de-de/) extensively in the group for communicating and sharing results. Ask Carl to add you to the HDSU slack group as soon as you join the lab. Keep an eye on the **newsshare** channel where we post interesting papers and resources. Also check all the available channels and join those that are relevant to you.
@@ -71,5 +79,4 @@ Download this [.opml](https://drive.google.com/open?id=1Hd7F8-H5kvIsctHwlPudYdxF
 
 [Promising Preprints](https://twitter.com/prompreprint?lang=en) highlights the most popular bioRxiv papers.
 
-### - Twitter
-Follow [these](https://drive.google.com/open?id=1RofA01QS7d_nNJg4TVWic0LmU_p5Brgd) people on Twitter to stay updated on what the who's-who of the community are discussing about. Twitter really helps in feeling the trend of any scientific field. This Twitter list is heavily skewed towards scientists working on gene regulation, epigenetics and single cell analysis. You may want to modify your Twitter bubble accordingly.
+
