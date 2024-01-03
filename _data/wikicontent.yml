@@ -12,19 +12,29 @@
 - title  : Cluster access and config
   relpath: wiki/cluster_access
   subfolderitems:
-    - title  : BioQuant cluster
-      relpath: bioQuant-cluster
-    - title  : Curry cluster
-      relpath: curry-cluster
+    - title  : Access to the cluster
+      relpath: getting-access-to-the-cluster
     - title  : Creating your project folder
       relpath: creating-your-project-folder
-    - title  : Using Miniconda
-      relpath: using-miniconda
+    - title  : The hdsu folder
+      relpath: the-hdsu-folder
+    - title  : Public data downloads
+      relpath: public-data-downloads
 - title  : Working with the Cluster
   relpath: wiki/cluster_howto
   subfolderitems:
-    - title  : Repetitive tasks
-      relpath: repetitive-tasks
+    - title  : Tmux
+      relpath: working-with-tmux-sessions
+    - title  : Submitting jobs
+      relpath: submitting-jobs
+    - title  : Using Miniconda
+      relpath: using-miniconda
+    - title  : Mounting the cluster locally
+      relpath: mounting-the-cluster-locally
+    - title  : Using the Windows Remote Server
+      relpath: using-the-Windows-Remote-Server
+    - title  : Troubleshooting
+      relpath: troubleshooting-for-cluster-issues
 - title  : DGX workstations
   relpath: wiki/dgx_workstations
   subfolderitems:
@@ -37,10 +47,8 @@
   subfolderitems:
     - title  : RStudio Server on Curry
       relpath: rstudio-server-on-curry
-    - title  : Configure renv
-      relpath: configure-renv-in-the-rstudio-server
-    - title  : Using renv
-      relpath: using-renv
+    - title  : JupyterHub
+      relpath: jupyterHub
 - title  : Other daily tools
   relpath: wiki/daily_tools
   subfolderitems:
@@ -50,6 +58,8 @@
       relpath: using-snakemake
     - title  : Using R
       relpath: using-r
+    - title  : Using Python
+      relpath: using-Python
     - title  : Using Slack
       relpath: using-slack
     - title  : Additional information

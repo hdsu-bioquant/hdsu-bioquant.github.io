@@ -61,11 +61,11 @@ To send a job to the queue, you can use this format in the beginning of your job
 ```(bash)
 #!/bin/bash  
 #SBATCH --job-name=JOBNAME  
-#SBATCH −W 00:10 		          # walltime ( hours : mins )  
-#SBATCH −n 4 			          	# number of tasks  
-#SBATCH −-mem 4g 		        	# memory  
-#SBATCH −N 2 			           	#reserves 2 cluster nodes  
-#SBATCH −−output output.job 	#output filename   
+#SBATCH −W 00:10 		        # walltime ( hours : mins )  
+#SBATCH −n 4 			         	# number of tasks  
+#SBATCH −-mem 4g 		       	# memory  
+#SBATCH −N 2 			        	#reserves 2 cluster nodes  
+#SBATCH −−output out.job  	#output filename   
 #SBATCH --mail-user=youremail@bioquant.uni-heidelberg.de  
 ```
 
