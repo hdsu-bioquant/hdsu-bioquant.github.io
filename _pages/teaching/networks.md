@@ -5,7 +5,7 @@ excerpt: "networks"
 sitemap: false
 permalink: /teaching/networks
 ---
-## MoBi Master  -- Biological Networks -- WS 2022/2023
+## MoBi Master  -- Biological Networks -- WS 2023/2024
 
 ### Teachers
 
@@ -13,8 +13,6 @@ permalink: /teaching/networks
 * **Julio Saez-Rodriguez** (julio.saez (at) bioquant.uni-heidelberg.de)
 
 ### Practical information
-
-The Master Seminar Biological Networks will take place in January/February 2023
 
 **Technical requirements:** each student should have its own laptop with RStudio installed and running!
 
@@ -35,10 +33,10 @@ Each day will cover a specific topic including lectures and practical sessions.
 
 * Day 1 to 3: Network Modeling
 * Day 4: Bayesian Networks
-    * <a href="{{ site.url }}{{ site.baseurl }}/teaching/downloads/2023-02-03_MasterSeminar.pdf">[slides]</a>
-    * [[tutorial]](./downloads/bnTutorial2023_noOutput.html)
-    * [[R Markdown file]](./downloads/bnTutorial2023_noOutput.Rmd)
+    * <a href="{{ site.url }}{{ site.baseurl }}/teaching/downloads/2024-01-18_MasterSeminar.pdf">[slides]</a>
+    * <a href="{{ site.url }}{{ site.baseurl }}/teaching/bnTutorial2024_noOutput.html">[Tutorial (html)]</a>
+    * <a href="{{ site.url }}{{ site.baseurl }}/teaching/bnTutorial2024_noOutput.Rmd">[Tutorial (R markdown)]</a>
 
 ### Final exam
 
-The final exam will be a multiple choice exam on site (Tuesday 14.02 at 2pm)
+The final exam will be a multiple choice exam on site
