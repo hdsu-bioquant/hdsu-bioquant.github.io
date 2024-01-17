@@ -22,6 +22,10 @@ ___
 - MoBi Master: Seminar <a href="https://deeplife4eu.github.io/">Deep-learning in Life Sciences</a>
 
 
+### Winter semester 2023 / 2024
+- MoBi Master : <a href="{{ site.url }}{{ site.baseurl }}/teaching/bn2024.html">Seminar Biological Networks (with J. Saez Rodriguez)</a>
+
+
 
 ### Summer semester 2023
 - MoBi Bachelor 4. FS : <a href="{{ site.url }}{{ site.baseurl }}/teaching/data2023.html">Data Analysis Project Module 2023</a>
