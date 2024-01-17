@@ -3,7 +3,7 @@ title: "Tutorial on bayesian networks in genomics"
 layout: textlay
 excerpt: "bn2024"
 sitemap: false
-permalink: /bn2024
+permalink: /teaching/bnTutorial2024_noOutput
 ---
 
 
