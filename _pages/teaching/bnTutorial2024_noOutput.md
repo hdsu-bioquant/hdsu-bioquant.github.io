@@ -1,19 +1,10 @@
 ---
 title: "Tutorial on bayesian networks in genomics"
-author: "Carl Herrmann"
-date: "February 3rd, 2023"
-output: 
-  html_document: 
-    toc: yes
-    toc_float: yes
-    toc_depth: 2
-    code_folding: show
-    highlight: zenburn
-    keep_md: yes
+layout: textlay
+excerpt: "bn2024"
+sitemap: false
+permalink: /bn2024
 ---
-
-
-
 
 
 
