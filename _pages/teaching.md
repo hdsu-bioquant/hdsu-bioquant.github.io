@@ -19,7 +19,7 @@ ___
 
 ## Courses
 
-- MoBi Master: Seminar <a href="{{ site.url }}{{ site.baseurl }}/teaching/deeplife.html">Deep-learning in Life Sciences</a>
+- MoBi Master: Seminar <a href="https://deeplife4eu.github.io/">Deep-learning in Life Sciences</a>
 
 
 
