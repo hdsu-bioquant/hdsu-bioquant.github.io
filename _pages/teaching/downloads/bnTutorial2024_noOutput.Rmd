@@ -12,8 +12,6 @@ output:
     keep_md: yes
 ---
 
-# Tutorial on bayesian networks in genomics
-
 ```{r set-options, echo=FALSE, cache=TRUE, eval=FALSE}
 options(width = 100)
 ```
@@ -34,18 +32,18 @@ library(igraph)
 library(Rgraphviz)
 ```
 
-# Part 1: constraint vs. score based approaches
+## Part 1: constraint vs. score based approaches
 
 We have generated a dataset with 3 random variables A, B, C; using constraint-based and score based approaches, we try to infer the structure of the networks
 
-## 1. Load the data
+### 1. Load the data
 
 ```{r}
 data = readRDS(gzcon(url('https://www.dropbox.com/s/s9hqxf423i2hkmx/data2.rds?dl=1')))
 head(data)
 ```
 
-## 2. Contraint based approaches
+### 2. Contraint based approaches
 
 Using the function `ci.test` with the `test="mi"` method, test:
 
@@ -71,7 +69,7 @@ ci.test('B','A','C',data=data,test='mi')
 
 > Can you determine the possible architecture(s) of the BN?
 
-## 3. Score based approaches
+### 3. Score based approaches
 
 Using constraint-based approaches, we cannot fully resolve the structure of the network. IAMB (incremental association algorithm) is one of the constrained-based algorithms implemented in BNlearn (see `?iamb`).
 
@@ -105,7 +103,7 @@ bnlearn::score(net1,data)
 
 Test the other possible structures of the network; can you find the most likely one(s)?
 
-# Part 2 : T-cell Pathway reconstruction (Sachs et al., 2005)
+## Part 2 : T-cell Pathway reconstruction (Sachs et al., 2005)
 
 **Topics:**
 
@@ -117,16 +115,16 @@ This dataset consists of **single-cell cytometry data** on 11 proteins in a prim
 
 ![Literature validated network](/Users/carlherrmann/Dropbox/00_MBP_Carl/Teaching/WS2021/Master_Network_Analysis/Material_Carl/BNtutorial/validated_net.jpg)
 
-## 1. Exploring the observational data
+### 1. Exploring the observational data
 
 We can plot the distribution of the data for each component of the pathway that was investigated.
 
 Let's load the data:
+
 ```{r}
 sachs = read.table('https://www.dropbox.com/s/fcq3cqxheklr2it/sachs.data.txt?dl=1',header=TRUE)
 head(sachs)
 ```
-
 
 ```{r}
 tmp = melt(sachs)
@@ -141,7 +139,7 @@ rm(tmp)
 p
 ```
 
-## 2. Discretizing the data
+### 2. Discretizing the data
 
 We discretize the data, since it abviously does not follow the assumption of normal distribution from the previous plots!
 
@@ -168,7 +166,7 @@ p = ggplot(tmp,aes(x=value, fill=variable, color=variable)) +
 p
 ```
 
-## 3. Learning the BN from discretized data
+### 3. Learning the BN from discretized data
 
 Here, we apply a bootstrapping strategy, use **score-based** structural learning (hill-climbing method `hc`). We use 500 bootstraps.
 
@@ -192,7 +190,7 @@ boot.filt = boot[(boot$strength > 0.6 & boot$direction >= 0.5),]
 boot.filt
 ```
 
-## 4. Averaging the network
+### 4. Averaging the network
 
 We have learned 500 networks starting from different initial random networks; we can now average these networks.
 
@@ -206,7 +204,7 @@ library(Rgraphviz)
 graphviz.plot(avg.boot)
 ```
 
-## 5. Use interventional data for Sachs
+### 5. Use interventional data for Sachs
 
 So far the network was built using observational data, i.e. data collected in normal conditions. The dataset however contained additional interventional data, resulting from perturbation of specific nodes in the network. This data can either be used for validation (do the perturbation have the predicted effect from the initial network ?) or can be used to strengthen the evidence on the learned edges.
 
@@ -262,8 +260,7 @@ graphviz.plot(bn.mbde)
 
 > Compare the networks with the real pathway structure!
 
-
-# Part 3: building an epigenetic networks from CLL data 
+## Part 3: building an epigenetic networks from CLL data
 
 If you have time, you can go to the next example!
 
@@ -275,7 +272,7 @@ If you have time, you can go to the next example!
 
 Here, we want to build a **chromatin network** where nodes are epigenetic components, and the observations are the state of these epigenetic modifications at the promoters of genes.
 
-## 1. Load pre-compiled epigenetic data matrix for CLL
+### 1. Load pre-compiled epigenetic data matrix for CLL
 
 ```{r}
 dat = read.table('https://www.dropbox.com/s/npb177z5ceod4fw/CEMT_26-nonCGI-allDataContinuous.txt?dl=1', 
@@ -294,13 +291,13 @@ corVals = round(cor(dat, method="spearman"),2)
 knitr::kable(corVals, caption = "Pairwise correlation values")
 ```
 
-## 2. Visualize how these epigenetic features are correlated
+### 2. Visualize how these epigenetic features are correlated
 
 ```{r}
 corrplot.mixed(corVals, tl.col = "black", tl.cex=0.8)
 ```
 
-## 3. Visualize how these correlated features cluster together
+### 3. Visualize how these correlated features cluster together
 
 ```{r}
 corrplot(corVals, order = "hclust", hclust.method = "ward.D2", addrect = 2, tl.col = "black")
@@ -308,7 +305,7 @@ corrplot(corVals, order = "hclust", hclust.method = "ward.D2", addrect = 2, tl.c
 
 > Do these correlation structures make sense?
 
-## 4. Look at the distribution of the data
+### 4. Look at the distribution of the data
 
 ```{r}
 summary(dat)
@@ -325,13 +322,11 @@ rm(tmp)
 p
 ```
 
-
 > Any comment about these distributions?
 
+### 5. Perform discretization using Ckmeans.1d.dp
 
-## 5. Perform discretization using Ckmeans.1d.dp
-
-For details regarding Ckmeans.1d.dp, see <https://cran.r-project.org/web/packages/Ckmeans.1d.dp/vignettes/Ckmeans.1d.dp.html>. The method estimates an optimal number of clusters if no information is given. 
+For details regarding Ckmeans.1d.dp, see <https://cran.r-project.org/web/packages/Ckmeans.1d.dp/vignettes/Ckmeans.1d.dp.html>. The method estimates an optimal number of clusters if no information is given.
 
 Lets check the discrete states for H3K4me3 as an example
 
@@ -354,9 +349,7 @@ rm(res)
 states = apply(log2dat, 2, function(y){max(Ckmeans.1d.dp(x=y, k=c(1,9))$cluster)})
 ```
 
-For methylation lots of states are predicted, from the distribution plots
-it is clear that these are mostly intermediate states that have little biological interpretation:
-
+For methylation lots of states are predicted, from the distribution plots it is clear that these are mostly intermediate states that have little biological interpretation:
 
 ```{r}
 res = Ckmeans.1d.dp(log2dat$CPGfrac, k=states[1])
@@ -413,7 +406,7 @@ p
 
 ```
 
-## 6. Learn bayesian network from the discretized data using bnlearn
+### 6. Learn bayesian network from the discretized data using bnlearn
 
 We use a set of blacklist edges: no edge should **go out of the expression node**
 
@@ -439,7 +432,6 @@ See the first edges:
 ```{r}
 head(strength)
 ```
-
 
 ```{r}
 # Select only those interactions meeting our filteration criteria
@@ -505,17 +497,16 @@ V(net)$label.dist[mid.grp]= c(-0.3,0.3)
 V(net)$label.degree[mid.grp]= -pi/2
 ```
 
-## 7. Plotting the bayesian network
+### 7. Plotting the bayesian network
 
 ```{r}
 plot(net, edge.color=col, vertex.shape="circle", vertex.size = 40,layout=l, edge.width=E(net)$weight*3.5+3)
 box()
 ```
 
-## 8. Inference : making predictions using the network
+### 8. Inference : making predictions using the network
 
 Now that the network is defined, we can learn the parameters of the edges:
-
 
 ```{r}
 # Fitting the learnt network to the data to obtain
@@ -524,7 +515,6 @@ fitted = bn.fit(dag.average.filt, disDat)
 ```
 
 With the structure of the network and the parameters learned, we can start doing simulations of interventions, using the `cpdist` function. For example, we will predict the gene expression (variable `RPKM`) if we set DNA methylation to high or low (variable `CPGfrac`).
-
 
 ```{r}
 # Predict Expression level by setting DNAme to high/low

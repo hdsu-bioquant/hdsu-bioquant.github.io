@@ -34,8 +34,8 @@ Each day will cover a specific topic including lectures and practical sessions.
 * Day 1 to 3: Network Modeling
 * Day 4: Bayesian Networks
     * <a href="{{ site.url }}{{ site.baseurl }}/teaching/downloads/2024-01-18_MasterSeminar.pdf">[slides]</a>
-    * <a href="{{ site.url }}{{ site.baseurl }}/teaching/bnTutorial2024_noOutput.html">[Tutorial (html)]</a>
-    * <a href="{{ site.url }}{{ site.baseurl }}/teaching/bnTutorial2024_noOutput.Rmd">[Tutorial (R markdown)]</a>
+    * <a href="{{ site.url }}{{ site.baseurl }}/teaching/downloads/bnTutorial2024_noOutput.html">[Tutorial (html)]</a>
+    * <a href="{{ site.url }}{{ site.baseurl }}/teaching/downloads/bnTutorial2024_noOutput.Rmd">[Tutorial (R markdown)]</a>
 
 ### Final exam
 

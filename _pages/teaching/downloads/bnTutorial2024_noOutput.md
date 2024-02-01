@@ -12,19 +12,12 @@ output:
     keep_md: yes
 ---
 
-# Tutorial on bayesian networks in genomics
 
-```{r set-options, echo=FALSE, cache=TRUE, eval=FALSE}
-options(width = 100)
-```
 
-```{r setup, include=FALSE}
-path = "./"
-knitr::opts_chunk$set(echo = TRUE,eval=FALSE)
-```
 
-```{r, message=FALSE}
 
+
+```r
 library(ggplot2)
 library(reshape2)
 library(Ckmeans.1d.dp)
@@ -34,18 +27,19 @@ library(igraph)
 library(Rgraphviz)
 ```
 
-# Part 1: constraint vs. score based approaches
+## Part 1: constraint vs. score based approaches
 
 We have generated a dataset with 3 random variables A, B, C; using constraint-based and score based approaches, we try to infer the structure of the networks
 
-## 1. Load the data
+### 1. Load the data
 
-```{r}
+
+```r
 data = readRDS(gzcon(url('https://www.dropbox.com/s/s9hqxf423i2hkmx/data2.rds?dl=1')))
 head(data)
 ```
 
-## 2. Contraint based approaches
+### 2. Contraint based approaches
 
 Using the function `ci.test` with the `test="mi"` method, test:
 
@@ -54,35 +48,40 @@ Using the function `ci.test` with the `test="mi"` method, test:
 
 In each case, the null hypothesis is: **"The two variables are (conditionally) independent"**
 
-```{r}
+
+```r
 ci.test('A','C',data=data,test='mi')
 ci.test('A','C','B',data=data,test='mi')
 ```
 
-```{r}
+
+```r
 ci.test('B','C',data=data,test='mi')
 ci.test('B','C','A',data=data,test='mi')
 ```
 
-```{r}
+
+```r
 ci.test('B','A',data=data,test='mi')
 ci.test('B','A','C',data=data,test='mi')
 ```
 
 > Can you determine the possible architecture(s) of the BN?
 
-## 3. Score based approaches
+### 3. Score based approaches
 
 Using constraint-based approaches, we cannot fully resolve the structure of the network. IAMB (incremental association algorithm) is one of the constrained-based algorithms implemented in BNlearn (see `?iamb`).
 
-```{r}
+
+```r
 net = iamb(data)
 graphviz.plot(net)
 ```
 
 We can now try to orient the edges manually, and compute the score (e.g. AIC score) of the oriented network
 
-```{r}
+
+```r
 net1 = set.arc(net,'A' ,'B')
 net1 = set.arc(net1,'C' ,'B')
 graphviz.plot(net1)
@@ -90,22 +89,25 @@ graphviz.plot(net1)
 
 We can determine the parameters (i.e. the conditional probabilities) of the network:
 
-```{r}
+
+```r
 net1.fit = bn.fit(net1,data=data)
 ```
 
-```{r}
+
+```r
 net1.fit
 ```
 
-```{r}
+
+```r
 ## computing the BIC score of the network
 bnlearn::score(net1,data)
 ```
 
 Test the other possible structures of the network; can you find the most likely one(s)?
 
-# Part 2 : T-cell Pathway reconstruction (Sachs et al., 2005)
+## Part 2 : T-cell Pathway reconstruction (Sachs et al., 2005)
 
 **Topics:**
 
@@ -117,18 +119,20 @@ This dataset consists of **single-cell cytometry data** on 11 proteins in a prim
 
 ![Literature validated network](/Users/carlherrmann/Dropbox/00_MBP_Carl/Teaching/WS2021/Master_Network_Analysis/Material_Carl/BNtutorial/validated_net.jpg)
 
-## 1. Exploring the observational data
+### 1. Exploring the observational data
 
 We can plot the distribution of the data for each component of the pathway that was investigated.
 
 Let's load the data:
-```{r}
+
+
+```r
 sachs = read.table('https://www.dropbox.com/s/fcq3cqxheklr2it/sachs.data.txt?dl=1',header=TRUE)
 head(sachs)
 ```
 
 
-```{r}
+```r
 tmp = melt(sachs)
 p = ggplot(tmp,aes(x=value, fill=variable, color=variable)) + 
     geom_density(alpha=0.30,size=0.7) + theme_bw() +
@@ -141,13 +145,14 @@ rm(tmp)
 p
 ```
 
-## 2. Discretizing the data
+### 2. Discretizing the data
 
 We discretize the data, since it abviously does not follow the assumption of normal distribution from the previous plots!
 
 Again, several strategies are possible: the Hartemink method tries to maximize the mutual information between the original non-discretized data and the discretized data. The user must provide the number of breaks (i.e classes) to be determined, the `ibreaks` parameters specifies the number of initial classes, which are then merged to obtain the final number of classes.
 
-```{r sachs-discretize}
+
+```r
 ## discretize the data
 dsachs = discretize(sachs,method='hartemink',breaks = 3, ibreaks = 60, idisc = 'quantile')
 head(dsachs)
@@ -155,7 +160,8 @@ head(dsachs)
 
 Let's look at the data distribution:
 
-```{r}
+
+```r
 tmp=melt(dsachs,id.vars=c())
 p = ggplot(tmp,aes(x=value, fill=variable, color=variable)) + 
     geom_bar() + theme_bw() +
@@ -168,11 +174,12 @@ p = ggplot(tmp,aes(x=value, fill=variable, color=variable)) +
 p
 ```
 
-## 3. Learning the BN from discretized data
+### 3. Learning the BN from discretized data
 
 Here, we apply a bootstrapping strategy, use **score-based** structural learning (hill-climbing method `hc`). We use 500 bootstraps.
 
-```{r, cache = TRUE}
+
+```r
 boot = boot.strength(data=dsachs, R=500,
                      algorithm='hc',
                      algorithm.args = list(score='bde')
@@ -185,18 +192,20 @@ For every edge, we had the strength (i.e. the frequency this edge was observed) 
 
 We can now apply a filtering on the edges according to the strength and direction of the edge:
 
-```{r}
+
+```r
 ## now threshold the edge strength and the direction evidence
 
 boot.filt = boot[(boot$strength > 0.6 & boot$direction >= 0.5),]
 boot.filt
 ```
 
-## 4. Averaging the network
+### 4. Averaging the network
 
 We have learned 500 networks starting from different initial random networks; we can now average these networks.
 
-```{r, cache = TRUE}
+
+```r
 avg.boot = averaged.network(boot, threshold = 0.7)
 net = avg.boot$arcs
 
@@ -206,13 +215,14 @@ library(Rgraphviz)
 graphviz.plot(avg.boot)
 ```
 
-## 5. Use interventional data for Sachs
+### 5. Use interventional data for Sachs
 
 So far the network was built using observational data, i.e. data collected in normal conditions. The dataset however contained additional interventional data, resulting from perturbation of specific nodes in the network. This data can either be used for validation (do the perturbation have the predicted effect from the initial network ?) or can be used to strengthen the evidence on the learned edges.
 
 ![Effect of interventions on the network](/Users/carlherrmann/Dropbox/00_MBP_Carl/Teaching/WS2021/Master_Network_Analysis/Material_Carl/BNtutorial/interventions.jpg)
 
-```{r, cache = TRUE}
+
+```r
 isachs = read.table('https://www.dropbox.com/s/xegmoa1e04opc0t/sachs.interventional.txt?dl=1', header = TRUE, colClasses = "factor")
 
 head(isachs)
@@ -220,7 +230,8 @@ head(isachs)
 
 Here, the last column indicates on which variable (i.e. column) the intervention has been performed.
 
-```{r, cache=TRUE}
+
+```r
 INT = sapply(1:11, function(x) { which(isachs$INT == x) })
 
 isachs2 = isachs[, 1:11]
@@ -228,7 +239,8 @@ nodes = names(isachs2)
 names(INT) = nodes
 ```
 
-```{r}
+
+```r
 ## we start from a set of 200 random graphs
 start = random.graph(nodes = nodes,  
                      method = "melancon", # algorithm to generate random graphs
@@ -255,15 +267,13 @@ net = graph_from_edgelist(net,directed=T)
 
 
 graphviz.plot(bn.mbde)
-
 ```
 
 > Compare the networks obtained with the ones obtained without intervention
 
 > Compare the networks with the real pathway structure!
 
-
-# Part 3: building an epigenetic networks from CLL data 
+## Part 3: building an epigenetic networks from CLL data
 
 If you have time, you can go to the next example!
 
@@ -275,9 +285,10 @@ If you have time, you can go to the next example!
 
 Here, we want to build a **chromatin network** where nodes are epigenetic components, and the observations are the state of these epigenetic modifications at the promoters of genes.
 
-## 1. Load pre-compiled epigenetic data matrix for CLL
+### 1. Load pre-compiled epigenetic data matrix for CLL
 
-```{r}
+
+```r
 dat = read.table('https://www.dropbox.com/s/npb177z5ceod4fw/CEMT_26-nonCGI-allDataContinuous.txt?dl=1', 
                  header = TRUE, stringsAsFactors = FALSE, sep="\t")
 
@@ -290,27 +301,28 @@ dat = dat[,-ncol(dat)]
 corVals = round(cor(dat, method="spearman"),2)
 ```
 
-```{r, echo=F}
-knitr::kable(corVals, caption = "Pairwise correlation values")
-```
 
-## 2. Visualize how these epigenetic features are correlated
 
-```{r}
+### 2. Visualize how these epigenetic features are correlated
+
+
+```r
 corrplot.mixed(corVals, tl.col = "black", tl.cex=0.8)
 ```
 
-## 3. Visualize how these correlated features cluster together
+### 3. Visualize how these correlated features cluster together
 
-```{r}
+
+```r
 corrplot(corVals, order = "hclust", hclust.method = "ward.D2", addrect = 2, tl.col = "black")
 ```
 
 > Do these correlation structures make sense?
 
-## 4. Look at the distribution of the data
+### 4. Look at the distribution of the data
 
-```{r}
+
+```r
 summary(dat)
 
 log2dat = log2(dat+0.1)
@@ -325,40 +337,40 @@ rm(tmp)
 p
 ```
 
-
 > Any comment about these distributions?
 
+### 5. Perform discretization using Ckmeans.1d.dp
 
-## 5. Perform discretization using Ckmeans.1d.dp
-
-For details regarding Ckmeans.1d.dp, see <https://cran.r-project.org/web/packages/Ckmeans.1d.dp/vignettes/Ckmeans.1d.dp.html>. The method estimates an optimal number of clusters if no information is given. 
+For details regarding Ckmeans.1d.dp, see <https://cran.r-project.org/web/packages/Ckmeans.1d.dp/vignettes/Ckmeans.1d.dp.html>. The method estimates an optimal number of clusters if no information is given.
 
 Lets check the discrete states for H3K4me3 as an example
 
-```{r}
+
+```r
 res = Ckmeans.1d.dp(log2dat$H3K4me3)
 
 # Number of clusters predicted
 max(res$cluster)
 ```
 
-```{r}
+
+```r
 # Lets look at the predictions
 plot(log2dat$H3K4me3, col= res$cluster, cex=0.5, pch=20, xlab="Genes", ylab= "H3K4me3 signal")
 #abline(h=res$centers, lwd=2,lty=2,col="blue")
 rm(res)
 ```
 
-```{r}
+
+```r
 # Compute optimal states for all
 states = apply(log2dat, 2, function(y){max(Ckmeans.1d.dp(x=y, k=c(1,9))$cluster)})
 ```
 
-For methylation lots of states are predicted, from the distribution plots
-it is clear that these are mostly intermediate states that have little biological interpretation:
+For methylation lots of states are predicted, from the distribution plots it is clear that these are mostly intermediate states that have little biological interpretation:
 
 
-```{r}
+```r
 res = Ckmeans.1d.dp(log2dat$CPGfrac, k=states[1])
 
 plot(log2dat$CPGfrac, col= res$cluster, cex=0.5, pch=20, xlab="Genes", ylab= "CPGfrac")
@@ -366,7 +378,8 @@ plot(log2dat$CPGfrac, col= res$cluster, cex=0.5, pch=20, xlab="Genes", ylab= "CP
 
 So let's approximate by taking 3 states
 
-```{r}
+
+```r
 res = Ckmeans.1d.dp(log2dat$CPGfrac, k=3)
 
 plot(log2dat$CPGfrac, col= res$cluster, cex=0.5, pch=20, xlab="Genes", ylab= "CPGfrac")
@@ -374,8 +387,8 @@ plot(log2dat$CPGfrac, col= res$cluster, cex=0.5, pch=20, xlab="Genes", ylab= "CP
 
 We accept all the predicted states from Ckmeans.1d.dp except for methylation).
 
-```{r}
 
+```r
 states[1] = 3
 states
 
@@ -398,7 +411,8 @@ summary(disDat)
 
 Plot the discretized data:
 
-```{r}
+
+```r
 # Plot the discretized data
 tmp=melt(disDat,id.vars=c())
 p = ggplot(tmp,aes(x=value, fill=variable, color=variable)) + 
@@ -410,15 +424,14 @@ p = ggplot(tmp,aes(x=value, fill=variable, color=variable)) +
           )
 
 p
-
 ```
 
-## 6. Learn bayesian network from the discretized data using bnlearn
+### 6. Learn bayesian network from the discretized data using bnlearn
 
 We use a set of blacklist edges: no edge should **go out of the expression node**
 
-```{r, cache = TRUE}
 
+```r
 # Black list .. no interaction should originate from gene expression
 bl=data.frame(from="RPKM",to=colnames(disDat))
 bl=bl[-which(bl$to == "RPKM"),]
@@ -426,7 +439,8 @@ bl=bl[-which(bl$to == "RPKM"),]
 
 Now learn the network using a bootstrapping strategy:
 
-```{r}
+
+```r
 # Learn bayesian network via bootstrapping
 strength = boot.strength(disDat, 
                          algorithm="tabu", 
@@ -436,12 +450,13 @@ strength = boot.strength(disDat,
 
 See the first edges:
 
-```{r}
+
+```r
 head(strength)
 ```
 
 
-```{r}
+```r
 # Select only those interactions meeting our filteration criteria
 selarcs = strength[strength$direction > 0.5 ,]
 selarcs = selarcs[order(selarcs$strength,decreasing=TRUE),]
@@ -451,11 +466,13 @@ selarcs
 dag.average.filt = averaged.network(selarcs, threshold = 0.90)
 ```
 
-```{r}
+
+```r
 knitr::kable(dag.average.filt$arcs, caption = "Interactions meeting our threshold for strength and direction")
 ```
 
-```{r}
+
+```r
 # Compute correlations for the selected interactions
 net = dag.average.filt$arcs
 corVals = apply(net,1, function(x){
@@ -476,48 +493,22 @@ V(net)$label.color="black"
 rm(corVals)
 ```
 
-```{r, include=F}
-#plot(net, edge.color=col, vertex.shape="none", edge.width=E(net)$weight*3.5)
 
-#Identify vertex coordinates
-l=layout_in_circle(net,order=c("H3K4me1", "H3K4me3", "RPKM", "H3K27ac", "H3K36me3", "H3K27me3", "CPGfrac", "H3K9me3"))
-pos.grp <- which(V(net)$name %in% c("H3K4me1", "H3K4me3", "RPKM", "H3K27ac", "H3K36me3"))
-neg.grp <- which(V(net)$name %in% c("H3K27me3", "CPGfrac", "H3K9me3"))
 
-#Vertex color
-V(net)$label.color[pos.grp]="#1f78b4"
-V(net)$label.color[neg.grp]="#fdae61"
-V(net)$label.font=2
+### 7. Plotting the bayesian network
 
-# Vertex positioning
-left.grp  <- which(V(net)$name %in% c("H3K4me1", "H3K4me3",  "H3K9me3")) 
-right.grp <- which(V(net)$name %in% c("H3K27me3", "H3K27ac","H3K36me3"))
-mid.grp   <- which(V(net)$name %in% c("RPKM", "CPGfrac"))
 
-V(net)$label.dist = rep(NA,length(V(net)))
-V(net)$label.degree = rep(NA,length(V(net)))
-
-V(net)$label.dist[left.grp]=1.5
-V(net)$label.degree[left.grp]=0
-V(net)$label.dist[right.grp]=-1.5
-V(net)$label.degree[right.grp]=0
-V(net)$label.dist[mid.grp]= c(-0.3,0.3)
-V(net)$label.degree[mid.grp]= -pi/2
-```
-
-## 7. Plotting the bayesian network
-
-```{r}
+```r
 plot(net, edge.color=col, vertex.shape="circle", vertex.size = 40,layout=l, edge.width=E(net)$weight*3.5+3)
 box()
 ```
 
-## 8. Inference : making predictions using the network
+### 8. Inference : making predictions using the network
 
 Now that the network is defined, we can learn the parameters of the edges:
 
 
-```{r}
+```r
 # Fitting the learnt network to the data to obtain
 # conditional probability tables
 fitted = bn.fit(dag.average.filt, disDat)
@@ -526,7 +517,7 @@ fitted = bn.fit(dag.average.filt, disDat)
 With the structure of the network and the parameters learned, we can start doing simulations of interventions, using the `cpdist` function. For example, we will predict the gene expression (variable `RPKM`) if we set DNA methylation to high or low (variable `CPGfrac`).
 
 
-```{r}
+```r
 # Predict Expression level by setting DNAme to high/low
 x.high = as.numeric(table(cpdist(fitted,nodes=c('RPKM'),CPGfrac=='3')))
 x.low = as.numeric(table(cpdist(fitted,nodes=c('RPKM'),CPGfrac=='1')))
@@ -538,15 +529,14 @@ pred = data.frame(prop=c(x.high/sum(x.high),x.low/sum(x.low)),
 )
 
 ggplot(pred,aes(x=Expression,fill=condition,y=prop)) + geom_bar(stat='identity',position=position_dodge())
-
-
 ```
 
 > Can you interpret the two distributions?
 
 Same experience, setting H3K4me1 to low/high, looking at the effect on expression:
 
-```{r}
+
+```r
 # Predict Expression level by setting H3K4me1 to high/low
 x.high = as.numeric(table(cpdist(fitted,nodes=c('RPKM'),H3K4me1=='3')))
 x.low = as.numeric(table(cpdist(fitted,nodes=c('RPKM'),H3K4me1=='1')))
@@ -557,5 +547,4 @@ pred = data.frame(prop=c(x.high/sum(x.high),x.low/sum(x.low)),
 )
 
 ggplot(pred,aes(x=Expression,fill=condition,y=prop)) + geom_bar(stat='identity',position=position_dodge())
-
 ```
