@@ -27,12 +27,12 @@ Lectures take place twice a week (Mondays and Fridays); practical sessions are o
 
 ### Regulatory genomics
 
-Here are the slides to the topic Regulatory Genomics
+Here are the slides to the topic **Regulatory Genomics**
 
-* Lecture 1: [Intro to concepts and data]({{ site.baseurl }}/teaching/downloads/RegGen_WS2324_Part1.pdf)
-* Lecture 2: [Transcription factors]({{ site.baseurl }}/teaching/downloads/RegGen_WS2324_Part1.pdf)
-* Lecture 3: [Predicting TFBS and validation]({{ site.baseurl }}/teaching/downloads/RegGen_WS2324_Part1.pdf)
-* Lecture 4: [Phylogenetic footprinting]({{ site.baseurl }}/teaching/downloads/RegGen_WS2324_Part1.pdf)
-* Lecture 5: [Adding epigenomic data]({{ site.baseurl }}/teaching/downloads/RegGen_WS2324_Part1.pdf)
-* Lecture 6: [Motif discovery]({{ site.baseurl }}/teaching/downloads/RegGen_WS2324_Part1.pdf)
+* Lecture 1: [Intro to concepts and data]({{ site.baseurl }}/teaching/RegGen_WS2324_Part1.pdf)
+* Lecture 2: [Transcription factors]({{ site.baseurl }}/downloads/teaching/RegGen_WS2324_Part1.pdf)
+* Lecture 3: [Predicting TFBS and validation]({{ site.baseurl }}/downloads/teaching/RegGen_WS2324_Part1.pdf)
+* Lecture 4: [Phylogenetic footprinting]({{ site.baseurl }}/downloads/teaching/RegGen_WS2324_Part1.pdf)
+* Lecture 5: [Adding epigenomic data]({{ site.baseurl }}/downloads/teaching/RegGen_WS2324_Part1.pdf)
+* Lecture 6: [Motif discovery]({{ site.baseurl }}/downloads/teaching/RegGen_WS2324_Part1.pdf)
 

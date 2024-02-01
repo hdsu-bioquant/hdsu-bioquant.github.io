@@ -15,8 +15,8 @@ permalink: /teaching/CIN
 
 #### Dates
 
-- 17.11.2022 : [lecture 1](./downloads/CIN2223_lecture1.pdf)
-- 1.12.2022 : [lecture 2](./downloads/CIN2223_lecture2.pdf) and [practical](./downloads/CIN-WiSe2223_RegGen.json)
+- 17.11.2022 : [lecture 1](./downloads/teaching/CIN2223_lecture1.pdf)
+- 1.12.2022 : [lecture 2](./downloads/teaching/CIN2223_lecture2.pdf) and [practical](./downloads/teaching/CIN-WiSe2223_RegGen.json)
 
 #### Content
 
@@ -31,7 +31,7 @@ The purpose of this lecture is to provide an introduction to the concepts of reg
 
 #### Practical application (1.12.2022)
 
-* Download the json file [here](./downloads/CIN-WiSe2223_RegGen.json)
+* Download the json file [here](./downloads/teaching/CIN-WiSe2223_RegGen.json)
 * Load it into the [IGV App](https://igv.org/app/)
 * Try to answer the following questions
 
