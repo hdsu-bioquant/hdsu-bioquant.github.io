@@ -42,6 +42,8 @@
       relpath: first-steps
     - title  : Working on the GPU station
       relpath: working-on-the-gpu-station
+- title   : Working in devcontainer
+  relpath : wiki/devcontainer
 - title  : RStudio Server & Jupyter
   relpath: wiki/rstudio_server
   subfolderitems:
@@ -49,8 +51,6 @@
       relpath: rstudio-server-on-curry
     - title  : JupyterHub
       relpath: jupyterHub
-- title : Working in devcontainer
-  relpath : wiki/devcontainer
 - title  : Other daily tools
   relpath: wiki/daily_tools
   subfolderitems:
