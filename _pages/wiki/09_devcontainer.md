@@ -1,3 +1,11 @@
+---
+title: "HDSU - Wiki"
+layout: wiki
+excerpt: "HDSU -- Wiki"
+sitemap: false
+permalink: /wiki/devcontainer/
+---
+
 # Working in devcontainer
 
 Working on visual studio code became best practice, due to the ease to integrate several languages at once (e.g. python and R) and several script modalities (e.g. python scripts and Jupyter notebooks). In addition, in visual studio code, debugging is made very easy, just as working with GitHub. 
