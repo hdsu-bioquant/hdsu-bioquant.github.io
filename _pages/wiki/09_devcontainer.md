@@ -19,7 +19,6 @@ Assuming you already have Visual Studio Code installed and access to the DGX wor
 Please note that if you have access to GPU1 and GPU2 as well (fortunate you), you can follow the exact same procedures described below. You can keep the content of the .devcontainer unchanged, as it is not dependent on the cluster. As of the time of writing, the permissions granted to workspaces on the cluster did not allow for mounting the container from Visual Studio Code. By the time you read this, the issue should be resolved. If not, don't hesitate to seek assistance as the problem is already known.
 
 # Connect to DGX via vsCode
-[Link Title](connect_to_dgx_via_vscode)
 
 Open vscode. 
 
@@ -53,7 +52,6 @@ You see you are connected to DGX.
 <img src="../../images/devcontainer_section/05.png" style="display: block; margin: 20px auto; width: 200px;"/>
 
 # Create .devcontainer
-[Link Title](create_devcontainer)
 
 Now, we are going to create two files, that are going to automatically create a docker - a docker is a bit like a conda environment, but that is saved on a kind of virtual machine. That means, regardless of whether you are using Mac, linux or windows (why would use the two latter even?), if everyone works on that docker, everyone can run the code. It's like a machine stored on a cloud. It is not though. You can google. Good luck to understand - and launch it on the cluster. 
 
@@ -162,7 +160,6 @@ RUN pip install \
 Note that even once built, you can install more packages by running pip on the container terminal. It's like working in a normal machine. 
 
 # Building the devcontainer
-[Link Title](building_the_devcontainer)
 
 We have everything set to create the devcontainer. 
 
@@ -230,7 +227,7 @@ You enter debug mode and you can debug as usual (look YouTube videos to understa
 <img src="../../images/devcontainer_section/27.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 # Coming back to the devcontainer after having logged out
-[Link Title](coming_back)
+
 
 At the end of this tutorial, at some point, you are going to go home, and the connection to the cluster will be lost. You will have to reopen your work environment the next day. We are the next day. You reboot your computer. How to go back to your devcontainer and continue working? Follow me. 
 
