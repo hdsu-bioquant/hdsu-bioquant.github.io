@@ -130,7 +130,7 @@ It mounts all the files that you have on your cluster's workspace to the docker,
 
 ## Dockerfile
 
-The dockerfile specifies the image (kind of the virtual machine, though not quiet) that is going to be used. I was doing deep learning, so I pulled the image of pytorch. The image ensures there is no compatibility issues between your hardware and software (essentially, you can run stuff on the GPUs without problem). Additionally, you download the terminal widget you like (like nano, vim, unzip and so on) and the packages that you want to have installed (for example scanpy, pandas and else). The content of my docker file looks like (please copy paste and adjust): 
+The Dockerfile specifies the image (kind of like a virtual machine, though not quite) that is going to be used. Since I was working on deep learning, I pulled the PyTorch image. This image ensures there are no compatibility issues between your hardware and software (essentially, you can run tasks on the GPUs without problems). Additionally, you download the terminal widget you prefer (such as Nano, Vim, Unzip, and so on) and the packages you want to have installed (for example, Scanpy, Pandas, and others). The content of my Dockerfile looks like this (please copy and adjust as needed): 
 
 ```python
 FROM pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime
