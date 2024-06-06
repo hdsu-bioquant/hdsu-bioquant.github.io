@@ -28,11 +28,12 @@ In vscode, connect to the cluster by hitting the button on the left bottom corne
 
 And hit **Connect to host:**
 
-<img src="../../images/devcontainer_section/02.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/02.png" style="display: block; margin: 20px auto; max-width: 80%;">
+
 
 If you have created an automatic connection in .bashrc it will appear automatically.
 
-<img src="../../images/devcontainer_section/03.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/03.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 Otherwise you will need to enter user@host e.g. for me:
 
@@ -44,7 +45,7 @@ And **then enter your password**.
 
 A new window opens.
 
-<img src="../../images/devcontainer_section/04.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/04.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 You see you are connected to DGX. 
 
@@ -58,11 +59,11 @@ The two files are going to be stored in a folder, that is going to be called .de
 
 Go to your workspace:
 
-<img src="../../images/devcontainer_section/06.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/06.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 Create the folder .devcontainer and create two files called devcontainer.json and Dockerfile inside them.
 
-<img src="../../images/devcontainer_section/07.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/07.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 <img src="../../images/devcontainer_section/08.png" style="display: block; margin: 20px auto; width: 200px;"/>
 
@@ -166,15 +167,15 @@ Hit cmd + shift + P (I hope you are using Mac). And hit “Dev Containers: Rebui
 
  
 
-<img src="../../images/devcontainer_section/12.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/12.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 It will load everything, it takes a couple of minutes at the beginning maybe. Hit **Allow**.
 
-<img src="../../images/devcontainer_section/13.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/13.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 You are in the devcontainer! Hurray!
 
-<img src="../../images/devcontainer_section/14.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/14.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 <img src="../../images/devcontainer_section/15.png" style="display: block; margin: 20px auto; width: 200px;"/>
 
@@ -193,9 +194,9 @@ I can create a Jupyter notebook, just select the default kernel.
 <img src="../../images/devcontainer_section/18.png" style="display: block; margin: 20px auto; width: 400px;"/>
 
 
-<img src="../../images/devcontainer_section/19.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/19.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
-<img src="../../images/devcontainer_section/20.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/20.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 <img src="../../images/devcontainer_section/21.png" style="display: block; margin: 20px auto; width: 200px;"/>
 
@@ -207,23 +208,23 @@ You can import .py files in your Jupyter notebooks and all other stuff that you 
 
 But the most interesting thing, is that you can debug! Never used debugging? Google. In vscode you need to install an extension, easy. Then you can do e.g. the following.
 
-<img src="../../images/devcontainer_section/23.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/23.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 It returns an error, let's debug. Set a flag (red dot, just click on the left of the line numbers to the line you wish the code to stop) and hit the run button with the bus on the left bottom corner:
 
-<img src="../../images/devcontainer_section/24.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/24.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 Hit run and debug. Actually I suggest that you create the launch.json file they propose to automatically write for you. This will ensure that, each time you hit debug, it debugs the file that is currently open. 
 
-<img src="../../images/devcontainer_section/25.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/25.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 Hence it does this step automatically:
 
-<img src="../../images/devcontainer_section/26.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/26.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 You enter debug mode and you can debug as usual (look YouTube videos to understand how to debug. Don't wonder whether it's worth the time. It is.)
 
-<img src="../../images/devcontainer_section/27.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/27.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 # Coming back to the devcontainer after having logged out
 
@@ -233,13 +234,13 @@ Open vsCode.
 
  
 
-<img src="../../images/devcontainer_section/28.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/28.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 Connect to DGX
 
-<img src="../../images/devcontainer_section/29.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/29.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
-<img src="../../images/devcontainer_section/30.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/30.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 You were too lazy to create the key-authentification yesterday? You can still do it now.
 
@@ -271,7 +272,7 @@ I want to go to my workspace and I click the arrow.
 
 I am back in my devcontainer
 
-<img src="../../images/devcontainer_section/38.png" style="display: block; margin: 20px auto; width: 800px;"/>
+<img src="../../images/devcontainer_section/38.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
 <img src="../../images/devcontainer_section/39.png" style="display: block; margin: 20px auto; width: 400px;"/>
 
