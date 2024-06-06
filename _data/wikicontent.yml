@@ -44,6 +44,15 @@
       relpath: working-on-the-gpu-station
 - title   : Working in devcontainer
   relpath : wiki/devcontainer
+  subfolderitems:
+    - title   : Connect to DGX via vsCode
+      relpath : connect_to_dgx_via_vscode
+    - title   : Create .devcontainer
+      relpath : create_devcontainer
+    - title   : Building the devcontainer
+      relpath : building_the_devcontainer
+    - title   : Coming back to the devcontainer after having logged out
+      relpath : coming_back
 - title  : RStudio Server & Jupyter
   relpath: wiki/rstudio_server
   subfolderitems:
