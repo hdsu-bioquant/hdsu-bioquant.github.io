@@ -8,15 +8,15 @@ permalink: /wiki/devcontainer/
 
 # Working in devcontainer
 
-Working on visual studio code became best practice, due to the ease to integrate several languages at once (e.g. python and R) and several script modalities (e.g. python scripts and Jupyter notebooks). In addition, in visual studio code, debugging is made very easy, just as working with GitHub. 
+Working with Visual Studio Code has become a best practice due to its ease of integrating multiple languages simultaneously (e.g., Python and R) and various script modalities (e.g., Python scripts and Jupyter notebooks). Additionally, debugging and working with GitHub are seamlessly integrated within Visual Studio Code.
 
-In the following, we are going to show how to mount visual studio code in a docker, on the cluster. By this means, you are going to be able to develop in an environment that is going to ensure compatibilities between your packages at all time, and to give you the computing power of the clusters. 
+In the following section, we will demonstrate how to set up Visual Studio Code within a Docker container on the cluster. This setup enables you to develop in an environment that ensures compatibility between your packages while leveraging the computing power of the clusters.
 
-In short, working comfortably on a powerful machine. 
+In essence, this approach allows you to work comfortably on a powerful machine.
 
-I assume for the following that you already have visual studio code installed, as well as access to the DGX workstation. I also suggest that you create an automatic connection from your machine to the cluster by creating keys (keygen) and by modifying the .bashrc of your local machine. Keyword for this procedure is called SSH key exchange authentication. You can google how to do it, it's classic. 
+Assuming you already have Visual Studio Code installed and access to the DGX workstation, I recommend creating an automatic connection from your machine to the cluster using SSH key exchange authentication. You can achieve this by generating keys (keygen) and modifying the .bashrc file on your local machine. You can find detailed instructions on how to do this through a simple online search.
 
-Note that if you have access to GPU1 and GPU2 as well (lucky you), you can follow the exact same procedures as the one described below. In particular you can keep the content of the .devcontainer exactly the same. It is not cluster dependent. At the time of writing, the rights granted to the workspaces on the cluster did not allow to mount the container from vsCode. When you read this, it should be solved. Otherwise, ask for help. The problem is known. 
+Please note that if you have access to GPU1 and GPU2 as well (fortunate you), you can follow the exact same procedures described below. You can keep the content of the .devcontainer unchanged, as it is not dependent on the cluster. As of the time of writing, the permissions granted to workspaces on the cluster did not allow for mounting the container from Visual Studio Code. By the time you read this, the issue should be resolved. If not, don't hesitate to seek assistance as the problem is already known.
 
 # Connect to DGX via vsCode
 [Link Title](connect_to_dgx_via_vscode)
