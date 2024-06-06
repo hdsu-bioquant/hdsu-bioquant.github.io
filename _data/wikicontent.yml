@@ -49,6 +49,8 @@
       relpath: rstudio-server-on-curry
     - title  : JupyterHub
       relpath: jupyterHub
+- title : Working in devcontainer
+  relpath : wiki/devcontainer
 - title  : Other daily tools
   relpath: wiki/daily_tools
   subfolderitems:
