@@ -7,7 +7,7 @@ permalink: /
 ---
 
 
-<span style="color:red;font-weight:700;font-size:20px">Master thesis project on integrative multiomics data analysis together with the University Clinics Dresden. More details <a href="{{ site.url }}{{ site.baseurl }}/ma2024.html">here!</a></span>  
+<span style="color:red;font-weight:700;font-size:20px;text-align: center">Master thesis project on integrative multiomics data analysis together with the University Clinics Dresden. More details <a href="{{ site.url }}{{ site.baseurl }}/ma2024.html">here!</a></span>  
 
 Welcome to the **Biomedical Genomics Group @ IPMB** !
 
