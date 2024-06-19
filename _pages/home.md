@@ -9,7 +9,7 @@ permalink: /
 
 <span style="color:red;font-weight:700;font-size:20px;text-align: center">Master thesis project on integrative multiomics data analysis together with the University Clinics Dresden. More details <a href="{{ site.url }}{{ site.baseurl }}/ma2024.html">here!</a></span>  
 
-Welcome to the **Biomedical Genomics Group @ IPMB** !
+Welcome to the **Computational Regulatory Genomics Group @ IPMB** !
 
 We are part of the [Institute for Pharmacy and Molecular Biotechnology](https://www.ipmb.uni-heidelberg.de/) and [BioQuant Center](https://www.bioquant.uni-heidelberg.de/) . We are working on understanding **gene (de)regulation in disease**, in particular cancer, mental disorders and infection. 
 
