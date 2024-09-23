@@ -9,6 +9,27 @@
 #   highlight: 0
 #   news2: 
 
+- title: "A network of transcriptomic signatures identifies novel comorbidity mechanisms between schizophrenia and somatic disorders"
+  image: dummy.png
+  description: The clinical burden of mental illness, in particular schizophrenia and bipolar disorder, are driven by frequent chronic courses and increased mortality, as well as the risk for comorbid conditions such as cardiovascular disease and type 2 diabetes. Evidence suggests an overlap of molecular pathways between psychotic disorders and somatic comorbidities. In this study, we developed a computational framework to perform comorbidity modeling via an improved integrative unsupervised machine learning approach based on multi-rank non-negative matrix factorization (mrNMF). Using this procedure, we extracted molecular signatures potentially explaining shared comorbidity mechanisms. 
+  authors: Zhang, Y., Bharadhwaj, VS., Kodamullil AT, Herrmann, C.
+  link:
+    url: https://link.springer.com/article/10.1007/s44192-024-00063-8
+    display: Discover Mental Health (2024)
+  highlight: 1
+  news2: 
+
+- title: "Interleukin-22 Promotes Cell Proliferation to Combat Virus Infection in Human Intestinal Epithelial Cells"
+  image: dummy.png
+  description: nterferon lambdas (IFN-ks) are crucial to control virus infections at mucosal surfaces. Interleukin-22 (IL-22) was reported to help IFN-k control rotavirus infection in the intestinal epithelium of mice either by aiding in the induction of interferon-stimulated genes (ISGs) or by increasing cell proliferation thereby clearing virally infected cells. We investigated whether IL-22 and IFN-ks exhibit similar synergistic effects in human intestinal epithelial cells (IECs) models. Our results showed that co-treatment of IL-22 and IFN-k induced more phosphorylation of STAT1 than either cytokine used alone. 
+  authors: Guo, C., Sharma, AK., Guzman, J., Herrmann, C., Boulant, S., Stanifer, M.
+  link:
+    url: https://www.liebertpub.com/doi/abs/10.1089/jir.2024.0096
+    display: Journal of Interferon and Cytokine Research (2024)
+  highlight: 0
+  news2: 
+
+
 - title: "Biologically informed variational autoencoders allow predictive modeling of genetic and drug-induced perturbations"
   image: 2023_Doncevic.png
   description: To shed light on the inner workings of VAE and enable direct interpretability of the model through its structure, we designed a novel VAE, OntoVAE (Ontology guided VAE) that can incorporate any ontology in its latent space and decoder part and, thus, provide pathway or phenotype activities for the ontology terms. In this work, we demonstrate that OntoVAE can be applied in the context of predictive modeling and show its ability to predict the effects of genetic or drug-induced perturbations using different ontologies and both, bulk and single-cell transcriptomic datasets. Finally, we provide a flexible framework, which can be easily adapted to any ontology and dataset.
@@ -27,6 +48,17 @@
     display: Cell Reports (2023)
   highlight: 0
   news2: 
+
+- title: "Exploring the impact of dexamethasone on gene regulation in myeloma cells"
+  image: dummy.png
+  description: Glucocorticoids (GC) effects occur through binding to the GC receptor (GR) which, once translocated to the nucleus, binds to GC response elements (GREs) to activate or repress target genes. Among GCs, dexamethasone (Dex) is widely used in treatment of multiple myeloma (MM), mainly in combination regimens. However, despite a definite benefit, all patients relapse. Moreover, while GC efficacy can be largely attributed to lymphocyte-specific apoptosis, its molecular basis remains elusive. To determine the functional role of GR binding in myeloma cells, we generated bulk and single cell multi-omic data and high-resolution contact maps of active enhancers and target genes. We show that a minority (6%) of GR binding sites are associated with enhancer activity gains and increased interaction loops. We find that enhancers contribute to regulate gene activity through combinatorial assembly of large stretches of enhancers and/or enhancer cliques. Furthermore, one enhancer, proximal to GR-responsive genes, is predominantly associated with increased chromatin accessibility and higher H3K27ac occupancy. Finally, we show that Dex exposure leads to co-accessibility changes between predominant enhancer and other regulatory regions of the interaction network. Notably, these epigenomic changes are associated with cell-to-cell transcriptional heterogeneity. As consequences, BIM critical for GR-induced apoptosis and CXCR4 protective from chemotherapy-induced apoptosis are rather upregulated in different cells. In summary, our work provides new insights into the molecular mechanisms involved in Dex escape.
+  authors: Victor Gaborit, Jonathan Cruard, Catherine Guérin-Charbonnel, Jennifer Derrien, Jean-Baptiste Alberge, Elise Douillard, Nathalie Roi, Magali Devic, Loïc Campion, Frank Westermann, Philippe Moreau, Carl Herrmann, Jérémie Bourdon, Florence Magrangeas, Stephane Minvielle
+  link:
+    url: https://www.life-science-alliance.org/content/6/9/e202302195.abstract
+    display: Life Science Alliance (2023)
+  highlight: 0
+  news2: 
+
 
 - title: "dsMTL: a computational framework for privacy-preserving, distributed multi-task machine learning"
   image: dummy.png
@@ -47,15 +79,6 @@
   highlight: 0
   news2: 
 
-- title: "Chromatin accessibility combined with enhancer clusters activation mediates heterogeneous response to dexamethasone in myeloma cells"
-  image: dummy.png
-  description: Glucocorticoids (GC) effects occur through binding to the GC receptor (GR) which, once translocated to the nucleus, binds to GC response elements (GREs) to activate or repress target genes. Among GCs, dexamethasone (Dex) is widely used in treatment of multiple myeloma (MM), mainly in combination regimens. However, despite a definite benefit, all patients relapse. Moreover, while GC efficacy can be largely attributed to lymphocyte-specific apoptosis, its molecular basis remains elusive. To determine the functional role of GR binding in myeloma cells, we generated bulk and single cell multi-omic data and high-resolution contact maps of active enhancers and target genes. We show that a minority (6%) of GR binding sites are associated with enhancer activity gains and increased interaction loops. We find that enhancers contribute to regulate gene activity through combinatorial assembly of large stretches of enhancers and/or enhancer cliques. Furthermore, one enhancer, proximal to GR-responsive genes, is predominantly associated with increased chromatin accessibility and higher H3K27ac occupancy. Finally, we show that Dex exposure leads to co-accessibility changes between predominant enhancer and other regulatory regions of the interaction network. Notably, these epigenomic changes are associated with cell-to-cell transcriptional heterogeneity. As consequences, BIM critical for GR-induced apoptosis and CXCR4 protective from chemotherapy-induced apoptosis are rather upregulated in different cells. In summary, our work provides new insights into the molecular mechanisms involved in Dex escape.
-  authors: Victor Gaborit, Jonathan Cruard, Catherine Guérin-Charbonnel, Jennifer Derrien, Jean-Baptiste Alberge, Elise Douillard, Nathalie Roi, Magali Devic, Loïc Campion, Frank Westermann, Philippe Moreau, Carl Herrmann, Jérémie Bourdon, Florence Magrangeas, Stephane Minvielle
-  link:
-    url: https://www.biorxiv.org/content/10.1101/2021.09.06.459068v1
-    display: BioRxiv (2021)
-  highlight: 0
-  news2: 
 
 - title: "Derepression of retroelements in acute myeloid leukemia with 3q aberrations"
   image: dummy.png
