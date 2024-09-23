@@ -7,7 +7,7 @@ permalink: /
 ---
 
 
-<span style="color:red;font-weight:700;font-size:20px;text-align: center">++++++++++<br>Master thesis project on integrative multiomics data analysis together with the University Clinics Dresden. More details <a href="{{ site.url }}{{ site.baseurl }}/ma2024.html">here!</a></span>  
+<span style="color:red;font-weight:700;font-size:20px;text-align: center">++++++++++<br>Master thesis project on analysis of single-cell scRNA-seq data from an Alzheimer mouse model to detect neuroprotective functions of APPsa. More details <a href="{{ site.url }}{{ site.baseurl }}/ma2024.html">here!</a><br>++++++++++</span>  
 
 Welcome to the **Computational Regulatory Omics Lab (a.k.a. CROmLab) @ IPMB** !
 
