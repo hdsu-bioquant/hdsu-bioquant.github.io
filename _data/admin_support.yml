@@ -6,3 +6,10 @@
   education1: Im Neuenheimer Feld 364
   education2: Room 509
   education3: +49 6221 54 5820
+
+- name: Pranab Mitra 
+  photo: pranab_mitra.png
+  info: IT engineer
+  email: pranab.mitra@uni-heidelberg.de
+  number_educ: 1
+  education1: <a href="https://de.linkedin.com/in/pranab-mitra-5475ab97">LinkedIn Profile</a>
