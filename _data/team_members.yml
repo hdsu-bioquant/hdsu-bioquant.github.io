@@ -20,13 +20,6 @@
   number_educ: 1
   education1: <a href='https://www.linkedin.com/in/robin-droit-136b41166/'>LinkedIn Profile</a>
 
-- name: Ana Luisa Costa
-  photo: Ana_Costa.png
-  info: Postdoc
-  email: luisa.costa@bioquant.uni-heidelberg.de
-  number_educ: 1
-  education1: <a href="https://www.linkedin.com/in/anluisasimoescosta1995/">LinkedIn Profile</a>
-
 - name: Saifullah Tumrani
   photo: Saifullah_Tumrani.png
   info: Postdoc
@@ -52,24 +45,9 @@
   education1: <a href='https://albert0325.github.io/'>Personal Website</a>
   education2: <a href="https://www.linkedin.com/in/albert-li-52502713b/">LinkedIn Profile</a>
 
-- name: Nils Mechtel
-  photo: Nils_Mechtel.jpg
-  info: Master student
-  email: mechtel@stud.uni-heidelberg.de
+- name: Thien Duc Bui
+  photo: Thien_Duc_Bui.png
+  info: master student
+  email: tthien.bui@stud.uni-heidelberg.de
   number_educ: 1
-  education1: <a href="https://www.linkedin.com/in/nils-mechtel/">LinkedIn Profile</a>
-
-- name: Juri Jegelka
-  photo: Juri_Jegelka.png
-  info: Master student
-  email: jegelka@stud.uni-heidelberg.de
-  number_educ: 2
-  education1: <a href='https://juri-jegelka.notion.site'>Personal Website</a>
-  education2: <a href='https://www.linkedin.com/in/juri-jegelka/'>LinkedIn Profile</a>
-
-- name: Kasimir Noack
-  photo: Kasimir_Noack.png
-  info: Master student
-  email: k.noack@stud.uni-heidelberg.de
-  number_educ: 1
-  education1: <a href='https://www.linkedin.com/in/kasimir-noack-049a96186/'>LinkedIn Profile</a>
+  education1: <a href="https://de.linkedin.com/in/duc-thien-bui-134b88197">LinkedIn Profile</a>
