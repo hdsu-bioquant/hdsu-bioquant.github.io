@@ -11,12 +11,12 @@ permalink: /teaching/CIN
 
 #### Teachers
 
-* **Carl Herrmann** (carl.herrmann (at) bioquant.uni-heidelberg.de)
+* **Carl Herrmann** (carl.herrmann (at) uni-heidelberg.de)
 
 #### Dates
 
-- 17.11.2022 : [lecture 1]({{ site.url }}{{ site.baseurl }}/teaching/downloads/CIN2223_lecture1.pdf)
-- 1.12.2022 : [lecture 2]({{ site.url }}{{ site.baseurl }}/teaching/downloads/CIN2223_lecture2.pdf) and [practical]({{ site.url }}{{ site.baseurl }}/teaching/downloads/CIN-WiSe2223_RegGen.json)
+- 14.11.2024 : [lecture 1]({{ site.url }}{{ site.baseurl }}/teaching/downloads/CIN2223_lecture1.pdf)
+- 21.11.2024 : [lecture 2]({{ site.url }}{{ site.baseurl }}/teaching/downloads/CIN2223_lecture2.pdf) and [practical]({{ site.url }}{{ site.baseurl }}/teaching/downloads/CIN-WiSe2223_RegGen.json)
 
 #### Content
 
@@ -29,9 +29,9 @@ The purpose of this lecture is to provide an introduction to the concepts of reg
 * some insights into bayesian networks modelling
 
 
-#### Practical application (1.12.2022)
+#### Practical application (21.11.2024)
 
-* Download the json file [here](./downloads/teaching/CIN-WiSe2223_RegGen.json)
+* Download the json file [here]({{ site.url }}{{ site.baseurl }}/teaching/downloads/CIN-WiSe2223_RegGen.json)
 * Load it into the [IGV App](https://igv.org/app/)
 * Try to answer the following questions
 

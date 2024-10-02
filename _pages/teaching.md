@@ -17,45 +17,27 @@ Members of the lab are involved in teaching in following programs:
 ___
 
 
-## Courses
+## Current semester
 
-- MoBi Master: Seminar <a href="https://deeplife4eu.github.io/">Deep-learning in Life Sciences</a>
-
-
-### Winter semester 2023 / 2024
-- MoBi Master : <a href="{{ site.url }}{{ site.baseurl }}/teaching/bn2024.html">Seminar Biological Networks (with J. Saez Rodriguez)</a>
+#### Winter semester 2024 / 2025
+- MoBi Master : <a href="{{ site.url }}{{ site.baseurl }}/teaching/networks.html">Seminar Biological Networks (with J. Saez Rodriguez)</a>
 - MoBi Bachelor 5. FS: <a href="{{ site.url }}{{ site.baseurl }}/teaching/bioinfo5fs.html">Bioinformatics</a>
 - MoBi Bachelor 3. FS : <a href="{{ site.url }}{{ site.baseurl }}/teaching/dataanalysis3fs.html">Data Analysis Course</a>
-
-### Summer semester 2023
-- MoBi Bachelor 4. FS : <a href="{{ site.url }}{{ site.baseurl }}/teaching/data2023.html">Data Analysis Project Module 2023</a>
-
-### Winter semester 2022 / 2023
-- MoBi Bachelor 3. FS : <a href="{{ site.url }}{{ site.baseurl }}/teaching/dataanalysis3fs.html">Data Analysis Course</a>
-- MoBi Master : [Meet-EU project module](http://bioinfo.ipmb.uni-heidelberg.de/crg/master-meetu/)
 - Medizininformatik (HHN Hochschule Heilbronn) : <a href="{{ site.url }}{{ site.baseurl }}/teaching/CIN.html">Components Interactions Networks</a>
-- MoBi Master : <a href="{{ site.url }}{{ site.baseurl }}/teaching/networks.html">Seminar Biological Networks (with J. Saez Rodriguez)</a>
 
-### Summer Semester 2022
-- MoBi Bachelor 4. FS : <a href="{{ site.url }}{{ site.baseurl }}/data2022.html">Data Analysis Project Module 2022</a>
-
-### Winter semester 2021 / 2022
-- HeiCuMed Wahlfachtrack "Digitale Medizin": Einführung in maschinellem Lernen [[pdf]](../downloads/WFT_IntroML.pdf)
-- MoBi Bachelor 1. FS : [Mathematik A](http://bioinfo.ipmb.uni-heidelberg.de/crg/mathea/)
-- MoBi Bachelor 3. FS : [Data Analysis Course](http://bioinfo.ipmb.uni-heidelberg.de/crg/datascience3fs/)
-- MoBi Bachelor 5. FS : [Bioinformatics 1](http://bioinfo.ipmb.uni-heidelberg.de/crg/bioinfo1/)
-- MoBi Master : [Meet-EU project module](http://bioinfo.ipmb.uni-heidelberg.de/crg/master-meetu/)
-- MoBi Master : [Seminar Biological Networks (with J. Saez Rodriguez)](http://bioinfo.ipmb.uni-heidelberg.de/crg/seminar-network/index.html)
-
-### Summer semester 2021
-- MoBi Bachelor 2. FS : Mathematik B
-- MoBi Bachelor 4. FS : [Data Analysis Project Module](https://datascience-mobi.github.io/)
-
-### Tutorials / Advanced courses
+## Tutorials / Advanced courses
+- MoBi Master: Seminar <a href="https://deeplife4eu.github.io/">Deep-learning in Life Sciences</a>
 - Course on Multiome Single-cell integration given at SinCellTE 2022 Winter school in Roscoff : [website](http://www.hdsu.org/sincellTE_2022/)
 - Tutorial on non-negative matrix factorization (given at BC2 conference Basel) : [website](https://hdsu-bioquant.github.io/bc2_tutorial/)
 - Single-cell analysis in R (given as part of the TRR179 IRTG) : [website](https://hdsu-bioquant.github.io/irtg2021/)
 - ChIP-seq and ATAC-seq analysis (given at RISE graduate school Frankfurt) : [website](https://hdsu-bioquant.github.io/chipatac2020/)
+
+## Previous semesters
+
+#### Summer semester 2024
+- MoBi Bachelor 4. FS : <a href="{{ site.url }}{{ site.baseurl }}/teaching/data2023.html">Data Analysis Project Module 2023</a>
+
+
 
 ___
 
