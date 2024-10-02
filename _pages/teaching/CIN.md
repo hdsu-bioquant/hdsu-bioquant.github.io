@@ -3,7 +3,7 @@ title: "Components Interactions and Networks WiSe 2024/2025"
 layout: textlay
 excerpt: "CIN"
 sitemap: false
-permalink: /teaching/
+permalink: /teaching/CIN
 ---
 ## Medizininformatik - Components Interactions and Networks
 
