@@ -5,7 +5,7 @@ excerpt: "bioinfo5fs"
 sitemap: false
 permalink: /teaching/bioinfo5fs
 ---
-## MoBi Bachelor  -- Bioinformatics -- WS 2023/2024
+## MoBi Bachelor  -- Bioinformatics -- WS 2024/2025
 
 ### Teachers
 
@@ -29,10 +29,10 @@ Lectures take place twice a week (Mondays and Fridays); practical sessions are o
 
 Here are the slides to the topic **Regulatory Genomics**
 
-* Lecture 1: [Intro to concepts and data]({{ site.baseurl }}/teaching/RegGen_WS2324_Part1.pdf)
-* Lecture 2: [Transcription factors]({{ site.baseurl }}/downloads/teaching/RegGen_WS2324_Part1.pdf)
-* Lecture 3: [Predicting TFBS and validation]({{ site.baseurl }}/downloads/teaching/RegGen_WS2324_Part1.pdf)
-* Lecture 4: [Phylogenetic footprinting]({{ site.baseurl }}/downloads/teaching/RegGen_WS2324_Part1.pdf)
-* Lecture 5: [Adding epigenomic data]({{ site.baseurl }}/downloads/teaching/RegGen_WS2324_Part1.pdf)
-* Lecture 6: [Motif discovery]({{ site.baseurl }}/downloads/teaching/RegGen_WS2324_Part1.pdf)
+* Lecture 1: [Intro to concepts and data](./downloads/RegGen_WS2324_Part1.pdf)
+* Lecture 2: [Transcription factors](./downloads/RegGen_WS2324_Part1.pdf)
+* Lecture 3: [Predicting TFBS and validation](./downloads/RegGen_WS2324_Part1.pdf)
+* Lecture 4: [Phylogenetic footprinting](./downloads/RegGen_WS2324_Part1.pdf)
+* Lecture 5: [Adding epigenomic data](./downloads/RegGen_WS2324_Part1.pdf)
+* Lecture 6: [Motif discovery](./downloads/RegGen_WS2324_Part1.pdf)
 

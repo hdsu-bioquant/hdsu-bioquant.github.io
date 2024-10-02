@@ -1,9 +1,9 @@
 ---
-title: "Components Interactions and Networks 2022/2023"
+title: "Components Interactions and Networks WiSe 2024/2025"
 layout: textlay
 excerpt: "CIN"
 sitemap: false
-permalink: /teaching/CIN
+permalink: /teaching/
 ---
 ## Medizininformatik - Components Interactions and Networks
 
@@ -15,8 +15,8 @@ permalink: /teaching/CIN
 
 #### Dates
 
-- 14.11.2024 : [lecture 1]({{ site.url }}{{ site.baseurl }}/teaching/downloads/CIN2223_lecture1.pdf)
-- 21.11.2024 : [lecture 2]({{ site.url }}{{ site.baseurl }}/teaching/downloads/CIN2223_lecture2.pdf) and [practical]({{ site.url }}{{ site.baseurl }}/teaching/downloads/CIN-WiSe2223_RegGen.json)
+- 14.11.2024 : [lecture 1](./downloads/CIN2223_lecture1.pdf)
+- 21.11.2024 : [lecture 2](./downloads/CIN2223_lecture2.pdf) and [practical](./downloads/CIN-WiSe2223_RegGen.json)
 
 #### Content
 
@@ -31,7 +31,7 @@ The purpose of this lecture is to provide an introduction to the concepts of reg
 
 #### Practical application (21.11.2024)
 
-* Download the json file [here]({{ site.url }}{{ site.baseurl }}/teaching/downloads/CIN-WiSe2223_RegGen.json)
+* Download the json file [here](./downloads/CIN-WiSe2223_RegGen.json)
 * Load it into the [IGV App](https://igv.org/app/)
 * Try to answer the following questions
 
