@@ -15,8 +15,8 @@ permalink: /teaching/CIN
 
 #### Dates
 
-- 14.11.2024 : [lecture 1](./downloads/CIN2223_lecture1.pdf)
-- 21.11.2024 : [lecture 2](./downloads/CIN2223_lecture2.pdf) and [practical](./downloads/CIN-WiSe2223_RegGen.json)
+- 14.11.2024 : [lecture 1](./CIN2223_lecture1.pdf)
+- 21.11.2024 : [lecture 2](./CIN2223_lecture2.pdf) and [practical](./CIN-WiSe2223_RegGen.json)
 
 #### Content
 
