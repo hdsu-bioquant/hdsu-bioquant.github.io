@@ -15,8 +15,8 @@ permalink: /teaching/CIN
 
 #### Dates
 
-- 14.11.2024 : <a href='../downloads/CIN2223_lecture1.pdf'>[Lecture 1]</a>
-- 21.11.2024 : <a href='../downloads/CIN2223_lecture2.pdf'>[Lecture 2]</a> and <a href='../downloads/CIN-WiSe2223_RegGen.json'>[practical]</a>
+- 14.11.2024 : <a href='../downloads/teaching/CIN2223_lecture1.pdf'>[Lecture 1]</a>
+- 21.11.2024 : <a href='../downloads/teaching/CIN2223_lecture2.pdf'>[Lecture 2]</a> and <a href='../downloads/teaching/CIN-WiSe2223_RegGen.json'>[practical]</a>
 
 #### Content
 
@@ -31,7 +31,7 @@ The purpose of this lecture is to provide an introduction to the concepts of reg
 
 #### Practical application (21.11.2024)
 
-* Download the json file <a href='../downloads/CIN-WiSe2223_RegGen.json'>[here]</a>
+* Download the json file <a href='../downloads/teaching/CIN-WiSe2223_RegGen.json'>[here]</a>
 * Load it into the [IGV App](https://igv.org/app/)
 * Try to answer the following questions
 
