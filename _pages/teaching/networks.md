@@ -5,7 +5,7 @@ excerpt: "networks"
 sitemap: false
 permalink: /teaching/networks
 ---
-## MoBi Master  -- Biological Networks -- WS 2023/2024
+## MoBi Master  -- Biological Networks -- WS 2024/2025
 
 ### Teachers
 
@@ -15,6 +15,18 @@ permalink: /teaching/networks
 ### Practical information
 
 **Technical requirements:** each student should have its own laptop with RStudio installed and running!
+
+**IMPORTANT: Please make sure that the following packages are installed under R:**
+
+```
+library(ggplot2)
+library(reshape2)
+library(Ckmeans.1d.dp)
+library(corrplot)
+library(bnlearn)
+library(igraph)
+library(Rgraphviz)
+```
 
 We will assume some programming skills in R, as well as knowledge of basic statistical concepts (P-value, statistical tests, multiple testing,…). Please contact us if you have questions related to these points!
 Content
@@ -33,9 +45,9 @@ Each day will cover a specific topic including lectures and practical sessions.
 
 * Day 1 to 3: Network Modeling
 * Day 4: Bayesian Networks
-    * <a href="{{ site.url }}{{ site.baseurl }}/teaching/downloads/2024-01-18_MasterSeminar.pdf">[slides]</a>
-    * <a href="{{ site.url }}{{ site.baseurl }}/teaching/downloads/bnTutorial2024_noOutput.html">[Tutorial (html)]</a>
-    * <a href="{{ site.url }}{{ site.baseurl }}/teaching/downloads/bnTutorial2024_noOutput.Rmd">[Tutorial (R markdown)]</a>
+    * <a href="{{ site.url }}{{ site.baseurl }}/downloads/teaching/2024-01-18_MasterSeminar.pdf">[slides]</a>
+    * <a href="{{ site.url }}{{ site.baseurl }}/downloads/teaching/bnTutorial2025_noOutput.html">[Tutorial (html)]</a>
+    * <a href="{{ site.url }}{{ site.baseurl }}/downloads/teaching/bnTutorial2025_noOutput.Rmd">[Tutorial (R markdown)]</a>
 
 ### Final exam
 
