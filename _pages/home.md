@@ -7,7 +7,7 @@ permalink: /
 ---
 
 
-<span style="color:red;font-weight:700;font-size:20px;text-align: center">++++++++++<br>Topics for Bachelor Thesis 2025;  More details <a href="{{ site.url }}{{ site.baseurl }}/ba2025.html">here!</a><br>++++++++++</span>  
+<span style="color:red;font-weight:700;font-size:20px;text-align: center">++++++++++<br>Find informations about the Intriductory course in Bioinformatiks (a.k.a. Grundkurs Bioinformatik - MoBi Master) <a href="{{ site.url }}{{ site.baseurl }}/teaching/gkbioinfo.html">here!</a><br>++++++++++</span>  
 
 Welcome to the **Computational Regulatory Omics Lab (a.k.a. CROmLab) @ IPMB** !
 

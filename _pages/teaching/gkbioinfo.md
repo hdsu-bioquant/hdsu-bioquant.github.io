@@ -15,13 +15,15 @@ Insbesondere werden die Themen der Statistik, Datenanalyse, Modellierung von Pro
 
 ### Zielgruppe
 
-Der Grundkurs Bioinformatik wendet sich in erster Linie an Studierende mit wenig Vorwissen auf den oben genannten Themengebieten. Die Übungen werden in R durchgeführt
+Der Grundkurs Bioinformatik wendet sich in erster Linie an Studierende des Master Molekulare Biotechnologie mit wenig Vorwissen auf den oben genannten Themengebieten. Die Übungen werden in R durchgeführt
 
 ### Bewertung
 
 Die Bewertung setzt sich zusammen aus: (1) Klausur  und (2) Projekt. Für das Projekt soll ein kurzer Bericht verfasst werden (max. 10 Seiten). Die Klausur wird Ende Mai 2025 stattfinden.
 
 ### Inhalte
+
+Der Kurs startet am **Montag, 14. April 2025 um 9h** im Computerraum (CIP Pool) im IPMB (INF 364, 5. Stock).
 
 #### Woche 1 (Herrmann)
 
