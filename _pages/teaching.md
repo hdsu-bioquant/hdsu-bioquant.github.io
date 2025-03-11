@@ -19,6 +19,9 @@ ___
 
 ## Current semester
 
+#### Summer semester 2025
+-  <a href="{{ site.url }}{{ site.baseurl }}/teaching/gkbioinfo.html">Grundkurs Bioinformatik - MoBi Master</a>
+
 #### Winter semester 2024 / 2025
 - MoBi Master : <a href="{{ site.url }}{{ site.baseurl }}/teaching/networks.html">Seminar Biological Networks (with J. Saez Rodriguez)</a>
 - MoBi Bachelor 5. FS: <a href="{{ site.url }}{{ site.baseurl }}/teaching/bioinfo5fs.html">Bioinformatics</a>
