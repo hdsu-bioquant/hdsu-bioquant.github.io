@@ -16,6 +16,10 @@ Members of the lab are involved in teaching in following programs:
 
 ___
 
+## Workshop Pathways of Bioinformatics Workshop - Studienstiftung
+
+Go to the script <a href="{{ site.url }}{{ site.baseurl }}/teaching/workshop_singlecell.html">[here]]</a>
+
 
 ## Current semester
 
