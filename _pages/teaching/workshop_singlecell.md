@@ -23,7 +23,7 @@ This hands-on laboratory introduces undergraduate students to single-cell and sp
 
 ---
 
-## SCHEDULE
+### SCHEDULE
 
 **Morning Session (10:30 - 12:00)**
 - Introduction to Single-Cell Transcriptomics and Mouse Cortex (30 min)
@@ -36,9 +36,9 @@ This hands-on laboratory introduces undergraduate students to single-cell and sp
 
 ---
 
-## MORNING SESSION (10:30-12:00)
+### MORNING SESSION (10:30-12:00)
 
-### LECTURE: INTRODUCTION TO SINGLE-CELL TRANSCRIPTOMICS AND MOUSE CORTEX (30 MIN)
+#### LECTURE: INTRODUCTION TO SINGLE-CELL TRANSCRIPTOMICS AND MOUSE CORTEX (30 MIN)
 
 #### Single-Cell RNA Sequencing Technology
 - Basic workflow: tissue dissociation → single-cell isolation → library preparation → sequencing
@@ -147,7 +147,7 @@ This hands-on laboratory introduces undergraduate students to single-cell and sp
 
 ---
 
-## AFTERNOON SESSION (14:00-16:30)
+### AFTERNOON SESSION (14:00-16:30)
 
 <a id="lab2"></a>
 ### HANDS-ON SESSION 2: SPATIAL TRANSCRIPTOMICS ANALYSIS (1 HOUR)
@@ -444,17 +444,17 @@ DefaultAssay(brain) <- "Spatial"
 
 
 
-## WRAP-UP
+### WRAP-UP
 
-### 5 Key Take-Home Messages
+#### 5 Key Take-Home Messages
 
-#### Biology Perspective
+##### Biology Perspective
 
 * The mouse cortex has a complex layered organization with specific distributions of excitatory and inhibitory neurons, where inhibitory "hot zones" exist in layers 2 and 5A despite inhibitory neurons making up only ~11.5% of total neurons.
 * Specific marker genes reliably identify cell types across the cortex: Slc17a7 for excitatory neurons, Gad1 for inhibitory neurons, and layer-specific markers like Cux2 (upper layers), Rorb (layer 4), and Fezf2 (deep layers).
 * The balance between excitation and inhibition varies across cortical layers and regions, creating unique computational environments crucial for proper cortical function.
 
-#### Data Analysis Perspective
+##### Data Analysis Perspective
 
 * Integrating single-cell and spatial transcriptomics provides complementary information: single-cell data offers high-resolution cell type identification while spatial data preserves anatomical context critical for understanding tissue organization.
 * Modern computational approaches allow transfer of information between datasets, enabling the mapping of detailed single-cell profiles onto spatial coordinates to better understand the architectural principles of brain organization.
@@ -468,7 +468,7 @@ DefaultAssay(brain) <- "Spatial"
 
 ---
 
-## TECHNICAL NOTES 
+### TECHNICAL NOTES 
 
 ### Troubleshooting Tips
 - Common CellxGENE issues:
