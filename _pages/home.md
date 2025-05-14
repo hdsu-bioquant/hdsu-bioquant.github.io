@@ -7,7 +7,6 @@ permalink: /
 ---
 
 
-<span style="color:red;font-weight:700;font-size:20px;text-align: center">++++++++++++++++++++++++++++++<br>Informations about the introductory course in Bioinformatics (a.k.a. Grundkurs Bioinformatik - MoBi Master) <a href="{{ site.url }}{{ site.baseurl }}/teaching/gkbioinfo.html">here!</a><br>++++++++++++++++++++++++++++++</span>  
 
 Welcome to the **Computational Regulatory Omics Lab (a.k.a. CROmLab) @ IPMB** !
 
