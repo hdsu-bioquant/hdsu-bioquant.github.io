@@ -25,6 +25,7 @@ Go to the script <a href="{{ site.url }}{{ site.baseurl }}/teaching/workshop_sin
 
 #### Summer semester 2025
 -  <a href="{{ site.url }}{{ site.baseurl }}/teaching/gkbioinfo.html">Grundkurs Bioinformatik - MoBi Master</a>
+-  <a href="https://www.dropbox.com/scl/fo/wpuoumuj445xf2nzq88eh/AEtCx2LkxUcd8dCGmPPcOAg?rlkey=1o5ti525hzdmjvwbm5sjpwpoc&dl=0">Bioinformatik 2 - 6. FS</a>
 
 #### Winter semester 2024 / 2025
 - MoBi Master : <a href="{{ site.url }}{{ site.baseurl }}/teaching/networks.html">Seminar Biological Networks (with J. Saez Rodriguez)</a>
