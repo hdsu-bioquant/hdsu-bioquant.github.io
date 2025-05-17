@@ -18,7 +18,7 @@ ___
 
 ## Workshop Pathways of Bioinformatics Workshop - Studienstiftung
 
-* Workshop script, data and presentation available <a href="[{{ site.url }}{{ site.baseurl }}/teaching/workshop_singlecell.html](https://www.dropbox.com/scl/fo/6wxpgamcjfutb9u7rzq27/AAUJ_DWUvrTtxSc-oVfmoUM?rlkey=8h2wstk9mclwua14kyadwwmna&dl=0)">[here]</a>
+* Workshop script, data and presentation available <a href="https://www.dropbox.com/scl/fo/6wxpgamcjfutb9u7rzq27/AAUJ_DWUvrTtxSc-oVfmoUM?rlkey=8h2wstk9mclwua14kyadwwmna&dl=0">[here]</a>
 
 
 ## Current semester
