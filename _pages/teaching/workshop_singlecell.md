@@ -75,18 +75,20 @@ This hands-on laboratory introduces undergraduate students to single-cell and sp
 #### Part 1: Getting Started with CellxGENE (10 min)
 
 1. Navigate to the CellxGENE website: https://cellxgene.cziscience.com/
-2. Click on *Datasets* on the top, and use the filters to find the mouse dataset in *primary visual cortex* named *Shared and distinct transcriptomic cell types across neocortical areas* (it should have 22,375 cells)
-3. Click on the description to understand what this dataset is about (Publication, single-cell protocol, ...)
-4. Click on the dataset ('Explore') to open it in the CellxGENE browser. It might take a moment to load...
-5. Take a moment to explore the interface:
-   - Right panel: gene search and cell selection tools
-   - Center: UMAP visualization of cells
-   - Left panel: color legend and metadata information
+2. Click on *Datasets* on top to see the full list of datasets
+    * check the number of cells
+    * check the experimental technology
+3. Try to find a dataset related to your favorite organism/organ/tissue/system
+
 
 > **Questions for part 1:**
-> what is the Smart-seq protocol? Ask your favourite search engine or AI friend...
+> what are the differences between the assays used? Ask your favourite search engine or AI friend...
 
 #### Part 2: Exploring Cell Types in Mouse Cortex (20 min)
+
+* Click on *Datasets* on the top, and use the filters to find the mouse dataset in *primary visual cortex* named *Shared and distinct transcriptomic cell types across neocortical areas* (it should have 22,375 cells)
+* Click on the description to understand what this dataset is about (Publication, single-cell protocol, ...)
+* Click on the dataset ('Explore') to open it in the CellxGENE browser. It might take a moment to load...
 
 1. **Understanding the dataset structure**
    - Look at the UMAP visualization where each dot represents a single cell
@@ -128,18 +130,19 @@ This hands-on laboratory introduces undergraduate students to single-cell and sp
    - Note how these markers highlight different excitatory neuron subtypes
    
 3. **Comparative analysis**
-   - Use the "Split by" feature to compare gene expression across cortical regions
+   - Color the cells according to the gene expression and expand the *brain_subregion* tab on the left to compare gene expression across cortical regions
    - Identify genes with region-specific expression patterns
    - Examine whether cell type proportions vary across regions
 
 > **Intermediate Questions for Part 3:**
 >
->1. Select two different cortical regions and use the comparison feature to identify at least 3 genes that show >differential expression between them.
->2. Do different inhibitory neuron subtypes (Pvalb+, Sst+, Vip+) show similar or different distributions across >cortical regions? Provide evidence.
->3. Can you identify any genes that show gradients of expression across cortical regions rather than discrete >regional patterns?
->4. Using the cell type proportions feature, determine which cell type shows the greatest variation in abundance >across cortical regions.
+>1. Select two different cortical regions and use the comparison feature to identify at least 3 genes that show differential expression between them.
+>2. Do different inhibitory neuron subtypes (Pvalb+, Sst+, Vip+) show similar or different distributions across cortical regions? Provide evidence.
+>3. Can you identify any genes that show gradients of expression across cortical regions rather than discrete regional patterns?
+>4. Using the cell type proportions feature, determine which cell type shows the greatest variation in abundance across cortical regions.
 >
->5. **Worksheet Questions**
+
+> **Take home Questions**
 >   - What are the major cell types identified in the mouse cortex?
 >   - How do excitatory neurons differ across cortical layers?
 >   - Are there region-specific differences in cell type composition?
@@ -152,23 +155,15 @@ This hands-on laboratory introduces undergraduate students to single-cell and sp
 <a id="lab2"></a>
 ### HANDS-ON SESSION 2: SPATIAL TRANSCRIPTOMICS ANALYSIS (1 HOUR)
 
-#### Part 1: Introduction to Spatial Transcriptomics (15 min)
+#### Part 1: Brief Introduction to Spatial Transcriptomics (15 min)
 
-1. **Overview of Visium technology**
-   - How Visium captures spatial gene expression data
-   - Resolution considerations (55μm spots containing multiple cells)
-   - Relationship between histological features and gene expression
-
-2. **Introduction to the mouse cortex Visium dataset**
-   - Origin of the dataset (Allen Brain Institute)
-   - Overview of the cortical regions and layers captured
-   - Connection to the single-cell dataset explored earlier
+Vitesse is a framework for single-cell spatial omics datasets. It is available in different format (standalone application, widget, ...). We will use a web implementation which provides some basic functionalities for exploration of a Visium data.
 
 #### Part 2: Web-based Exploration using Vitessce (45 min)
 
 1. **Getting started with Vitessce**
    - Navigate to [vitessce.io](https://vitessce.io/#?dataset=spatialdata-visium) in your web browser
-   - Select the mouse brain spatial dataset from the demos section
+   - Select the mouse brain spatial dataset (Kleshchevnikov et al., Nature Biotechnology 2022) from the *Examples* section (top of the page)
    - Familiarize yourself with the interface components:
      * Image viewer panel
      * Gene expression visualization tools
@@ -180,13 +175,13 @@ This hands-on laboratory introduces undergraduate students to single-cell and sp
      * Cux2 (upper layer marker)
      * Rorb (layer 4 marker)
      * Fezf2 (deep layer marker)
-   - Observe how gene expression aligns with visible histological layers
+   - Observe how gene expression aligns with visible histological layers (you can adjust the color ranges!)
 
 > **Intermediate Questions for Cortical Layers:**
->
 > 1. Identify specific spots in the tissue where Cux2, Rorb, and Fezf2 show their highest expression. Do these spots correspond to specific cortical layers visible in the H&E image?
-> 2. Find a gene that shows higher expression in the corpus callosum than in the cortex. What is the function of this gene?
+> 2. Check the expression of the gene *Bok* and *Prox1*; use the Allen Brain Atlas to identify which region these genes are marker for!
    
+  
 3. **Cell type markers in spatial context**
    - Visualize cell type markers used in the single-cell analysis:
      * Slc17a7 (excitatory neurons)
@@ -196,27 +191,25 @@ This hands-on laboratory introduces undergraduate students to single-cell and sp
    - Compare their spatial distribution with your knowledge of brain anatomy
 
 > **Intermediate Questions for Cell Type Markers:**
->
 > 1. Using the dual gene expression feature, find spots where both Slc17a7 and Gad1 are expressed. What might these spots represent?
 > 2. Compare the expression pattern of Mobp with the H&E image. Which anatomical structure shows the highest expression of this oligodendrocyte marker?
    
-4. **Exploring pre-computed clusters**
-   - View the spatial clustering results
-   - Compare clusters with visible anatomical structures
-   - Identify genes that define each spatial domain
-
-**Additional Exploration Tasks:**
-1. Use the cluster identification feature to select spots from a specific cortical layer and identify the genes most highly expressed in that layer.
-2. Create a "gene signature" of 3-5 genes that together can help identify Layer 4 of the cortex.
-3. Compare the spatial distribution of two different interneuron markers (e.g., Pvalb and Sst). Do they show different spatial patterns?
-4. Identify a gene that shows distinct expression in the subplate region. What is the function of this gene?
-
-5. **Worksheet Questions**
-   - How do the spatial patterns of layer markers correspond to visible cortical layers?
-   - Which cell types appear to be enriched in specific cortical regions?
-   - How does the spatial data provide context that was missing from the single-cell data?
-
 ---
+
+
+#### Part 3 : Exploring another spatial transcriptomics technology
+
+We are going to explore another type of spatial transcriptomics based on imaging: MERSCOPE from VizGen. This technology is based on a panel of genes which is detected using combinatorial single-molecule FISH (smFISH)
+
+1. Go to the [VizGen webpage] and select the dataset Vizgen MERFISH Mouse Receptor Map (bottom of the page). **You might need to register for free!**
+2. Go to the *MERSCOPE web visualizer* and start exploring the dataset
+3. Select some of the genes that we have analysed before and check their expression (beware: this is a coronal view of the mouse brain!)
+
+> **Intermediate Questions for MERSCOPE**
+> 1. Can you identify the cortical layers?
+> 2. Which marker genes can you verify in this dataset? 
+
+-------
 
 ### LECTURE: INTRODUCTION TO R/SEURAT (30 MIN)
 
@@ -322,8 +315,7 @@ Exc.top <- deg %>%
 >
 > 1. Test some of these genes in the `FeaturePlot` command and verify their expression.
 > 2. By setting `Idents(allen_reference) <- 'subclass'` , can you find marker genes comparing Astrocytes and Oligodendrocytes? Check their expression!
-
-
+> 3. Verify the expression of the genes using the [ISH expression tool](https://mouse.brain-map.org/search/index) from the Allen Mouse Brain Atlas
 
 
 #### Part 3: Loading and Exploring Spatial Data (15 min)
@@ -374,6 +366,7 @@ brain <- AddModuleScore(brain, features =  list(oligo=rownames(Exc.top)), assay 
 brain <- AddModuleScore(brain, features =  list(oligo=rownames(Inh.top)), assay = "SCT", name = "Inh")
 
 
+# not sure why, but the 1 is important! Exc -> Exc1; Inh -> Inh1
 p1 <- SpatialFeaturePlot(brain, features = 'Inh1')
 p2 <- SpatialFeaturePlot(brain, features = 'Exc1')
 
@@ -388,7 +381,7 @@ p1 | p2
 
 ------
 
-#### Part 5: Integration with Reference scRNA-seq Data (if time permits!)
+#### Part 5: Integration with Reference scRNA-seq Data 
 
 A cool feature is the possibility to map external single-cell datasets on top of the spatial data. This is useful if we have characterized well the single-cell dataset; we can then use the mapping to add additional information to the spatial data.
 
@@ -441,7 +434,6 @@ DefaultAssay(brain) <- "Spatial"
 >4. Using both the H&E image and cell type probability maps, trace the six cortical layers and compare your manual annotation with the computational predictions.
 
 ------
-
 
 
 ### WRAP-UP

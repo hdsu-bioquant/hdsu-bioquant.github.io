@@ -18,7 +18,7 @@ ___
 
 ## Workshop Pathways of Bioinformatics Workshop - Studienstiftung
 
-Go to the script <a href="{{ site.url }}{{ site.baseurl }}/teaching/workshop_singlecell.html">[here]]</a>
+* Workshop script available <a href="{{ site.url }}{{ site.baseurl }}/teaching/workshop_singlecell.html">[here]</a>
 
 
 ## Current semester
