@@ -9,6 +9,16 @@
 #   highlight: 0
 #   news2: 
 
+- title: "A new IDH-independent hypermethylation phenotype is associated with astrocyte-like cell state in glioblastoma
+  image: dummy.png
+  description: DNA methylation plays a crucial role in cancer development and progression and has been linked to genetically and clinically distinct tumor classes, including IDH-mutated and IDH-wildtype adult-type diffuse gliomas. Here, we identify a CpG-island methylator phenotype (CIMP) that characterizes the receptor tyrosine kinase 2 (RTK2) subtype of IDH-wildtype glioblastoma. 
+  authors: Costa AL, Doncevic D, Wu Y, Yang L, Man KH, Spreng AS, Winter H, Fletcher MNC, Radlwimmer B*, Herrmann, C*
+  link:
+    url: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03670-y
+    display: Genome Biology (2025)
+  highlight: 1
+  news2: 
+
 - title: "A network of transcriptomic signatures identifies novel comorbidity mechanisms between schizophrenia and somatic disorders"
   image: dummy.png
   description: The clinical burden of mental illness, in particular schizophrenia and bipolar disorder, are driven by frequent chronic courses and increased mortality, as well as the risk for comorbid conditions such as cardiovascular disease and type 2 diabetes. Evidence suggests an overlap of molecular pathways between psychotic disorders and somatic comorbidities. In this study, we developed a computational framework to perform comorbidity modeling via an improved integrative unsupervised machine learning approach based on multi-rank non-negative matrix factorization (mrNMF). Using this procedure, we extracted molecular signatures potentially explaining shared comorbidity mechanisms. 
