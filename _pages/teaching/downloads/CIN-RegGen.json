@@ -1,0 +1,309 @@
+{
+	"version": "2.13.5",
+	"showSampleNames": false,
+	"reference": {
+		"id": "hg38",
+		"name": "Human (GRCh38/hg38)",
+		"fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg38/hg38.fa",
+		"indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg38/hg38.fa.fai",
+		"cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/hg38/annotations/cytoBandIdeo.txt.gz",
+		"aliasURL": "https://s3.amazonaws.com/igv.org.genomes/hg38/hg38_alias.tab",
+		"chromosomeOrder": "chr1, chr2, chr3, chr4, chr5, chr6, chr7, chr8, chr9, chr10, chr11, chr12, chr13, chr14, chr15, chr16, chr17, chr18, chr19, chr20, chr21, chr22, chrX, chrY"
+	},
+	"locus": "chr16:79,997,565-82,219,287",
+	"gtexSelections": {
+		"chr16:79,997,565-82,219,287": {
+			"gene": "CTCF",
+			"snp": null
+		}
+	},
+	"roi": [],
+	"tracks": [
+		{
+			"type": "sequence",
+			"order": -9007199254740991
+		},
+		{
+			"name": "Homo sapiens K562 H3K27ac ",
+			"url": "https://www.encodeproject.org/files/ENCFF779QTH/@@download/ENCFF779QTH.bigWig",
+			"color": "#008cff",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K27ac ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "fold change over control",
+				"Format": "bigWig",
+				"Lab": "Bradley Bernstein, Broad",
+				"Accession": "ENCFF779QTH",
+				"Experiment": "ENCSR000AKP"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": false,
+			"logScale": false,
+			"order": -2
+		},
+		{
+			"name": "Homo sapiens K562 H3K9ac ",
+			"url": "https://www.encodeproject.org/files/ENCFF911SSE/@@download/ENCFF911SSE.bigWig",
+			"color": "#002eff",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K9ac ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "fold change over control",
+				"Format": "bigWig",
+				"Lab": "Peggy Farnham, USC",
+				"Accession": "ENCFF911SSE",
+				"Experiment": "ENCSR000EVZ"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": false,
+			"logScale": false,
+			"order": 4
+		},
+		{
+			"name": "Homo sapiens K562 H3K36me3 ",
+			"url": "https://www.encodeproject.org/files/ENCFF440XMD/@@download/ENCFF440XMD.bigWig",
+			"color": "#ff2101",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K36me3 ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "fold change over control",
+				"Format": "bigWig",
+				"Lab": "John Stamatoyannopoulos, UW",
+				"Accession": "ENCFF440XMD",
+				"Experiment": "ENCSR000DWB"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"min": 0,
+			"max": 20,
+			"flipAxis": false,
+			"logScale": false,
+			"order": 5
+		},
+		{
+			"name": "Homo sapiens K562 H3K4me1 ",
+			"url": "https://www.encodeproject.org/files/ENCFF761XBZ/@@download/ENCFF761XBZ.bigWig",
+			"color": "#05f802",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K4me1 ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "fold change over control",
+				"Format": "bigWig",
+				"Lab": "Peggy Farnham, USC",
+				"Accession": "ENCFF761XBZ",
+				"Experiment": "ENCSR000EWC"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": false,
+			"logScale": false,
+			"order": 6
+		},
+		{
+			"name": "Homo sapiens K562 H3K4me3 ",
+			"url": "https://www.encodeproject.org/files/ENCFF712XRE/@@download/ENCFF712XRE.bigWig",
+			"color": "rgb(0,150,0)",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K4me3 ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "fold change over control",
+				"Format": "bigWig",
+				"Lab": "Peggy Farnham, USC",
+				"Accession": "ENCFF712XRE",
+				"Experiment": "ENCSR000EWA"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": false,
+			"logScale": false,
+			"order": 7
+		},
+		{
+			"name": "Homo sapiens K562 H3K79me2 ",
+			"url": "https://www.encodeproject.org/files/ENCFF544AVW/@@download/ENCFF544AVW.bigWig",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K79me2 ",
+				"BioRep": "1,2,3",
+				"TechRep": "1_1,2_1,3_1",
+				"OutputType": "fold change over control",
+				"Format": "bigWig",
+				"Lab": "Bradley Bernstein, Broad",
+				"Accession": "ENCFF544AVW",
+				"Experiment": "ENCSR000APD"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": false,
+			"logScale": false,
+			"order": 8,
+			"color": "#8931ff"
+		},
+		{
+			"name": "Homo sapiens K562 H3K9me3 ",
+			"url": "https://www.encodeproject.org/files/ENCFF812HRW/@@download/ENCFF812HRW.bigWig",
+			"color": "#1e1e1e",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K9me3 ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "fold change over control",
+				"Format": "bigWig",
+				"Lab": "Bradley Bernstein, Broad",
+				"Accession": "ENCFF812HRW",
+				"Experiment": "ENCSR000APE"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": false,
+			"logScale": false,
+			"order": 9,
+			"min": 0,
+			"max": 10
+		},
+		{
+			"name": "Homo sapiens K562 H3K27me3 ",
+			"url": "https://www.encodeproject.org/files/ENCFF914VFE/@@download/ENCFF914VFE.bigWig",
+			"color": "#878687",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "H3K27me3 ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "fold change over control",
+				"Format": "bigWig",
+				"Lab": "Bradley Bernstein, Broad",
+				"Accession": "ENCFF914VFE",
+				"Experiment": "ENCSR000AKQ"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"min": 0,
+			"max": 10,
+			"flipAxis": false,
+			"logScale": false,
+			"order": 10
+		},
+		{
+			"name": "Homo sapiens K562 RNA-seq",
+			"url": "https://www.encodeproject.org/files/ENCFF710RYW/@@download/ENCFF710RYW.bigWig",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "RNA-seq",
+				"Target": "",
+				"BioRep": "2",
+				"TechRep": "2_1",
+				"OutputType": "plus strand signal of unique reads",
+				"Format": "bigWig",
+				"Lab": "Thomas Gingeras, CSHL",
+				"Accession": "ENCFF710RYW",
+				"Experiment": "ENCSR000AEL"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": false,
+			"logScale": false,
+			"order": 14
+		},
+		{
+			"name": "Homo sapiens K562 RNA-seq",
+			"url": "https://www.encodeproject.org/files/ENCFF886IDW/@@download/ENCFF886IDW.bigWig",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "RNA-seq",
+				"Target": "",
+				"BioRep": "2",
+				"TechRep": "2_1",
+				"OutputType": "minus strand signal of unique reads",
+				"Format": "bigWig",
+				"Lab": "Thomas Gingeras, CSHL",
+				"Accession": "ENCFF886IDW",
+				"Experiment": "ENCSR000AEL"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": false,
+			"logScale": false,
+			"order": 15
+		},
+		{
+			"name": "Homo sapiens K562 YY1 ",
+			"url": "https://www.encodeproject.org/files/ENCFF654LSD/@@download/ENCFF654LSD.bigWig",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "ChIP-seq",
+				"Target": "YY1 ",
+				"BioRep": "1,2",
+				"TechRep": "1_1,2_1",
+				"OutputType": "fold change over control",
+				"Format": "bigWig",
+				"Lab": "Richard Myers, HAIB",
+				"Accession": "ENCFF654LSD",
+				"Experiment": "ENCSR000BKU"
+			},
+			"format": "bigwig",
+			"type": "wig",
+			"flipAxis": false,
+			"logScale": false,
+			"order": 15
+		},
+		{
+			"name": "Homo sapiens K562 HiC",
+			"url": "https://www.encodeproject.org/files/ENCFF134HIZ/@@download/ENCFF134HIZ.bedpe.gz",
+			"metadata": {
+				"Biosample": "Homo sapiens K562",
+				"AssayType": "HiC",
+				"Target": "",
+				"BioRep": "1,2,3,4",
+				"TechRep": "1_1,1_2,2_1,2_2,2_3,2_4,3_1,3_2,4_1,4_2,4_3",
+				"OutputType": "long range chromatin interactions",
+				"Format": "bedpe",
+				"Lab": "Erez Aiden, Baylor",
+				"Accession": "ENCFF134HIZ",
+				"Experiment": "ENCSR545YBD"
+			},
+			"format": "bedpe",
+			"type": "interact",
+			"arcType": "nested",
+			"arcOrientation": true,
+			"showBlocks": true,
+			"blockHeight": 3,
+			"thickness": 1,
+			"alpha": 0.02,
+			"order": 15
+		},
+		{
+			"name": "Refseq Genes",
+			"format": "refgene",
+			"url": "https://s3.amazonaws.com/igv.org.genomes/hg38/ncbiRefSeq.txt.gz",
+			"indexURL": "https://s3.amazonaws.com/igv.org.genomes/hg38/ncbiRefSeq.txt.gz.tbi",
+			"visibilityWindow": -1,
+			"supportsWholeGenome": false,
+			"removable": false,
+			"order": 1000000,
+			"infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$",
+			"type": "annotation"
+		}
+	]
+}

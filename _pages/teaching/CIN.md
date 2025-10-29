@@ -15,8 +15,8 @@ permalink: /teaching/CIN
 
 #### Dates
 
-- 14.11.2024 : <a href='../downloads/teaching/CIN2223_lecture1.pdf'>[Lecture 1]</a>
-- 21.11.2024 : <a href='../downloads/teaching/CIN2223_lecture2.pdf'>[Lecture 2]</a> and <a href='../downloads/teaching/CIN-WiSe2223_RegGen.json'>[practical]</a>
+- 23.10.2025 : <a href='../downloads/teaching/Transk_Regulation_WiSe2526_Teil1.pdf'>[Lecture 1]</a>
+- 30.10.2025 : <a href='../downloads/teaching/Transk_Regulation_WiSe2526_Teil2.pdf'>[Lecture 2]</a> and practical (see below).
 
 #### Content
 
@@ -29,9 +29,9 @@ The purpose of this lecture is to provide an introduction to the concepts of reg
 * some insights into bayesian networks modelling
 
 
-#### Practical application (21.11.2024)
+#### Practical application (30.10.2025)
 
-* Download the json file <a href='../downloads/teaching/CIN-WiSe2223_RegGen.json'>[here]</a>
+* Download the json file <a href='../downloads/teaching/CIN-RegGen.json'>[here]</a>
 * Load it into the [IGV App](https://igv.org/app/)
 * Try to answer the following questions
 
