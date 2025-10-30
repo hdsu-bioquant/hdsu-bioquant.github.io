@@ -32,12 +32,13 @@ The purpose of this lecture is to provide an introduction to the concepts of reg
 #### Practical application (30.10.2025)
 
 * Download the json file <a href='{{ site.url }}{{ site.baseurl }}/downloads/teaching/CIN-RegGen.json'>[here]</a>
-* Load it into the [IGV App](https://igv.org/app/)
+* Load it into the [IGV App](https://igv.org/app/) using the **Session** menu on the top.
 * Try to answer the following questions
 
     * What kind of data is displayed in the app?
     * For each histone mark, try to characterize its shape/localization
     * What is displayed at the bottom of the window?
-    * What is the difference between the two RNA-seq tracks at the bottom?
+    * What is the difference between the two RNA-seq tracks at the bottom? (Hint: look exactly at the genes below...)
     * Search for the MYC gene in the search window (top left). Can you identify a regulatory element based on the Hi-C track (you might need to zoom out...). Is there something special at the locus of the regulatory element (histone mark,...)
+    * IN the Menu, select "Tracks > ENCODE Other... > " and search for "MCF 10A HiC"; load the "loops" track; this is another cell line, do you note differences to the K562 cell line?
 
