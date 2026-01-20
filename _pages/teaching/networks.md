@@ -5,7 +5,7 @@ excerpt: "networks"
 sitemap: false
 permalink: /teaching/networks
 ---
-## MoBi Master  -- Biological Networks -- WS 2024/2025
+## MoBi Master  -- Biological Networks -- 
 
 ### Teachers
 
