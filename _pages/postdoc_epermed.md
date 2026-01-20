@@ -16,7 +16,7 @@ Papillary renal cell carcinoma (pRCC) is a heterogeneous kidney tumor with diver
 The pRCC-TREAT project is an international collaboration funded by EP PerMed (Spain, Italy, France, Germany). 
 
 The consortium will perform multi-omic characterization of metastatic pRCC samples across four European countries, integrating real-world drug response data with preclinical model testing to create the world's largest metastatic pRCC database.
-Heidelberg University leads WP4 (Multidimensional Data Integration), focusing on centralized data management and machine learning-based integration of multi-omic datasets. WP4 will identify predictive signatures and develop treatment response models to enable biomarker-guided clinical trials. You can find a brief description of the overall project a href="{{ site.url }}{{ site.baseurl }}/downloads/pRCC.pdf">here</a>
+Heidelberg University leads WP4 (Multidimensional Data Integration), focusing on centralized data management and machine learning-based integration of multi-omic datasets. WP4 will identify predictive signatures and develop treatment response models to enable biomarker-guided clinical trials. You can find a brief description of the overall project <a href="{{ site.url }}{{ site.baseurl }}/downloads/pRCC.pdf">here</a>
 
 ### Your Role
 As a postdoctoral researcher in WP4 (Multidimensional Data Integration), you will:
