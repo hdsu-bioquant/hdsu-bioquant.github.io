@@ -57,8 +57,8 @@ For the bioquant cluster there are two ways to run code:
 For the curry-cluster there are however four ways of running code:
 1. [Submitting a job](#using-the-curry-cluster)
 2. Starting an [interactive job/session](#using-the-curry-cluster) and running your code within the session
-3. Via the [RStudio-Server](05_rstudio_server.md/#rstudio-server-on-curry)
-4. Connecting to [Jupyterhub](05_rstudio_server.md/#jupyterhub) or connecting to a computing node
+3. Via the [RStudio-Server](rstudio_server/#rstudio-server-on-curry)
+4. Connecting to [Jupyterhub](rstudio_server/#jupyterhub) or connecting to a computing node
 
 
 
@@ -169,7 +169,7 @@ conda install r-base=3.4.1 r-pheatmap r-dplyr r-data.table r-rcurl r-ggplot2 r-g
 conda deactivate
 ```
 
-If you want to use your conda environment as a kernel for your jupyter-notebooks, look [here](./05_rstudio_server.md/#python-kernel)
+If you want to use your conda environment as a kernel for your jupyter-notebooks, look [here](rstudio_server/#python-kernel)
 
 You can also find a list of useful Conda commands [here](https://docs.conda.io/projects/conda/en/latest/_downloads/1f5ecf5a87b1c1a8aaf5a7ab8a7a0ff7/conda-cheatsheet.pdf)
 
