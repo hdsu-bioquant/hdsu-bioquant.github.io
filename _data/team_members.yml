@@ -20,22 +20,10 @@
   number_educ: 1
   education1: <a href='https://www.linkedin.com/in/robin-droit-136b41166/'>LinkedIn Profile</a>
 
-- name: Saifullah Tumrani
-  photo: Saifullah_Tumrani.png
-  info: Postdoc
-  email: saifullah.tumrani@bioquant.uni-heidelberg.de
-  number_educ: 1
-  education1: <a href="https://www.linkedin.com/in/saifullah-tumrani-ph-d-b65b9631/">LinkedIn Profile</a>
-
 - name: Daria Doncevic
   photo: Daria_Doncevic.png
   info: PhD student
   email: daria.doncevic@bioquant.uni-heidelberg.de
-
-- name: Youcheng Zhang
-  photo: Youcheng_Zhang.png
-  info: PhD student
-  email: youcheng.zhang@bioquant.uni-heidelberg.de
 
 - name: Albert Li
   photo: Albert_Li.jpg
@@ -45,10 +33,15 @@
   education1: <a href='https://albert0325.github.io/'>Personal Website</a>
   education2: <a href="https://www.linkedin.com/in/albert-li-52502713b/">LinkedIn Profile</a>
 
-- name: Thien Duc Bui
+- name: Jean Radig
+  photo: bio-photo.jpg
+  info: PhD student
+  email: jean.radig@bioquant.uni-heidelberg.de
+
+- name: Duc Thien Bui
   photo: Thien_Duc_Bui.png
-  info: Master student
-  email: thien.bui@stud.uni-heidelberg.de
+  info: PhD student
+  email: duc-thien.bui@bioquant.uni-heidelberg.de
   number_educ: 1
   education1: <a href="https://de.linkedin.com/in/duc-thien-bui-134b88197">LinkedIn Profile</a>
 

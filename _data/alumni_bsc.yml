@@ -1,3 +1,24 @@
+- name: Lisa Duttenhöfer
+  info: Bachelor student
+
+- name: Niklas Schmidt
+  info: Bachelor student
+
+- name: Preet Shah
+  info: Bachelor student
+
+- name: Natalia Siegl
+  info: Bachelor student  
+
+- name: Taddaeus Kühn
+  info: Bachelor student
+
+- name: Luis Herrfurth
+  info: Bachelor student
+  
+- name: Yaxin Chen
+  info: Bachelor student
+
 - name: Niklas Winata
   info: Bachelor student
 
@@ -14,6 +35,9 @@
   info: Bachelor student
 
 - name: Ilya Schneider
+  info: Bachelor student
+
+- name: Duc Thien Bui
   info: Bachelor student
 
 - name: Laura Raeder
