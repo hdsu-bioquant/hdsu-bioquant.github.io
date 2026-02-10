@@ -45,6 +45,10 @@ Some resources which can be useful:
 ## Using Slack
 We use [Slack](https://slack.com/intl/de-de/) extensively in the group for communicating and sharing results. Ask Carl to add you to the HDSU slack group as soon as you join the lab. Keep an eye on the **newsshare** channel where we post interesting papers and resources. Also check all the available channels and join those that are relevant to you.
 
+
+## Teaching
+The group has an RStudio Server for classes with two running servers which can be found [here](https://http://bfg-pve02.ipmb.uni-heidelberg.de:8787/). Please look into our internal slack channel for documentation such as accounts etc.
+
 ## Additional information
 
 ### (A) Books

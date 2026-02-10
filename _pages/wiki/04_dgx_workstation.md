@@ -36,7 +36,7 @@ Storage capacity in this folder is limited, so try to store your data in the fol
 /net/bq-storage/ag-cherrmann
 ```
 
-## Working on the GPU station
+## Working on the GPU station and servers
 On this workstation, we work exclusively in docker environments. This has two main reasons:
 
 1) It is not that easy to properly configure an environment that is GPU enabled, and popular applications like rapids or pytorch already provide ready-to-use environments that have been extensively tested.  
@@ -223,7 +223,7 @@ You enter debug mode and you can debug as usual (look YouTube videos to understa
 
 <img src="../../images/devcontainer_section/27.png" style="display: block; margin: 20px auto; max-width: 80%;"/>
 
-# Coming back to the devcontainer after having logged out
+## Coming back to the devcontainer after having logged out
 
 
 At the end of this tutorial, at some point, you are going to go home, and the connection to the cluster will be lost. You will have to reopen your work environment the next day. We are the next day. You reboot your computer. How to go back to your devcontainer and continue working? Follow me. 
