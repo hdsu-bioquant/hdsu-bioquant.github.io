@@ -42,7 +42,7 @@
       relpath: first-steps
     - title  : Working on the GPU station and servers
       relpath: working-on-the-gpu-station-and-servers
-    - title  : Coming back to the devcontainer after having logged out
+    - title  : Reconnecting to devcontainer
       relpath: coming-back-to-the-devcontainer-after-having-logged-out
 - title  : RStudio Server & Jupyter
   relpath: wiki/rstudio_server
