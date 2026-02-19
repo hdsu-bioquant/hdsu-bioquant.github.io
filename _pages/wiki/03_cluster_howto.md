@@ -57,8 +57,8 @@ For the bioquant cluster there are two ways to run code:
 For the curry-cluster there are however four ways of running code:
 1. [Submitting a job](#using-the-curry-cluster)
 2. Starting an [interactive job/session](#using-the-curry-cluster) and running your code within the session
-3. Via the [RStudio-Server](rstudio_server/#rstudio-server-on-curry)
-4. Connecting to [Jupyterhub](rstudio_server/#jupyterhub) or connecting to a computing node
+3. Via the [RStudio-Server](rstudio_server#rstudio-server-on-curry)
+4. Connecting to [Jupyterhub](rstudio_server#jupyterhub) or connecting to a computing node
 
 
 
