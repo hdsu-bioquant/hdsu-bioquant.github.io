@@ -40,7 +40,7 @@
   subfolderitems:
     - title  : First steps
       relpath: first-steps
-    - title  : Working on the GPU station and servers
+    - title  : Working on the GPU station/servers
       relpath: working-on-the-gpu-station-and-servers
     - title  : Reconnecting to devcontainer
       relpath: coming-back-to-the-devcontainer-after-having-logged-out
