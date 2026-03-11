@@ -29,6 +29,8 @@ In order to safely access a document containing SSH commands for the clusters yo
 
 An example for your local config-file can be downloaded [here]({{ site.url }}{{ site.baseurl }}/downloads/wiki/config) 
 
+In case you can't connect via VS-Code you might have to create the multiplex folder locally with mkdir.
+
 ## Quick start to cluster
 After getting access and configuring your ssh config file accordingly, you can start by either using ssh via your terminal
 <img src="../../images/ssh/ssh_terminal.png" style="display: block; margin: 20px auto; width: 400px;"/>
