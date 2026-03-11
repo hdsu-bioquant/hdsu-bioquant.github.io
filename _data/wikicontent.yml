@@ -25,7 +25,7 @@
   subfolderitems:
     - title  : Tmux
       relpath: working-with-tmux-sessions
-    - title  : How tu run code
+    - title  : How to run code
       relpath: how-to-run-code
     - title  : Using Miniconda
       relpath: using-miniconda
