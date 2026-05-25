@@ -23,11 +23,11 @@ ___
 
 ## Current semester
 
-#### Summer semester 2025
+#### Summer semester 
 -  <a href="{{ site.url }}{{ site.baseurl }}/teaching/gkbioinfo.html">Grundkurs Bioinformatik - MoBi Master</a>
--  <a href="https://www.dropbox.com/scl/fo/wpuoumuj445xf2nzq88eh/AEtCx2LkxUcd8dCGmPPcOAg?rlkey=1o5ti525hzdmjvwbm5sjpwpoc&dl=0">Bioinformatik 2 - 6. FS</a>
+-  <a href="{{ site.url }}{{ site.baseurl }}/teaching/bioinfo2.html">Bioinformatik 2 - 6. FS</a>
 
-#### Winter semester 2024 / 2025
+#### Winter semester 
 - MoBi Master : <a href="{{ site.url }}{{ site.baseurl }}/teaching/networks.html">Seminar Biological Networks (with J. Saez Rodriguez)</a>
 - MoBi Bachelor 5. FS: <a href="{{ site.url }}{{ site.baseurl }}/teaching/bioinfo5fs.html">Bioinformatics</a>
 - MoBi Bachelor 3. FS : <a href="{{ site.url }}{{ site.baseurl }}/teaching/dataanalysis3fs.html">Data Analysis Course</a>
@@ -39,11 +39,6 @@ ___
 - Tutorial on non-negative matrix factorization (given at BC2 conference Basel) : [website](https://hdsu-bioquant.github.io/bc2_tutorial/)
 - Single-cell analysis in R (given as part of the TRR179 IRTG) : [website](https://hdsu-bioquant.github.io/irtg2021/)
 - ChIP-seq and ATAC-seq analysis (given at RISE graduate school Frankfurt) : [website](https://hdsu-bioquant.github.io/chipatac2020/)
-
-## Previous semesters
-
-#### Summer semester 2024
-- MoBi Bachelor 4. FS : <a href="{{ site.url }}{{ site.baseurl }}/teaching/data2023.html">Data Analysis Project Module 2023</a>
 
 
 
