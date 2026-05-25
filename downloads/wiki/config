@@ -1,0 +1,76 @@
+Host curry0.bioquant.uni-heidelberg.de
+  HostName curry0.bioquant.uni-heidelberg.de
+  User bq_user
+
+Host cln-dgx.bioquant.uni-heidelberg.de
+  HostName cln-dgx.bioquant.uni-heidelberg.de
+  IdentityFile ~/.ssh/id_rsa
+  User bq_user
+  UseKeychain yes
+  AddKeysToAgent yes
+
+Host ipmb-clst-gpu2.bioquant.uni-heidelberg.de
+  HostName ipmb-clst-gpu2.bioquant.uni-heidelberg.de
+  IdentityFile ~/.ssh/id_rsa
+  User bq_user
+  UseKeychain yes
+
+Host ipmb-clst-gpu1.bioquant.uni-heidelberg.de
+  HostName ipmb-clst-gpu1.bioquant.uni-heidelberg.de
+  IdentityFile ~/.ssh/id_rsa
+  User bq_user
+  UseKeychain yes
+
+Host gpu1
+  HostName ipmb-clst-gpu1.bioquant.uni-heidelberg.de
+  IdentityFile ~/.ssh/id_rsa
+  User bq_user
+  UseKeychain yes
+
+Host gpu2
+  HostName ipmb-clst-gpu2.bioquant.uni-heidelberg.de
+  IdentityFile ~/.ssh/id_rsa
+  User bq_user
+  UseKeychain yes
+
+Host appl2.bioquant.uni-heidelberg.de
+  HostName appl2.bioquant.uni-heidelberg.de
+  IdentityFile ~/.ssh/id_rsa
+  User bq_user
+  UseKeychain yes
+
+Host curry
+    User bq_user
+    HostName curry0.bioquant.uni-heidelberg.de
+    ControlMaster auto
+    ControlPath ~/.ssh/multiplex/%r@%h:%p
+    ControlPersist 10m
+    ServerAliveInterval 50
+    ServerAliveCountMax 5
+    ProxyJump appl2
+
+Host appl2
+    User bq_user
+    HostName appl2.bioquant.uni-heidelberg.de
+    UseKeychain yes
+
+Host curry-small
+   HostName curry
+   User bq_user
+   ProxyCommand ssh %h vscode-curry --mem 16GB --cpus 2
+   StrictHostKeyChecking accept-new
+   UserKnownHostsFile /dev/null
+ 
+Host curry-medium
+   HostName curry
+   User bq_user
+   ProxyCommand ssh curry vscode-curry --mem 64GB --cpus 12 --time 16:00:00 
+   StrictHostKeyChecking accept-new
+   UserKnownHostsFile /dev/null
+ 
+Host curry-large
+   HostName curry
+   User bq_user
+   ProxyCommand ssh %h vscode-curry --mem 200GB --cpus 20 --time 8:00:00 
+   StrictHostKeyChecking accept-new
+   UserKnownHostsFile /dev/null

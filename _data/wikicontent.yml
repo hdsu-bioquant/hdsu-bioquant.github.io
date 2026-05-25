@@ -14,10 +14,10 @@
   subfolderitems:
     - title  : Access to the cluster
       relpath: getting-access-to-the-cluster
+    - title  : Quick start to cluster
+      relpath: quick-start-to-cluster
     - title  : Creating your project folder
       relpath: creating-your-project-folder
-    - title  : The hdsu folder
-      relpath: the-hdsu-folder
     - title  : Public data downloads
       relpath: public-data-downloads
 - title  : Working with the Cluster
@@ -25,8 +25,8 @@
   subfolderitems:
     - title  : Tmux
       relpath: working-with-tmux-sessions
-    - title  : Submitting jobs
-      relpath: submitting-jobs
+    - title  : How to run code
+      relpath: how-to-run-code
     - title  : Using Miniconda
       relpath: using-miniconda
     - title  : Mounting the cluster locally
@@ -35,24 +35,15 @@
       relpath: using-the-Windows-Remote-Server
     - title  : Troubleshooting
       relpath: troubleshooting-for-cluster-issues
-- title  : DGX workstations
+- title  : GPU ressources
   relpath: wiki/dgx_workstations
   subfolderitems:
     - title  : First steps
       relpath: first-steps
-    - title  : Working on the GPU station
-      relpath: working-on-the-gpu-station
-- title   : Working in devcontainer
-  relpath : wiki/devcontainer
-  subfolderitems:
-    - title   : Connect to DGX via vsCode
-      relpath : connect-to-dgx-via-vscode
-    - title   : Create .devcontainer
-      relpath : create-.devcontainer
-    - title   : Building the devcontainer
-      relpath : building-the-devcontainer
-    - title   : Log in after log out
-      relpath : coming-back-to-the-devcontainer-after-having-logged-out
+    - title  : Working on the GPU station/servers
+      relpath: working-on-the-gpu-station-and-servers
+    - title  : Reconnecting to devcontainer
+      relpath: coming-back-to-the-devcontainer-after-having-logged-out
 - title  : RStudio Server & Jupyter
   relpath: wiki/rstudio_server
   subfolderitems:
@@ -73,6 +64,8 @@
       relpath: using-Python
     - title  : Using Slack
       relpath: using-slack
+    - title  : Teaching
+      relpath: teaching
     - title  : Additional information
       relpath: additional-information
 - title  : WorkflowR

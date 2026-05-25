@@ -32,8 +32,7 @@ to display all active sessions. To delete a session, if you don’t need it anym
 For more help, you can use the following cheatsheet: https://tmuxcheatsheet.com/
 
 
-
-## Submitting jobs
+## How to run code
 
 During your work, you will have to process computationally expensive tasks. For more demanding tasks, you might need to submit a job rather than working interactively. These tasks will be simply unfeasible to run locally on your laptops, notebooks or desktop machines due to limitations in memory size (RAM). Some examples of such tasks might be -
 
@@ -49,6 +48,20 @@ Some of the task will be quite simple in terms of memory requirements say < 16GB
 * Permutation
 * Bootstrap analysis
 * Pairwise correlation computation on large matrix
+
+Our clusters all use a scheduling manager, so you will always have to ask for ressources before running code. Never work on the login nodes.
+For the bioquant cluster there are two ways to run code:
+1. [Submitting a job](#using-the-bioquant-cluster)
+2. Starting an [interactive job/session](#using-the-bioquant-cluster) and running your code within the session
+
+For the curry-cluster there are however four ways of running code:
+1. [Submitting a job](#using-the-curry-cluster)
+2. Starting an [interactive job/session](#using-the-curry-cluster) and running your code within the session
+3. Via the [RStudio-Server](rstudio_server#rstudio-server-on-curry)
+4. Connecting to [Jupyterhub](rstudio_server#jupyterhub) or connecting to a computing node
+
+
+
 
 ### Using the BioQuant cluster
 
@@ -71,8 +84,14 @@ To send a job to the queue, you can use this format in the beginning of your job
 
 A little trick: sometimes you might only have a very simple task that requires more resources. A one-liner wrap also works for job submission:
 ```(bash)
-sbatch --job-name=JOBNAME −W 00:10 −n 4 −-mem 4g −N 2 −−output output.job --wrap=”Rscript [your R script]”
+sbatch --job-name=JOBNAME −t 3:00:00 −n 10 −-mem=100g −N 1 −−output output.job --wrap=”Rscript [your R script]”
 ```
+
+```(bash)
+sbatch --job-name=JOBNAME −t 3:00:00 −n 10 −-mem=100g −N 1 −−output output.job --wrap=”python3 [your python script]”
+```
+
+Remember to activate the corresponding conda environment if needed before submitting the job.
 
 Interactive jobs can be created using:
 ```(bash)
@@ -83,9 +102,9 @@ You can inspect the status of your job using `squeue` for example.
 
 ### Using the Curry cluster
 
-This cluster system is shared between Rippe, Hoefer and Herrmann labs. Try this only after getting the BioQuant account. The curry cluster can be access from inside the BioQuant (see section above, Using the BioQuant cluster) using the corresponding SSH command. 
+This cluster system is shared between Rippe, Hoefer and Herrmann labs. Try this only after getting the BioQuant account. The curry cluster can be accessed from the university network (see section above, Using the BioQuant cluster) using the corresponding SSH command. 
 
-After logging the terminal will show curry0 as the node being used. The BioQuant cluster uses a hierarchical jobs system. Curry0 corresponds to the node which sends jobs to all other nodes. We should not use curry0 to work but instead send jobs to other nodes. In order to send jobs we use the qsub command as described below:
+After logging in, the terminal will show curry0 as the node being used. The BioQuant cluster uses a hierarchical job system. Curry0 corresponds to the node which sends jobs to all other nodes. We should ==never== use curry0 to work but instead send jobs to other nodes. In order to send jobs we use the qsub command as described below:
 
 ```(bash)
 #!/bin/bash
@@ -111,7 +130,6 @@ Alternatively, interactive jobs can be queued using the following command:
 ```(bash)
 qsub -I -l walltime=10:00:00,nodes=1:ppn=1,mem=10g
 ```
-
 
 ## Using Miniconda
 
@@ -150,6 +168,8 @@ conda install r-base=3.4.1 r-pheatmap r-dplyr r-data.table r-rcurl r-ggplot2 r-g
 
 conda deactivate
 ```
+
+If you want to use your conda environment as a kernel for your jupyter-notebooks, look [here](rstudio_server/#python-kernel)
 
 You can also find a list of useful Conda commands [here](https://docs.conda.io/projects/conda/en/latest/_downloads/1f5ecf5a87b1c1a8aaf5a7ab8a7a0ff7/conda-cheatsheet.pdf)
 
