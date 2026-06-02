@@ -51,7 +51,7 @@ Here are the links to the specific datasets; select one TF and click on the link
 
 * [[CTCF TFBS]](https://www.dropbox.com/s/wbhhrqbuj8mmpk6/CTCF.rds?dl=1); [[CTCF ChIP-seq peaks]](https://www.dropbox.com/scl/fi/62lz0uvjn8msjodsuk01g/CTCF_peaks.rds?rlkey=zauqu2bmimg5ywwutqcpela4k&dl=1)
 
-* [[FOSL2 TFBS]](https://www.dropbox.com/scl/fi/9fdp90fyg5xtuytq8ki48/FOSL2.rds?dl=1); [[FOSL2 ChIP-seq peaks]](https://www.dropbox.com/scl/fi/htyeyym79xs1m0vg593f0/FOSL2_peaks.rds?rlkey=9mwr967a6cem40k5twltvjvde&dl=1)
+* [[FOSL2 TFBS]](https://www.dropbox.com/scl/fi/h1ie15w6hkrmv4jryszvt/FOSL2.rds?rlkey=7fx8xtey3qaj1lbjljhjzihvj&dl=1); [[FOSL2 ChIP-seq peaks]](https://www.dropbox.com/scl/fi/htyeyym79xs1m0vg593f0/FOSL2_peaks.rds?rlkey=9mwr967a6cem40k5twltvjvde&dl=1)
 
 ----- 
 
@@ -142,6 +142,7 @@ This yields the **predicted probabilities**.
 4. How does the cross-entropy look like?
 
 > **Stop and think hard!** \
+> Comment on the value of the accuracy.
 > What would be the value of the accuracy if you would predict all sites to be negative?
 
 #### Cross validation to evaluate the performance

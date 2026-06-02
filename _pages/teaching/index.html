@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>bioinfo2_script</title>
+	<style>
+		/* Basic styles for readability */
+		body {
+			font-family: sans-serif;
+			max-width: 800px;
+			margin: 2em auto;
+			padding: 0 1em;
+			line-height: 1.6;
+		}
+		img { max-width: 100%; height: auto; }
+		pre { background-color: #f4f4f4; padding: 1em; overflow-x: auto; }
+		code { font-family: monospace; }
+	</style>
+</head>
+<body>
+	<hr>
+<h2>title: “Bioinformatik 2 - SoSe 2026”
+layout: textlay
+excerpt: “bioinfo2”
+sitemap: false
+permalink: /teaching/bioinfo2</h2>
+<h2>Bioinfo 2 : Machine learning approaches for TFBS prediction</h2>
+<p>MoBi 6.FS - SoSe 2026</p>
+<p>Carl Herrmann - IPMB &amp; BioQuant</p>
+<hr>
+<h3>Introduction</h3>
+<p>The goal of these sessions is to investigate how we can <strong>improve the prediction of binding sites for transcription factors</strong> by using additional information (epigenetic signals, sequence conservation, chromatin accessibility), besides sequence only informations based on using a sequence profile (PWM) for TFBS prediction.</p>
+<p>This additional information could be for example histone modification datasets (ChIP-seq), information about chromatin opening given e.g. by DNAse hypersensitivity assays, information about DNA methylation, …</p>
+<p>As a gold standard to determine whether a predicted TFBS is a true or false hit, we will consider ChIP-seq datasets for the transcription factor of interest: every predicted TFBS overlapping with a ChIP peak will be considered a true positive, while those outside ChIP peaks will be false positives.</p>
+<p>In the following, we will</p>
+<ul>
+<li>Predict potential binding sites using the PWM alone;</li>
+<li>Evaluate the rate of false positives/true positives using as a control ChIP-seq datasets for the TF of interest;</li>
+<li>Determine the signal of the different additional features around true/false binding sites, to see if there is a difference</li>
+<li>Build a model incorporating additional features using logistic regression</li>
+<li>Validate the model using independent datasets.</li>
+<li>Perform variable selection to obtain the simplest, yet accurate model.</li>
+</ul>
+<h4>Datasets:</h4>
+<p>for each TF, there is an R rds object available containing a data frame: each line corresponds to a potential TFBS site on chromosome 21, predicted using a position weight matrix; each column corresponds to a feature; the numerical entries represent the scoring of the potential TFBS site with the corresponding feature.</p>
+<ul>
+<li><strong>accessibility</strong> : DNAse I hypersensitivity data</li>
+<li><strong>DNAme</strong> : DNA methylation data</li>
+<li><strong>phylop</strong> : phylogenetic conservation of the bases</li>
+<li><strong>H3kxxx</strong>: corresponding histone mark around the site</li>
+<li><strong>LLR</strong> : log-likelihood ratio (=score) of the predicted site (based only on sequence information!)</li>
+</ul>
+<p>In addition, <strong>the last columns (tfbs) indicates if this is a true-positive</strong> (i.e. if the predicted site overlaps with a ChIP-seq peak) or not (i.e. no overlap). This is the column we want to predict!</p>
+<p>In order to use the file, download the file onto your computer (e.g. <code>CTCF.rds</code>) and load it as:</p>
+<pre><code class="language-r">data = readRDS('/path/to/your/file/CTCF.rds')
+head(data)
+</code></pre>
+<p>Here are the links to the specific datasets; select one TF and click on the link to download the .rds file. The first file contains the predicted TFBS the second one the true ChIP-seq peaks.</p>
+<ul>
+<li>
+<p><a href="https://www.dropbox.com/s/wbhhrqbuj8mmpk6/CTCF.rds?dl=1">[CTCF TFBS]</a>; <a href="https://www.dropbox.com/scl/fi/62lz0uvjn8msjodsuk01g/CTCF_peaks.rds?rlkey=zauqu2bmimg5ywwutqcpela4k&amp;dl=1">[CTCF ChIP-seq peaks]</a></p>
+</li>
+<li>
+<p><a href="https://www.dropbox.com/scl/fi/h1ie15w6hkrmv4jryszvt/FOSL2.rds?rlkey=7fx8xtey3qaj1lbjljhjzihvj&amp;dl=1">[FOSL2 TFBS]</a>; <a href="https://www.dropbox.com/scl/fi/htyeyym79xs1m0vg593f0/FOSL2_peaks.rds?rlkey=9mwr967a6cem40k5twltvjvde&amp;dl=1">[FOSL2 ChIP-seq peaks]</a></p>
+</li>
+</ul>
+<hr>
+<h3>1. Evaluate the Precision/Recall based on sequence information</h3>
+<p><strong>Goal:</strong> We want to evalute the baseline performance of a prediction model which is only based on using a position-weight matrix (pwm), hence is only based on sequence information.</p>
+<p>We have scanned the sequence of the human chromosome 21 with a number of PWM for some transcription factors. The output files for each TF contain one line for each predicted TFBS, together with the log-likelihood score (column LLR) of the match, and whether the predicted TFBS can be considered as a true-positive (i.e. overlaps with a ChIP-seq peak for this TF) or a false-positive (i.e does NOT overlap with a ChIP-seq peak.) (column tfbs)</p>
+<p>Hence, we have two sets of TFBS:</p>
+<ol>
+<li>one <strong>positive set</strong> which <strong>intersects true ChIP-seq peaks</strong> (with a 1 in the column tfbs)</li>
+<li>one <strong>negative set</strong> which does not (with a 0 in the column tfbs)</li>
+</ol>
+<p><strong>Goal:</strong></p>
+<ul>
+<li>by filtering of the LLR column, select all TFBS with a LLR above a certain threshold (try 50,55,…)</li>
+<li>based on the tfbs column, compute the precision</li>
+<li>plot the precision curve as a function of the LLR cutoff(it should contain at least 6 points, i.e. 6 different thresholds on the LLR value!).</li>
+<li>plot the ROC-curve (i.e. 1-specificity vs. sensitivity) (you can use the <code>PRROC</code> package, check the <a href="https://cran.r-project.org/web/packages/PRROC/vignettes/PRROC.pdf">vignette here</a>)</li>
+</ul>
+<blockquote>
+<p><strong>Stop and think!</strong></p>
+<ul>
+<li>What is the performance of the sequence based prediction? Does the curve have the expected behavior?</li>
+<li>Compute the recall, using the number of ChIP-seq peaks as the ground truth</li>
+<li>Plot precision and recall on the same plot</li>
+<li>Compare the PR plot with the ROC plot; can you explain the difference?</li>
+</ul>
+</blockquote>
+<hr>
+<h3>2. Scoring TFBS with additional features</h3>
+<p>We will now explore the additional genomic features for all the potential TFBS; in particular, we will look for correlations between the features.</p>
+<h4>Boxplot</h4>
+<p>We will explore the difference between positive and negative sites by looking at boxplots for each feature for positive/negative tfbs
+make a boxplot showing the distribution of the signal between positive and negative sites for each feature run a Wilcoxon test to check for significant differences.</p>
+<h4>Correlation structure</h4>
+<p>Compute the correlation between the features using the <code>cor</code> function in R, and plot the correlation matrix as a heatmap</p>
+<pre><code class="language-r">library(pheatmap)
+cor.ft = cor(data[,-16],method=&quot;spearman&quot;)
+diag(cor.ft) = NA
+pheatmap(cor.ft)
+</code></pre>
+<blockquote>
+<p><strong>Stop and think</strong><br>
+Check the interpretation of the different marks <a href="https://www.abcam.com/en-us/technical-resources/guides/epigenetics-guide/histone-modifications">here</a>.
+Which features are most correlated to each other? Does this make sense?</p>
+</blockquote>
+<p>We need to keep in mind the correlation between the variables, as they might impact the results of the regression analysis later. Correlated variables are usually harmfull in regression approaches, as they impact the accuray of the prediction for the regression coefficients of the correlated variables. One solution would be to use a ridge regression or a LASSO method from the glmnet package.</p>
+<hr>
+<h3>3. Building a logistic regression model</h3>
+<p>We now come to the core of the machine learning analysis, and train a logistic regression to distinguish optimally the positive from the negative TFBS predictions. This will reveal which variables are most suited to discriminate true from false positives. We will use the glm function in R, using the <strong>binomial model</strong>.</p>
+<h4>First fit of model</h4>
+<p><em>Training the model</em></p>
+<p>We will now apply the glm function in R, assuming that our binary output variable is distributed according to a binomial distribution with parameter p. All available variables will be included into the model.
+Run the glm function by specifying the binomial distribution as family:</p>
+<pre><code class="language-r">lrfit &lt;- glm(tfbs ~ ., data=data,family=&quot;binomial&quot;)
+summary(lrfit)
+</code></pre>
+<blockquote>
+<p><strong>Stop and think</strong><br>
+Check the output of the <code>summary</code> function</p>
+<ul>
+<li>what are the most relevant variables ?</li>
+<li>what does the AIC represent ?</li>
+</ul>
+</blockquote>
+<p><em>Evaluate the performance</em></p>
+<p>Now that we have a model, we can apply it to test how good it performs, by using the model as a predictor :</p>
+<pre><code class="language-r">pred = predict(lrfit,newdata=data,type=&quot;response&quot;)
+</code></pre>
+<p>This yields the <strong>predicted probabilities</strong>.</p>
+<ol>
+<li>Make a boxplot showing the prediction probabilities for the real (tfbs=1) vs. false (tfbs=0) sites. Do the predictions make sense?</li>
+<li>Set a prediction threshold (e.g. 0.1), make a contingency matrix (tfbs 0/1 vs. above/below prediction threshold) and compute the accuracy = (TP+TN)/(TP+TN+FP+FN); repeat this at various thresholds!</li>
+<li>Using the <code>PRROC</code> package, compute the ROC and PR area under the curve (AUC). Plot the ROC and PR curves. Did we improve?</li>
+<li>How does the cross-entropy look like?</li>
+</ol>
+<blockquote>
+<p><strong>Stop and think hard!</strong> <br>
+Comment on the value of the accuracy.
+What would be the value of the accuracy if you would predict all sites to be negative?</p>
+</blockquote>
+<h4>Cross validation to evaluate the performance</h4>
+<p>Of course we have cheated here: we are evaluating the performance of the model on the data that was used to train the model, thus biasing the evaluation… The proper way to evaluate the performance of a machine-learning model is using a cross-validation : splitting the data into a training and testing set, learning the model on the training set and applying it to the test set, thus evaluating the performance on an independent dataset.</p>
+<p><em>Creating a partition</em></p>
+<p>We will create a training dataset with 75% of the data, and keep the remaining 25% for the testing dataset; we need to make sure to sample 75% of the positive and the negative samples!</p>
+<pre><code class="language-r">i.pos = which(data$tfbs==1)
+i.pos.train = sample(i.pos,floor(0.75*length(i.pos)))
+i.neg = which(data$tfbs==0)
+i.neg.train = sample(i.neg,floor(0.75*length(i.neg)))
+i.train = c(i.pos.train,i.neg.train)
+train.set = data[i.train,]
+test.set = data[-i.train,]
+</code></pre>
+<p>We have created a balanced dataset, meaning that we have sampled proportionaly from each class. To do this, you can also use the <code>caret</code> package in R, which has a function <code>createDataPartition</code> which allows to do this. Check <a href="https://topepo.github.io/caret/data-splitting.html">this web page</a> for explanations on this function!</p>
+<p><em>Train the model</em></p>
+<p>Run the glm function to fit the model, while evaluating the performance using the cross-validations</p>
+<pre><code class="language-r">lrFit = glm(tfbs~ .,data=train.set,family=&quot;binomial&quot;)
+</code></pre>
+<p><em>Applying the model</em></p>
+<p>Remember that we had defined a training and a test set? Now that we have an optimal model, we can apply it to the left-out test dataset…</p>
+<ol>
+<li>run the following function</li>
+</ol>
+<pre><code class="language-r">pred &lt;- predict(lrFit,newdata=test.set,type=&quot;response&quot;)
+</code></pre>
+<ol start="2">
+<li>Determine the precision here (use one particular threshold!).</li>
+</ol>
+<blockquote>
+<p>Did we improve compared to the sequence-only performance?</p>
+</blockquote>
+<hr>
+<h3>4. Variable selection</h3>
+<p>We have now a good model, which includes all variables. We can now try to simplify the model by reducing it, removing “uninteresting” variables that do not contribute to the performance of the model …</p>
+<p><em>Subset selection</em></p>
+<p>We can apply a built in function step, which recursively eliminates variables</p>
+<pre><code class="language-r">lrfit &lt;- glm(tfbs ~ ., data=train.set,family=&quot;binomial&quot;)
+lr.red &lt;- step(lrfit)
+</code></pre>
+<blockquote>
+<p><strong>Stop and think</strong></p>
+<ol>
+<li>What is happening here? What criteria is used to eliminate variables?</li>
+<li>Check the final model stored in lr.red: what variables does it contain? Is this expected?</li>
+<li>Apply this reduced model to the left out <code>test.set</code></li>
+<li>Did the performance in terms of precision or recall get worse?</li>
+</ol>
+</blockquote>
+<h4>Shrinkage methods</h4>
+<p>The <code>glmnet</code> package implements ridge regression and LASSO shrinkage methods. If it is not installed, install the package with</p>
+<pre><code class="language-r">install.packages('glmnet')
+</code></pre>
+<p>Check the <a href="https://glmnet.stanford.edu/articles/glmnet.html">tutorial for this package</a>!</p>
+<p><em>Ridge regression</em></p>
+<p>Start by performing a ridge regression using the following code:</p>
+<pre><code class="language-r">library(glmnet)
+var = data[,-16]
+out=as.integer(data[,16])
+fit.ridge = glmnet(data.matrix(var),out,alpha=0,family=&quot;binomial&quot;)
+</code></pre>
+<p>Now you can graphically plot the coefficients, as the regularization parameter lambda is varied:</p>
+<pre><code class="language-r">plot(fit.ridge,label=TRUE,lwd=2)
+</code></pre>
+<p>The number on the lines corespond to the column number of the corresponding variable.
+Can you interpret the plot? Is it consistent with the previous stepwise variable selection?</p>
+<p><em>LASSO</em></p>
+<p>LASSO implements a different regularization compared to ridge regression (i.e. L1 regularization), which has the effect to set a number of variables to zero, hence leading to a selection of relevant variables:</p>
+<pre><code class="language-r">library(glmnet)
+var = data[,-16]
+out=as.integer(data[,16])
+fit.lasso = glmnet(data.matrix(var),out,alpha=1,family=&quot;binomial&quot;)
+</code></pre>
+<p>Now you can graphically plot the coefficients, as the regularization parameter lambda is varied:</p>
+<pre><code class="language-r">plot(fit.lasso,label=TRUE,lwd=2)
+</code></pre>
+<p>Is the selection of variables consistent with the backward procedure?</p>
+<hr>
+<h3>5. Random Forest</h3>
+<p>There are many other machine-learning approaches for classification tasks. One popular methd is <strong>Random forest</strong>, which is an ensemble method based on classification trees. You can install the R packages <code>randomForest</code></p>
+<pre><code class="language-r">install.packages('randomForest')
+</code></pre>
+<h4>Run the random forest</h4>
+<p>Filter the initial dataset using an appropriate cutoff on the LLR for the motif, the run the random forest:</p>
+<pre><code class="language-r">library(randomForest)
+rf = randomForest(tfbs ~., data = filtered_data, ntree=500)
+print(rf)
+</code></pre>
+<blockquote>
+<p><strong>Stop and think</strong></p>
+<ul>
+<li>what is the number of variables at each split?</li>
+<li>What is the OOB error?</li>
+<li>What is the class error?</li>
+</ul>
+</blockquote>
+<p>You might notice some weird results in the class error. Why is that? Create a dataset which is more balanced between positives and negatives, and run the random forest again!</p>
+<h4>Variable importance</h4>
+<p>Using randomForest, we can evaluate the importance of each variable for the classification. This is estimated using the Gini purity index</p>
+<pre><code class="language-r">importance(rf)
+varImpPlot(rf)
+</code></pre>
+<hr>
+<h2>Take home</h2>
+<ul>
+<li><strong>Precision-recall curves</strong> provide more informative evaluation than accuracy alone when dealing with highly imbalanced datasets.</li>
+<li><strong>Logistic regression</strong> fundamentals: Binomial GLM  transforms multiple continuous genomic features into binding probability predictions.</li>
+<li><strong>Multicollinearity challenges</strong>: Correlated features (like related histone marks) affect coefficient estimation and interpretation in regression models.</li>
+<li><strong>AIC-guided model selection</strong>: Stepwise procedures use information criteria to balance model complexity and goodness-of-fit.</li>
+<li><strong>Regularization methods</strong>: Ridge regression (L2) and LASSO (L1) address overfitting and perform automatic feature selection.</li>
+<li><strong>Cross-validation importance</strong>: Testing models on independent data prevents performance overestimation and confirms generalizability.</li>
+<li><strong>Variable importance metrics</strong>: Statistical methods can quantify each feature’s contribution to prediction accuracy across different model types.</li>
+</ul>
+<hr>
+<h3>Suggested Reading:</h3>
+<ul>
+<li>
+<p>Machine-learning for TFBS
+Ernst, J., Plasterer, H. L., Simon, I., &amp; Bar-Joseph, Z. (2010). Integrating multiple evidence sources to predict transcription factor binding in the human genome. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2847756/">Genome Research, 20(4), 526–36</a></p>
+</li>
+<li>
+<p>James, Witten, Hastie, Tibshirani (2013) <a href="https://www.statlearning.com">An introduction to statistical learning</a></p>
+</li>
+<li>
+<p>James, Witten, Hastie, Tibshirani (2017) <a href="https://hastie.su.domains/ElemStatLearn/">The Elements of Statistical Learning</a></p>
+</li>
+</ul>
+
+</body>
+</html>
