@@ -77,5 +77,5 @@ We develop novel methods to integrate large scale genomics datasets, using stati
 * machine-learning
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/retreat2022.jpg" style="width: 500px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/cromlab_lab_picture_todtnau.PNG" style="width: 500px">
 </figure>
