@@ -1,5 +1,5 @@
 ---
-title: "Components Interactions and Networks WiSe 2024/2025"
+title: "Components Interactions and Networks WiSe 2026/2027"
 layout: textlay
 excerpt: "CIN"
 sitemap: false
@@ -15,9 +15,9 @@ permalink: /teaching/CIN
 
 #### Dates
 
-- 23.10.2025 : <a href='{{ site.url }}{{ site.baseurl }}/downloads/teaching/Transk_Regulation_WiSe2526_Teil1.pdf'>[Lecture 1]</a>
+- 22.10.2026 : <a href='{{ site.url }}{{ site.baseurl }}/downloads/teaching/Transk_Regulation_WiSe2526_Teil1.pdf'>[Lecture 1]</a>
 
-- 30.10.2025 : <a href='{{ site.url }}{{ site.baseurl }}/downloads/teaching/Transk_Regulation_WiSe2526_Teil2.pdf'>[Lecture 2]</a> and practical (see below).
+- 29.10.2026 : <a href='{{ site.url }}{{ site.baseurl }}/downloads/teaching/Transk_Regulation_WiSe2526_Teil2.pdf'>[Lecture 2]</a> and practical (see below).
 
 #### Content
 
@@ -30,7 +30,7 @@ The purpose of this lecture is to provide an introduction to the concepts of reg
 * some insights into bayesian networks modelling
 
 
-#### Practical application (30.10.2025)
+#### Practical application (29.10.2026)
 
 * Download the json file <a href='{{ site.url }}{{ site.baseurl }}/downloads/teaching/CIN-RegGen.json'>[here]</a>
 * Load it into the [IGV App](https://igv.org/app/) using the **Session** menu on the top.
