@@ -78,4 +78,5 @@ We develop novel methods to integrate large scale genomics datasets, using stati
 
 <figure>
   <img src="{{ site.url }}{{ site.baseurl }}/images/group_photo_enhanced.png" style="width: 500px">
+  <figcaption>The blue team...</figcaption>
 </figure>
