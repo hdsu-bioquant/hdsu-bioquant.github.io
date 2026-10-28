@@ -6,9 +6,9 @@ sitemap: false
 permalink: /
 ---
 
-<!--
-<span style="color:red;font-weight:700;font-size:20px;text-align: center">++++++++++<br>Opening for Postdoc position in multi-omic cancer genomics and machine-learning;  More details <a href="{{ site.url }}{{ site.baseurl }}/postdoc_epermed.html">here!</a><br>++++++++++</span>
--->
+
+<span style="color:red;font-weight:700;font-size:20px;text-align: center">++++++++++++++++++++++++++<br>Possible topics for bachelor thesis 2027  More details <a href="{{ site.url }}{{ site.baseurl }}/ba2027.html">here!</a><br>++++++++++++++++++++++++++</span>
+
 
 Welcome to the **Computational Regulatory Omics Lab (a.k.a. CROmLab) @ IPMB** !
 
